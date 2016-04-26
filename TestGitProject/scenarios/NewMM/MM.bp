@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<BusinessProcess callable="false" category="" comment="creates a new MM" creator="" idSeq="7" module="" priority="Medium" refId="" xmlns:xe="http://www.fot.hu/xmleditor" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="project://.schema/bp.xsd">
+    <Parameters/>
+    <Days>
+        <Day seqId="1" value="1">
+            <Phase seqId="2" value="">
+                <GlobusVersion adapter="Default" class="hu.fot.testManager.globus.http.VERSION" dealSlip="false" deliveryPreview="false" mode="I" multiplicity="0..1" name="CUSTOMER," onFailure="Drop" reopenMode="S" seqId="3" type="Test" verify="true"/>
+                <GlobusVersion adapter="Default" class="hu.fot.testManager.globus.http.VERSION" dealSlip="false" deliveryPreview="false" mode="I" multiplicity="0..1" name="ACCOUNT," onFailure="Drop" reopenMode="S" seqId="4" type="Test" verify="true"/>
+                <GlobusVersion adapter="Default" class="hu.fot.testManager.globus.http.VERSION" dealSlip="false" deliveryPreview="false" mode="I" multiplicity="0..1" name="ACCOUNT," onFailure="Drop" reopenMode="S" seqId="5" type="Test" verify="true"/>
+                <GlobusVersion adapter="Default" class="hu.fot.testManager.globus.http.VERSION" dealSlip="false" deliveryPreview="false" mode="I" multiplicity="0..1" name="MM" onFailure="Drop" reopenMode="S" seqId="6" type="Test" verify="true"/>
+                <GlobusVersion adapter="Default" class="hu.fot.testManager.globus.http.VERSION" dealSlip="false" deliveryPreview="false" mode="A" multiplicity="0..1" name="MM" onFailure="Drop" reopenMode="S" seqId="7" type="Test" verify="true"/>
+            </Phase>
+        </Day>
+    </Days>
+</BusinessProcess>

@@ -1,0 +1,1935 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root description="Version: MM" generated="true" versionName="MM">
+    <TransactionID desc="MM1411200553" id="MM1411200553" status="12" version="MM.MONEY.MARKET"/>
+    <VersionFields company="Model Bank R14-AMR" companyId="GB0010001" mode="" tabDisplayName="FullView" tabId="" tabTechName="1" version="MM.MONEY.MARKET">
+        <CUSTOMER.ID authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Customer Id" fieldNumber1="CUSTOMER.ID" fieldType="" hotVal="no" length="18" length1="18" length2="10" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </CUSTOMER.ID>
+        <CURRENCY authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Currency" fieldNumber1="CURRENCY" fieldType="" hotVal="no" length="18" length1="18" length2="3" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </CURRENCY>
+        <PRINCIPAL authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Principal" fieldNumber1="PRINCIPAL" fieldType="" hotVal="no" length="18" length1="18" length2="18" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </PRINCIPAL>
+        <DEAL.DATE authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Deal Date" fieldNumber1="DEAL.DATE" fieldType="" hotVal="no" length="18" length1="18" length2="11" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </DEAL.DATE>
+        <VALUE.DATE authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Value Date" fieldNumber1="VALUE.DATE" fieldType="" hotVal="no" length="18" length1="18" length2="11" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </VALUE.DATE>
+        <MATURITY.DATE authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Maturity Date" fieldNumber1="MATURITY.DATE" fieldType="" hotVal="yes" length="18" length1="18" length2="11" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </MATURITY.DATE>
+        <CATEGORY authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Category" fieldNumber1="CATEGORY" fieldType="" hotVal="no" length="18" length1="18" length2="6" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </CATEGORY>
+        <INT.RATE.TYPE authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Int Rate Type" fieldNumber1="INT.RATE.TYPE" fieldType="radio:tab1" hotVal="no" length="18" length1="18" length2="" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType>select</InputType>
+                <options>
+                    <option label="1" value="1"/>
+                    <option label="3" value="3"/>
+                    <option label="9" value="9"/>
+                    <option label="[None]" value=""/>
+                </options>
+            </InputDescriptor>
+        </INT.RATE.TYPE>
+        <INTEREST.BASIS authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Interest Basis" fieldNumber1="INTEREST.BASIS" fieldType="" hotVal="no" length="18" length1="18" length2="6" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType>select</InputType>
+                <options>
+                    <option label="" value="">default</option>
+                    <option label="A" value="A"/>
+                    <option label="B" value="B"/>
+                    <option label="C" value="C"/>
+                    <option label="D" value="D"/>
+                    <option label="E" value="E"/>
+                    <option label="E1" value="E1"/>
+                    <option label="F" value="F"/>
+                    <option label="S" value="S"/>
+                    <option label="W" value="W"/>
+                    <option label="W1" value="W1"/>
+                </options>
+            </InputDescriptor>
+        </INTEREST.BASIS>
+        <INTEREST.RATE authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Interest Rate" fieldNumber1="INTEREST.RATE" fieldType="" hotVal="no" length="18" length1="18" length2="12" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </INTEREST.RATE>
+        <INTEREST.KEY authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Interest Key" fieldNumber1="INTEREST.KEY" fieldType="" hotVal="no" length="18" length1="18" length2="4" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </INTEREST.KEY>
+        <INTEREST.SPREAD.1 authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Interest Spread 1" fieldNumber1="INTEREST.SPREAD.1" fieldType="" hotVal="no" length="18" length1="18" length2="12" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </INTEREST.SPREAD.1>
+        <ACCRUAL.PARAM authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="FIRST" desc2="" enrichment="INTEREST ON FIRST DAY" errorText="" fieldDescription="" fieldDescriptionAlternatives="Accrual Param" fieldNumber1="ACCRUAL.PARAM" fieldType="" hotVal="no" length="18" length1="18" length2="35" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="FIRST">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </ACCRUAL.PARAM>
+        <TOT.INTEREST.AMT authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Tot Interest Amt" fieldNumber1="TOT.INTEREST.AMT" fieldType="" hotVal="no" length="18" length1="18" length2="018" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </TOT.INTEREST.AMT>
+        <INT.DUE.DATE authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Int Due Date" fieldNumber1="INT.DUE.DATE" fieldType="" hotVal="no" length="18" length1="18" length2="19" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </INT.DUE.DATE>
+        <LIQ.DEFER.INTEREST authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Liq Defer Interest" fieldNumber1="LIQ.DEFER.INTEREST" fieldType="radio:tab1" hotVal="no" length="18" length1="18" length2="" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType>select</InputType>
+                <options>
+                    <option label="D" value="D"/>
+                    <option label="L" value="L"/>
+                    <option label="[None]" value=""/>
+                </options>
+            </InputDescriptor>
+        </LIQ.DEFER.INTEREST>
+        <BROKER.CODE authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Broker Code" fieldNumber1="BROKER.CODE" fieldType="" hotVal="no" length="18" length1="18" length2="10" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </BROKER.CODE>
+        <BROKERAGE authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Brokerage" fieldNumber1="BROKERAGE" fieldType="" hotVal="no" length="18" length1="18" length2="019" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </BROKERAGE>
+        <BROKER.CCY authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Broker Ccy" fieldNumber1="BROKER.CCY" fieldType="" hotVal="no" length="18" length1="18" length2="3" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </BROKER.CCY>
+        <BROKER.AMOUNT authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Broker Amount" fieldNumber1="BROKER.AMOUNT" fieldType="" hotVal="no" length="18" length1="18" length2="019" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </BROKER.AMOUNT>
+        <OUR.REMARKS multivalue="yes" mvDetails="M_21.2_21.2">
+            <Value number="1">
+                <OUR.REMARKS authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Our Remarks" fieldNumber1="OUR.REMARKS" fieldType="" hotVal="no" length="18" length1="18" length2="35" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                    <InputDescriptor>
+                        <InputType/>
+                    </InputDescriptor>
+                </OUR.REMARKS>
+            </Value>
+        </OUR.REMARKS>
+        <DRAWDOWN.ACCOUNT authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Drawdown Account" fieldNumber1="DRAWDOWN.ACCOUNT" fieldType="" hotVal="no" length="18" length1="18" length2="36" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </DRAWDOWN.ACCOUNT>
+        <PRIN.LIQ.ACCT authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Prin Liq Acct" fieldNumber1="PRIN.LIQ.ACCT" fieldType="" hotVal="no" length="18" length1="18" length2="36" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </PRIN.LIQ.ACCT>
+        <PRIN.BEN.BANK.1 authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Prin Ben Bank 1" fieldNumber1="PRIN.BEN.BANK.1" fieldType="" hotVal="no" length="18" length1="18" length2="10" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </PRIN.BEN.BANK.1>
+        <PRIN.BEN.BANK.2 authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Prin Ben Bank 2" fieldNumber1="PRIN.BEN.BANK.2" fieldType="" hotVal="no" length="18" length1="18" length2="10" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </PRIN.BEN.BANK.2>
+        <PRIN.ADDRESS multivalue="yes" mvDetails="M_26.2_26.2">
+            <Value number="1">
+                <PRIN.ADDRESS authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Prin Address" fieldNumber1="PRIN.ADDRESS" fieldType="" hotVal="no" length="18" length1="18" length2="35" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                    <InputDescriptor>
+                        <InputType/>
+                    </InputDescriptor>
+                </PRIN.ADDRESS>
+            </Value>
+        </PRIN.ADDRESS>
+        <BENEF.PRIN.ACCT multivalue="yes" mvDetails="M_27.2_27.2">
+            <Value number="1">
+                <BENEF.PRIN.ACCT authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Benef Prin Acct" fieldNumber1="BENEF.PRIN.ACCT" fieldType="" hotVal="no" length="18" length1="18" length2="35" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                    <InputDescriptor>
+                        <InputType/>
+                    </InputDescriptor>
+                </BENEF.PRIN.ACCT>
+            </Value>
+        </BENEF.PRIN.ACCT>
+        <INT.LIQ.ACCT authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Int Liq Acct" fieldNumber1="INT.LIQ.ACCT" fieldType="" hotVal="no" length="18" length1="18" length2="36" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </INT.LIQ.ACCT>
+        <INT.BEN.BANK.1 authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Int Ben Bank 1" fieldNumber1="INT.BEN.BANK.1" fieldType="" hotVal="no" length="18" length1="18" length2="10" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </INT.BEN.BANK.1>
+        <INT.BEN.BANK.2 authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Int Ben Bank 2" fieldNumber1="INT.BEN.BANK.2" fieldType="" hotVal="no" length="18" length1="18" length2="10" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </INT.BEN.BANK.2>
+        <INT.ADDRESS multivalue="yes" mvDetails="M_31.2_31.2">
+            <Value number="1">
+                <INT.ADDRESS authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Int Address" fieldNumber1="INT.ADDRESS" fieldType="" hotVal="no" length="18" length1="18" length2="35" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                    <InputDescriptor>
+                        <InputType/>
+                    </InputDescriptor>
+                </INT.ADDRESS>
+            </Value>
+        </INT.ADDRESS>
+        <BEN.INT.ACCT multivalue="yes" mvDetails="M_32.2_32.2">
+            <Value number="1">
+                <BEN.INT.ACCT authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Ben Int Acct" fieldNumber1="BEN.INT.ACCT" fieldType="" hotVal="no" length="18" length1="18" length2="35" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                    <InputDescriptor>
+                        <InputType/>
+                    </InputDescriptor>
+                </BEN.INT.ACCT>
+            </Value>
+        </BEN.INT.ACCT>
+        <TAX.INTEREST.KEY multivalue="yes" mvDetails="M_33.2_33.2">
+            <Value number="1">
+                <TAX.INTEREST.KEY authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Tax Interest Ke" fieldNumber1="TAX.INTEREST.KEY" fieldType="" hotVal="no" length="18" length1="18" length2="2" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                    <InputDescriptor>
+                        <InputType/>
+                    </InputDescriptor>
+                </TAX.INTEREST.KEY>
+            </Value>
+        </TAX.INTEREST.KEY>
+        <LIMIT.REFERENCE authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Limit Reference" fieldNumber1="LIMIT.REFERENCE" fieldType="" hotVal="no" length="18" length1="18" length2="10" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </LIMIT.REFERENCE>
+        <THIRD.PARTY.REF authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Third Party Ref" fieldNumber1="THIRD.PARTY.REF" fieldType="" hotVal="no" length="18" length1="18" length2="16" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </THIRD.PARTY.REF>
+        <CUSTOMER.REF authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Customer Ref" fieldNumber1="CUSTOMER.REF" fieldType="" hotVal="no" length="18" length1="18" length2="16" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </CUSTOMER.REF>
+        <CUST.REMARKS multivalue="yes" mvDetails="M_37.2_37.2">
+            <Value number="1">
+                <CUST.REMARKS authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Cust Remarks" fieldNumber1="CUST.REMARKS" fieldType="" hotVal="no" length="18" length1="18" length2="35" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                    <InputDescriptor>
+                        <InputType/>
+                    </InputDescriptor>
+                </CUST.REMARKS>
+            </Value>
+        </CUST.REMARKS>
+        <FEDERAL.FUNDS authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Federal Funds" fieldNumber1="FEDERAL.FUNDS" fieldType="" hotVal="no" length="18" length1="18" length2="6" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </FEDERAL.FUNDS>
+        <DELIVERY.LINK authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Delivery Link" fieldNumber1="DELIVERY.LINK" fieldType="" hotVal="no" length="18" length1="18" length2="3" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </DELIVERY.LINK>
+        <CHRG.LIQ.ACCT authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Chrg Liq Acct" fieldNumber1="CHRG.LIQ.ACCT" fieldType="" hotVal="no" length="18" length1="18" length2="36" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </CHRG.LIQ.ACCT>
+        <CHARGE.CODE multivalue="yes" mvDetails="M_41.2_42.2">
+            <Value number="1">
+                <CHARGE.CODE authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Charge Code" fieldNumber1="CHARGE.CODE" fieldType="" hotVal="no" length="18" length1="18" length2="11" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                    <InputDescriptor>
+                        <InputType/>
+                    </InputDescriptor>
+                </CHARGE.CODE>
+                <CHARGE.AMOUNT authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Charge Amount" fieldNumber1="CHARGE.AMOUNT" fieldType="" hotVal="no" length="18" length1="18" length2="18" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                    <InputDescriptor>
+                        <InputType/>
+                    </InputDescriptor>
+                </CHARGE.AMOUNT>
+            </Value>
+        </CHARGE.CODE>
+        <CURRENCY.MARKET authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="1" desc2="" enrichment="Currency Market" errorText="" fieldDescription="" fieldDescriptionAlternatives="Currency Market" fieldNumber1="CURRENCY.MARKET" fieldType="" hotVal="no" length="18" length1="18" length2="" mode="O" posCol="" posRow="" postfix="" required="0" type="viewed" type1="" type2="" value="1">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </CURRENCY.MARKET>
+        <POSITION.TYPE authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Position Type" fieldNumber1="POSITION.TYPE" fieldType="" hotVal="no" length="18" length1="18" length2="6" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </POSITION.TYPE>
+        <NEG.REF.NUMBER authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Neg Ref Number" fieldNumber1="NEG.REF.NUMBER" fieldType="" hotVal="no" length="18" length1="18" length2="5" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </NEG.REF.NUMBER>
+        <INT.REF.NUMBER authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Int Ref Number" fieldNumber1="INT.REF.NUMBER" fieldType="" hotVal="no" length="18" length1="18" length2="5" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </INT.REF.NUMBER>
+        <MIS.INTEREST.KEY authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Mis Interest Key" fieldNumber1="MIS.INTEREST.KEY" fieldType="" hotVal="no" length="18" length1="18" length2="003" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </MIS.INTEREST.KEY>
+        <MIS.INTEREST.RATE authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Mis Interest Rate" fieldNumber1="MIS.INTEREST.RATE" fieldType="" hotVal="no" length="18" length1="18" length2="11" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </MIS.INTEREST.RATE>
+        <COUNTRY.RISK authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Country Risk" fieldNumber1="COUNTRY.RISK" fieldType="" hotVal="no" length="18" length1="18" length2="2" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </COUNTRY.RISK>
+        <COUNTRY.EXPOSURE authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Country Exposure" fieldNumber1="COUNTRY.EXPOSURE" fieldType="" hotVal="no" length="18" length1="18" length2="2" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </COUNTRY.EXPOSURE>
+        <MIS.ACCT.OFFICER authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Mis Acct Officer" fieldNumber1="MIS.ACCT.OFFICER" fieldType="" hotVal="no" length="18" length1="18" length2="4" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </MIS.ACCT.OFFICER>
+        <FID.COMM.RATE authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Fid Comm Rate" fieldNumber1="FID.COMM.RATE" fieldType="" hotVal="no" length="18" length1="18" length2="011" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </FID.COMM.RATE>
+        <FID.TOT.COMM.AMNT authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Fid Tot Comm Amnt" fieldNumber1="FID.TOT.COMM.AMNT" fieldType="" hotVal="no" length="18" length1="18" length2="018" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </FID.TOT.COMM.AMNT>
+        <FIDUCIARY.BANK authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Fiduciary Bank" fieldNumber1="FIDUCIARY.BANK" fieldType="" hotVal="no" length="18" length1="18" length2="10" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </FIDUCIARY.BANK>
+        <FID.ASSOC.LD.REF authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Fid Assoc Ld Ref" fieldNumber1="FID.ASSOC.LD.REF" fieldType="" hotVal="no" length="18" length1="18" length2="14" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </FID.ASSOC.LD.REF>
+        <FID.DRAWDOWN.ACCT authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Fid Drawdown Acct" fieldNumber1="FID.DRAWDOWN.ACCT" fieldType="" hotVal="no" length="18" length1="18" length2="36" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </FID.DRAWDOWN.ACCT>
+        <FID.PRIN.LIQ.ACCT authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Fid Prin Liq Acct" fieldNumber1="FID.PRIN.LIQ.ACCT" fieldType="" hotVal="no" length="18" length1="18" length2="36" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </FID.PRIN.LIQ.ACCT>
+        <FID.PRIN.BEN.BK.1 authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Fid Prin Ben Bk 1" fieldNumber1="FID.PRIN.BEN.BK.1" fieldType="" hotVal="no" length="18" length1="18" length2="10" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </FID.PRIN.BEN.BK.1>
+        <FID.PRIN.BEN.BK.2 authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Fid Prin Ben Bk 2" fieldNumber1="FID.PRIN.BEN.BK.2" fieldType="" hotVal="no" length="18" length1="18" length2="10" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </FID.PRIN.BEN.BK.2>
+        <FID.PRIN.ADD multivalue="yes" mvDetails="M_60.2_60.2">
+            <Value number="1">
+                <FID.PRIN.ADD authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Fid Prin Add" fieldNumber1="FID.PRIN.ADD" fieldType="" hotVal="no" length="18" length1="18" length2="35" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                    <InputDescriptor>
+                        <InputType/>
+                    </InputDescriptor>
+                </FID.PRIN.ADD>
+            </Value>
+        </FID.PRIN.ADD>
+        <FID.BEN.PRIN.AC multivalue="yes" mvDetails="M_61.2_61.2">
+            <Value number="1">
+                <FID.BEN.PRIN.AC authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Fid Ben Prin Ac" fieldNumber1="FID.BEN.PRIN.AC" fieldType="" hotVal="no" length="18" length1="18" length2="35" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                    <InputDescriptor>
+                        <InputType/>
+                    </InputDescriptor>
+                </FID.BEN.PRIN.AC>
+            </Value>
+        </FID.BEN.PRIN.AC>
+        <ACTIVITY.CODE multivalue="yes" mvDetails="M_62.2_63.2">
+            <Value number="1">
+                <ACTIVITY.CODE authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Activity Code" fieldNumber1="ACTIVITY.CODE" fieldType="" hotVal="no" length="18" length1="18" length2="8" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+                    <InputDescriptor>
+                        <InputType/>
+                    </InputDescriptor>
+                </ACTIVITY.CODE>
+                <ADVICE.SENT authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Advice Sent" fieldNumber1="ADVICE.SENT" fieldType="" hotVal="no" length="18" length1="18" length2="25" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+                    <InputDescriptor>
+                        <InputType/>
+                    </InputDescriptor>
+                </ADVICE.SENT>
+            </Value>
+        </ACTIVITY.CODE>
+        <PRIN.INCREASE authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Prin Increase" fieldNumber1="PRIN.INCREASE" fieldType="" hotVal="no" length="18" length1="18" length2="18" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </PRIN.INCREASE>
+        <INCR.EFF.DATE authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Incr Eff Date" fieldNumber1="INCR.EFF.DATE" fieldType="" hotVal="no" length="18" length1="18" length2="11" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </INCR.EFF.DATE>
+        <ROLLOVER.MARKER authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Rollover Marker" fieldNumber1="ROLLOVER.MARKER" fieldType="" hotVal="no" length="18" length1="18" length2="6" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </ROLLOVER.MARKER>
+        <ROLLOVER.DATE authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Rollover Date" fieldNumber1="ROLLOVER.DATE" fieldType="" hotVal="no" length="18" length1="18" length2="11" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </ROLLOVER.DATE>
+        <NEW.INTEREST.RATE authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="New Interest Rate" fieldNumber1="NEW.INTEREST.RATE" fieldType="" hotVal="no" length="18" length1="18" length2="11" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </NEW.INTEREST.RATE>
+        <NEW.INTRST.SPREAD authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="New Intrst Spread" fieldNumber1="NEW.INTRST.SPREAD" fieldType="" hotVal="no" length="18" length1="18" length2="12" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </NEW.INTRST.SPREAD>
+        <CAPITALISATION authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Capitalisation" fieldNumber1="CAPITALISATION" fieldType="radio:tab1" hotVal="no" length="18" length1="18" length2="" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType>select</InputType>
+                <options>
+                    <option label="N" value="N"/>
+                    <option label="Y" value="Y"/>
+                    <option label="[None]" value=""/>
+                </options>
+            </InputDescriptor>
+        </CAPITALISATION>
+        <CONF.BY.CUST authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Conf By Cust" fieldNumber1="CONF.BY.CUST" fieldType="" hotVal="no" length="18" length1="18" length2="35" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </CONF.BY.CUST>
+        <CONF.BY.BROKER authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Conf By Broker" fieldNumber1="CONF.BY.BROKER" fieldType="" hotVal="no" length="18" length1="18" length2="35" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </CONF.BY.BROKER>
+        <SWIFT.COMMON.REF authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Swift Common Ref" fieldNumber1="SWIFT.COMMON.REF" fieldType="" hotVal="no" length="18" length1="18" length2="16" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </SWIFT.COMMON.REF>
+        <STATUS authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Status" fieldNumber1="STATUS" fieldType="" hotVal="no" length="18" length1="18" length2="6" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </STATUS>
+        <TOT.INT.TAX authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Tot Int Tax" fieldNumber1="TOT.INT.TAX" fieldType="" hotVal="no" length="18" length1="18" length2="19" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </TOT.INT.TAX>
+        <DEALER.DESK authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="00" desc2="" enrichment="ALL" errorText="" fieldDescription="" fieldDescriptionAlternatives="Dealer Desk" fieldNumber1="DEALER.DESK" fieldType="" hotVal="no" length="18" length1="18" length2="002" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="00">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </DEALER.DESK>
+        <ORIGINAL.FUNCTION authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Original Function" fieldNumber1="ORIGINAL.FUNCTION" fieldType="" hotVal="no" length="18" length1="18" length2="6" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </ORIGINAL.FUNCTION>
+        <COMM.RATE.FLAG authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Comm Rate Flag" fieldNumber1="COMM.RATE.FLAG" fieldType="" hotVal="no" length="18" length1="18" length2="6" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </COMM.RATE.FLAG>
+        <COMM.AMT.FLAG authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Comm Amt Flag" fieldNumber1="COMM.AMT.FLAG" fieldType="" hotVal="no" length="18" length1="18" length2="6" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </COMM.AMT.FLAG>
+        <PORTFOLIO.NUMBER authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Portfolio Number" fieldNumber1="PORTFOLIO.NUMBER" fieldType="" hotVal="no" length="18" length1="18" length2="3" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </PORTFOLIO.NUMBER>
+        <BK.TO.BK.INFO multivalue="yes" mvDetails="M_81.2_81.2">
+            <Value number="1">
+                <BK.TO.BK.INFO authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Bk To Bk Info" fieldNumber1="BK.TO.BK.INFO" fieldType="" hotVal="no" length="18" length1="18" length2="35" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                    <InputDescriptor>
+                        <InputType/>
+                    </InputDescriptor>
+                </BK.TO.BK.INFO>
+            </Value>
+        </BK.TO.BK.INFO>
+        <INT.CCY authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Int Ccy" fieldNumber1="INT.CCY" fieldType="" hotVal="no" length="18" length1="18" length2="3" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </INT.CCY>
+        <INT.CCY.MKT authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Int Ccy Mkt" fieldNumber1="INT.CCY.MKT" fieldType="" hotVal="no" length="18" length1="18" length2="1" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </INT.CCY.MKT>
+        <CHG.TAX.CODE multivalue="yes" mvDetails="M_84.2_86.2">
+            <Value number="1">
+                <CHG.TAX.CODE authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Chg Tax Code" fieldNumber1="CHG.TAX.CODE" fieldType="" hotVal="no" length="18" length1="18" length2="6" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+                    <InputDescriptor>
+                        <InputType/>
+                    </InputDescriptor>
+                </CHG.TAX.CODE>
+                <CHG.TAX.AMT authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Chg Tax Amt" fieldNumber1="CHG.TAX.AMT" fieldType="" hotVal="no" length="18" length1="18" length2="19" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+                    <InputDescriptor>
+                        <InputType/>
+                    </InputDescriptor>
+                </CHG.TAX.AMT>
+                <CHG.TAX.AMT.LCY authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Chg Tax Amt Lcy" fieldNumber1="CHG.TAX.AMT.LCY" fieldType="" hotVal="no" length="18" length1="18" length2="19" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+                    <InputDescriptor>
+                        <InputType/>
+                    </InputDescriptor>
+                </CHG.TAX.AMT.LCY>
+            </Value>
+        </CHG.TAX.CODE>
+        <TOTAL.CHARGE authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Total Charge" fieldNumber1="TOTAL.CHARGE" fieldType="" hotVal="no" length="18" length1="18" length2="19" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </TOTAL.CHARGE>
+        <TOTAL.TAX.ON.CHG authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Total Tax On Chg" fieldNumber1="TOTAL.TAX.ON.CHG" fieldType="" hotVal="no" length="18" length1="18" length2="19" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </TOTAL.TAX.ON.CHG>
+        <CHG.VALUE.DATE authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Chg Value Date" fieldNumber1="CHG.VALUE.DATE" fieldType="" hotVal="no" length="18" length1="18" length2="11" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </CHG.VALUE.DATE>
+        <AUTO.ROLLOVER authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Auto Rollover" fieldNumber1="AUTO.ROLLOVER" fieldType="radio:tab1" hotVal="no" length="18" length1="18" length2="" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType>select</InputType>
+                <options>
+                    <option label="N" value="N"/>
+                    <option label="Y" value="Y"/>
+                    <option label="[None]" value=""/>
+                </options>
+            </InputDescriptor>
+        </AUTO.ROLLOVER>
+        <AUTO.CAPITALISE authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Auto Capitalise" fieldNumber1="AUTO.CAPITALISE" fieldType="radio:tab1" hotVal="no" length="18" length1="18" length2="" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType>select</InputType>
+                <options>
+                    <option label="N" value="N"/>
+                    <option label="Y" value="Y"/>
+                    <option label="[None]" value=""/>
+                </options>
+            </InputDescriptor>
+        </AUTO.CAPITALISE>
+        <AUTO.ROLL.TERM authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Auto Roll Term" fieldNumber1="AUTO.ROLL.TERM" fieldType="" hotVal="no" length="18" length1="18" length2="11" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </AUTO.ROLL.TERM>
+        <ROLLOVER.INT.RATE authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Rollover Int Rate" fieldNumber1="ROLLOVER.INT.RATE" fieldType="" hotVal="no" length="18" length1="18" length2="11" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </ROLLOVER.INT.RATE>
+        <LINKED.CONTRACT authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Linked Contract" fieldNumber1="LINKED.CONTRACT" fieldType="" hotVal="no" length="18" length1="18" length2="35" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </LINKED.CONTRACT>
+        <LINK.REFERENCE authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Link Reference" fieldNumber1="LINK.REFERENCE" fieldType="" hotVal="no" length="18" length1="18" length2="35" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </LINK.REFERENCE>
+        <LIQUIDATION.MODE authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Liquidation Mode" fieldNumber1="LIQUIDATION.MODE" fieldType="" hotVal="no" length="18" length1="18" length2="15" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </LIQUIDATION.MODE>
+        <OVERDUE.STATUS authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Overdue Status" fieldNumber1="OVERDUE.STATUS" fieldType="" hotVal="no" length="18" length1="18" length2="6" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </OVERDUE.STATUS>
+        <INT.PERIOD.START authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Int Period Start" fieldNumber1="INT.PERIOD.START" fieldType="" hotVal="no" length="18" length1="18" length2="11" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </INT.PERIOD.START>
+        <INT.PERIOD.END authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Int Period End" fieldNumber1="INT.PERIOD.END" fieldType="" hotVal="no" length="18" length1="18" length2="11" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </INT.PERIOD.END>
+        <NEXT.INT.AMOUNT authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Next Int Amount" fieldNumber1="NEXT.INT.AMOUNT" fieldType="" hotVal="no" length="18" length1="18" length2="19" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </NEXT.INT.AMOUNT>
+        <NEXT.INT.TAX.AMT authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Next Int Tax Amt" fieldNumber1="NEXT.INT.TAX.AMT" fieldType="" hotVal="no" length="18" length1="18" length2="19" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </NEXT.INT.TAX.AMT>
+        <NEXT.PRIN.AMOUNT authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Next Prin Amount" fieldNumber1="NEXT.PRIN.AMOUNT" fieldType="" hotVal="no" length="18" length1="18" length2="19" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </NEXT.PRIN.AMOUNT>
+        <ORIG.START.DATE authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Orig Start Date" fieldNumber1="ORIG.START.DATE" fieldType="" hotVal="no" length="18" length1="18" length2="11" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </ORIG.START.DATE>
+        <ORIG.MAT.DATE authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Orig Mat Date" fieldNumber1="ORIG.MAT.DATE" fieldType="" hotVal="no" length="18" length1="18" length2="11" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </ORIG.MAT.DATE>
+        <PREV.MAT.DATE authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Prev Mat Date" fieldNumber1="PREV.MAT.DATE" fieldType="" hotVal="no" length="18" length1="18" length2="11" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </PREV.MAT.DATE>
+        <MI.FUNDING.DEPT authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Mi Funding Dept" fieldNumber1="MI.FUNDING.DEPT" fieldType="" hotVal="no" length="18" length1="18" length2="4" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </MI.FUNDING.DEPT>
+        <TAX.INTEREST.TYPE multivalue="yes" mvDetails="M_107.2_107.2">
+            <Value number="1">
+                <TAX.INTEREST.TYPE authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Tax Interest Ty" fieldNumber1="TAX.INTEREST.TYPE" fieldType="" hotVal="no" length="18" length1="18" length2="17" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                    <InputDescriptor>
+                        <InputType/>
+                    </InputDescriptor>
+                </TAX.INTEREST.TYPE>
+            </Value>
+        </TAX.INTEREST.TYPE>
+        <CONTRACT.GRP authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Contract Grp" fieldNumber1="CONTRACT.GRP" fieldType="" hotVal="no" length="18" length1="18" length2="5" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </CONTRACT.GRP>
+        <PI.INT.KEY authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Pi Int Key" fieldNumber1="PI.INT.KEY" fieldType="" hotVal="no" length="18" length1="18" length2="002" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </PI.INT.KEY>
+        <MERGE.CONTRACT multivalue="yes" mvDetails="M_110.2_111.2">
+            <Value number="1">
+                <MERGE.CONTRACT authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Merge Contract" fieldNumber1="MERGE.CONTRACT" fieldType="" hotVal="no" length="18" length1="18" length2="14" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+                    <InputDescriptor>
+                        <InputType/>
+                    </InputDescriptor>
+                </MERGE.CONTRACT>
+                <MERGE.AMOUNT authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Merge Amount" fieldNumber1="MERGE.AMOUNT" fieldType="" hotVal="no" length="18" length1="18" length2="19" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+                    <InputDescriptor>
+                        <InputType/>
+                    </InputDescriptor>
+                </MERGE.AMOUNT>
+            </Value>
+        </MERGE.CONTRACT>
+        <FINAL.MATURITY authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Final Maturity" fieldNumber1="FINAL.MATURITY" fieldType="" hotVal="no" length="18" length1="18" length2="11" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </FINAL.MATURITY>
+        <FV.RATE.KEY authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Fv Rate Key" fieldNumber1="FV.RATE.KEY" fieldType="" hotVal="no" length="18" length1="18" length2="004" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </FV.RATE.KEY>
+        <FV.MARGIN.KEY authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Fv Margin Key" fieldNumber1="FV.MARGIN.KEY" fieldType="" hotVal="no" length="18" length1="18" length2="6" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </FV.MARGIN.KEY>
+        <MATURE.AT.SOD authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Mature At Sod" fieldNumber1="MATURE.AT.SOD" fieldType="radio:tab1" hotVal="no" length="18" length1="18" length2="" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType>select</InputType>
+                <options>
+                    <option label="No" value="NO"/>
+                    <option label="Yes" value="YES"/>
+                    <option label="[None]" value=""/>
+                </options>
+            </InputDescriptor>
+        </MATURE.AT.SOD>
+        <MAX.LEGAL.BAL authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Max Legal Bal" fieldNumber1="MAX.LEGAL.BAL" fieldType="" hotVal="no" length="18" length1="18" length2="19" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </MAX.LEGAL.BAL>
+        <GR.INT.TAX.LCY multivalue="yes" mvDetails="M_117.2_117.2">
+            <Value number="1">
+                <GR.INT.TAX.LCY authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Gr Int Tax Lcy" fieldNumber1="GR.INT.TAX.LCY" fieldType="" hotVal="no" length="18" length1="18" length2="19" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+                    <InputDescriptor>
+                        <InputType/>
+                    </InputDescriptor>
+                </GR.INT.TAX.LCY>
+            </Value>
+        </GR.INT.TAX.LCY>
+        <INT.TAX.LCY multivalue="yes" mvDetails="M_118.2_118.2">
+            <Value number="1">
+                <INT.TAX.LCY authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Int Tax Lcy" fieldNumber1="INT.TAX.LCY" fieldType="" hotVal="no" length="18" length1="18" length2="19" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+                    <InputDescriptor>
+                        <InputType/>
+                    </InputDescriptor>
+                </INT.TAX.LCY>
+            </Value>
+        </INT.TAX.LCY>
+        <GR.INT.TAX.FCY multivalue="yes" mvDetails="M_119.2_119.2">
+            <Value number="1">
+                <GR.INT.TAX.FCY authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Gr Int Tax Fcy" fieldNumber1="GR.INT.TAX.FCY" fieldType="" hotVal="no" length="18" length1="18" length2="19" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+                    <InputDescriptor>
+                        <InputType/>
+                    </InputDescriptor>
+                </GR.INT.TAX.FCY>
+            </Value>
+        </GR.INT.TAX.FCY>
+        <INT.TAX.FCY multivalue="yes" mvDetails="M_120.2_120.2">
+            <Value number="1">
+                <INT.TAX.FCY authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Int Tax Fcy" fieldNumber1="INT.TAX.FCY" fieldType="" hotVal="no" length="18" length1="18" length2="19" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+                    <InputDescriptor>
+                        <InputType/>
+                    </InputDescriptor>
+                </INT.TAX.FCY>
+            </Value>
+        </INT.TAX.FCY>
+        <EFF.INT.RATE authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Eff Int Rate" fieldNumber1="EFF.INT.RATE" fieldType="" hotVal="no" length="18" length1="18" length2="16" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </EFF.INT.RATE>
+        <MATURED.ONLINE authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Matured Online" fieldNumber1="MATURED.ONLINE" fieldType="" hotVal="no" length="18" length1="18" length2="6" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </MATURED.ONLINE>
+        <MIS.COF.TYPE multivalue="yes" mvDetails="M_123.2_125.2">
+            <Value number="1">
+                <MIS.COF.TYPE authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Mis Cof Type" fieldNumber1="MIS.COF.TYPE" fieldType="" hotVal="no" length="18" length1="18" length2="35" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                    <InputDescriptor>
+                        <InputType/>
+                    </InputDescriptor>
+                </MIS.COF.TYPE>
+                <MIS.COF.RATE authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Mis Cof Rate" fieldNumber1="MIS.COF.RATE" fieldType="" hotVal="no" length="18" length1="18" length2="11" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                    <InputDescriptor>
+                        <InputType/>
+                    </InputDescriptor>
+                </MIS.COF.RATE>
+                <MIS.COF.DEPT authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Mis Cof Dept" fieldNumber1="MIS.COF.DEPT" fieldType="" hotVal="no" length="18" length1="18" length2="35" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                    <InputDescriptor>
+                        <InputType/>
+                    </InputDescriptor>
+                </MIS.COF.DEPT>
+            </Value>
+        </MIS.COF.TYPE>
+        <FUND.ID authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Fund Id" fieldNumber1="FUND.ID" fieldType="" hotVal="no" length="18" length1="18" length2="16" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </FUND.ID>
+        <NEGATIVE.RATE authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Negative Rate" fieldNumber1="NEGATIVE.RATE" fieldType="radio:tab1" hotVal="no" length="18" length1="18" length2="" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType>select</InputType>
+                <options>
+                    <option label="No" value="NO"/>
+                    <option label="Yes" value="YES"/>
+                    <option label="[None]" value=""/>
+                </options>
+            </InputDescriptor>
+        </NEGATIVE.RATE>
+        <SEND.PAYMENT authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Send Payment" fieldNumber1="SEND.PAYMENT" fieldType="radio:tab1" hotVal="no" length="18" length1="18" length2="" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType>select</InputType>
+                <options>
+                    <option label="No" value="NO"/>
+                    <option label="Yes" value="YES"/>
+                    <option label="[None]" value=""/>
+                </options>
+            </InputDescriptor>
+        </SEND.PAYMENT>
+        <INT.SCHEDULE authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Int Schedule" fieldNumber1="INT.SCHEDULE" fieldType="" hotVal="no" length="18" length1="18" length2="19" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </INT.SCHEDULE>
+        <NEXT.INT.SCH.AMT authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Next Int Sch Amt" fieldNumber1="NEXT.INT.SCH.AMT" fieldType="" hotVal="no" length="18" length1="18" length2="19" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </NEXT.INT.SCH.AMT>
+        <ROUNDING.RULE authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="NATURAL" desc2="" enrichment="Natural Rounding" errorText="" fieldDescription="" fieldDescriptionAlternatives="Rounding Rule" fieldNumber1="ROUNDING.RULE" fieldType="" hotVal="no" length="18" length1="18" length2="20" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="NATURAL">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </ROUNDING.RULE>
+        <SPEC.INT.METHOD authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Spec Int Method" fieldNumber1="SPEC.INT.METHOD" fieldType="" hotVal="no" length="18" length1="18" length2="6" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType>select</InputType>
+                <options>
+                    <option label="" value="">default</option>
+                    <option label="No" value="NO"/>
+                    <option label="Yes" value="YES"/>
+                </options>
+            </InputDescriptor>
+        </SPEC.INT.METHOD>
+        <IAS.CLASSIFICATION authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Ias Classification" fieldNumber1="IAS.CLASSIFICATION" fieldType="" hotVal="no" length="18" length1="18" length2="35" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </IAS.CLASSIFICATION>
+        <SUB.TYPE authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Sub Type" fieldNumber1="SUB.TYPE" fieldType="" hotVal="no" length="18" length1="18" length2="35" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </SUB.TYPE>
+        <MARKET.RATE authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Market Rate" fieldNumber1="MARKET.RATE" fieldType="" hotVal="no" length="18" length1="18" length2="11" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </MARKET.RATE>
+        <MARKET.MARGIN authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Market Margin" fieldNumber1="MARKET.MARGIN" fieldType="" hotVal="no" length="18" length1="18" length2="12" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </MARKET.MARGIN>
+        <COMPOUND.TYPE authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Compound Type" fieldNumber1="COMPOUND.TYPE" fieldType="" hotVal="no" length="18" length1="18" length2="5" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </COMPOUND.TYPE>
+        <COMPOUND.YLD.MTHD authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Compound Yld Mthd" fieldNumber1="COMPOUND.YLD.MTHD" fieldType="" hotVal="no" length="18" length1="18" length2="8" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType>select</InputType>
+                <options>
+                    <option label="" value="">default</option>
+                    <option label="Yield" value="YIELD"/>
+                </options>
+            </InputDescriptor>
+        </COMPOUND.YLD.MTHD>
+        <RESERVED10 authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Reserved10" fieldNumber1="RESERVED10" fieldType="" hotVal="no" length="18" length1="18" length2="6" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </RESERVED10>
+        <RESERVED9 authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Reserved9" fieldNumber1="RESERVED9" fieldType="" hotVal="no" length="18" length1="18" length2="6" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </RESERVED9>
+        <RESERVED8 authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Reserved8" fieldNumber1="RESERVED8" fieldType="" hotVal="no" length="18" length1="18" length2="6" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </RESERVED8>
+        <RESERVED7 authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Reserved7" fieldNumber1="RESERVED7" fieldType="" hotVal="no" length="18" length1="18" length2="6" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </RESERVED7>
+        <RESERVED6 authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Reserved6" fieldNumber1="RESERVED6" fieldType="" hotVal="no" length="18" length1="18" length2="6" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </RESERVED6>
+        <RESERVED5 authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Reserved5" fieldNumber1="RESERVED5" fieldType="" hotVal="no" length="18" length1="18" length2="6" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </RESERVED5>
+        <RESERVED4 authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Reserved4" fieldNumber1="RESERVED4" fieldType="" hotVal="no" length="18" length1="18" length2="6" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </RESERVED4>
+        <RESERVED3 authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Reserved3" fieldNumber1="RESERVED3" fieldType="" hotVal="no" length="18" length1="18" length2="6" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </RESERVED3>
+        <RESERVED2 authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Reserved2" fieldNumber1="RESERVED2" fieldType="" hotVal="no" length="18" length1="18" length2="6" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </RESERVED2>
+        <RESERVED1 authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Reserved1" fieldNumber1="RESERVED1" fieldType="" hotVal="no" length="18" length1="18" length2="6" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </RESERVED1>
+        <SY.ID authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Sy Id" fieldNumber1="SY.ID" fieldType="" hotVal="no" length="18" length1="18" length2="15" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </SY.ID>
+        <SY.UNIT authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Sy Unit" fieldNumber1="SY.UNIT" fieldType="" hotVal="no" length="18" length1="18" length2="52" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </SY.UNIT>
+        <SYEXVAL authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Syexval" fieldNumber1="SYEXVAL" fieldType="radio:tab1" hotVal="no" length="18" length1="18" length2="" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType>select</InputType>
+                <options>
+                    <option label="No" value="NO"/>
+                    <option label="Yes" value="YES"/>
+                    <option label="[None]" value=""/>
+                </options>
+            </InputDescriptor>
+        </SYEXVAL>
+        <TT.REF.NO authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Tt Ref No" fieldNumber1="TT.REF.NO" fieldType="" hotVal="no" length="18" length1="18" length2="35" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </TT.REF.NO>
+        <DEALER.NAME authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Dealer Name" fieldNumber1="DEALER.NAME" fieldType="" hotVal="no" length="18" length1="18" length2="20" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </DEALER.NAME>
+        <PURPOSE.OF.TRAN authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Purpose Of Tran" fieldNumber1="PURPOSE.OF.TRAN" fieldType="" hotVal="no" length="18" length1="18" length2="15" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </PURPOSE.OF.TRAN>
+        <STMT.NO multivalue="yes" mvDetails="M_150.2_150.2">
+            <Value number="1">
+                <STMT.NO authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Stmt No" fieldNumber1="STMT.NO" fieldType="" hotVal="no" length="18" length1="18" length2="29" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+                    <InputDescriptor>
+                        <InputType/>
+                    </InputDescriptor>
+                </STMT.NO>
+            </Value>
+        </STMT.NO>
+        <OVERRIDE multivalue="yes" mvDetails="M_151.2_151.2">
+            <Value number="1">
+                <OVERRIDE authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Override" fieldNumber1="OVERRIDE" fieldType="" hotVal="no" length="18" length1="18" length2="35" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+                    <InputDescriptor>
+                        <InputType/>
+                    </InputDescriptor>
+                </OVERRIDE>
+            </Value>
+        </OVERRIDE>
+        <RECORD.STATUS authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Record Status" fieldNumber1="RECORD.STATUS" fieldType="" hotVal="no" length="18" length1="18" length2="6" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </RECORD.STATUS>
+        <CURR.NO authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Curr No" fieldNumber1="CURR.NO" fieldType="" hotVal="no" length="18" length1="18" length2="6" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </CURR.NO>
+        <INPUTTER multivalue="yes" mvDetails="M_154.2_154.2">
+            <Value number="1">
+                <INPUTTER authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Inputter" fieldNumber1="INPUTTER" fieldType="" hotVal="no" length="18" length1="18" length2="40" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+                    <InputDescriptor>
+                        <InputType/>
+                    </InputDescriptor>
+                </INPUTTER>
+            </Value>
+        </INPUTTER>
+        <DATE.TIME multivalue="yes" mvDetails="M_155.2_155.2">
+            <Value number="1">
+                <DATE.TIME authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Date Time" fieldNumber1="DATE.TIME" fieldType="" hotVal="no" length="18" length1="18" length2="15" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+                    <InputDescriptor>
+                        <InputType/>
+                    </InputDescriptor>
+                </DATE.TIME>
+            </Value>
+        </DATE.TIME>
+        <AUTHORISER authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Authoriser" fieldNumber1="AUTHORISER" fieldType="" hotVal="no" length="18" length1="18" length2="40" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </AUTHORISER>
+        <CO.CODE authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Co Code" fieldNumber1="CO.CODE" fieldType="" hotVal="no" length="18" length1="18" length2="11" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </CO.CODE>
+        <DEPT.CODE authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Dept Code" fieldNumber1="DEPT.CODE" fieldType="" hotVal="no" length="18" length1="18" length2="6" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </DEPT.CODE>
+        <AUDITOR.CODE authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Auditor Code" fieldNumber1="AUDITOR.CODE" fieldType="" hotVal="no" length="18" length1="18" length2="16" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </AUDITOR.CODE>
+        <AUDIT.DATE.TIME authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Audit Date Time" fieldNumber1="AUDIT.DATE.TIME" fieldType="" hotVal="no" length="18" length1="18" length2="15" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+            <InputDescriptor>
+                <InputType/>
+            </InputDescriptor>
+        </AUDIT.DATE.TIME>
+    </VersionFields>
+    <VersionDesign>
+        <TransactionID desc="MM.MONEY.MARKET," id="MM.MONEY.MARKET," status="12" version="VERSION"/>
+        <VersionFields company="Model Bank R14-AMR" companyId="GB0010001" mode="" tabDisplayName="FullView" tabId="" tabTechName="1" version="VERSION">
+            <PRINT.ONLY authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Print Only" fieldNumber1="PRINT.ONLY" fieldType="CheckBox:fieldName" hotVal="no" length="18" length1="18" length2="" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                <InputDescriptor>
+                    <InputType>check</InputType>
+                </InputDescriptor>
+            </PRINT.ONLY>
+            <RECORDS.PER.PAGE authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="1" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Records Per Page" fieldNumber1="RECORDS.PER.PAGE" fieldType="radio:tab1" hotVal="no" length="18" length1="18" length2="" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="1">
+                <InputDescriptor>
+                    <InputType>select</InputType>
+                    <options>
+                        <option label="1" value="1"/>
+                        <option label="Multi" value="MULTI"/>
+                    </options>
+                </InputDescriptor>
+            </RECORDS.PER.PAGE>
+            <FIELDS.PER.LINE authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="1" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Fields Per Line" fieldNumber1="FIELDS.PER.LINE" fieldType="radio:tab1" hotVal="no" length="18" length1="18" length2="" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="1">
+                <InputDescriptor>
+                    <InputType>select</InputType>
+                    <options>
+                        <option label="1" value="1"/>
+                        <option label="Multi" value="MULTI"/>
+                    </options>
+                </InputDescriptor>
+            </FIELDS.PER.LINE>
+            <LANGUAGE.CODE multivalue="yes" mvDetails="M_4.2_4.2">
+                <Value number="1">
+                    <LANGUAGE.CODE authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Language Code" fieldNumber1="LANGUAGE.CODE" fieldType="" hotVal="no" length="18" length1="18" length2="2" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                        <InputDescriptor>
+                            <InputType/>
+                        </InputDescriptor>
+                    </LANGUAGE.CODE>
+                </Value>
+            </LANGUAGE.CODE>
+            <HDR.1.001..039 multivalue="yes" mvDetails="M_5.2_12.2">
+                <Value number="1">
+                    <HDR.1.001..039 authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Hdr 1 001 039" fieldNumber1="HDR.1.001..039" fieldType="" hotVal="no" length="18" length1="18" length2=" 39" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                        <InputDescriptor>
+                            <InputType/>
+                        </InputDescriptor>
+                    </HDR.1.001..039>
+                    <HDR.1.040..078 authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Hdr 1 040 078" fieldNumber1="HDR.1.040..078" fieldType="" hotVal="no" length="18" length1="18" length2=" 39" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                        <InputDescriptor>
+                            <InputType/>
+                        </InputDescriptor>
+                    </HDR.1.040..078>
+                    <HDR.1.079..117 authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Hdr 1 079 117" fieldNumber1="HDR.1.079..117" fieldType="" hotVal="no" length="18" length1="18" length2=" 39" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                        <InputDescriptor>
+                            <InputType/>
+                        </InputDescriptor>
+                    </HDR.1.079..117>
+                    <HDR.1.118..132 authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Hdr 1 118 132" fieldNumber1="HDR.1.118..132" fieldType="" hotVal="no" length="18" length1="18" length2=" 15" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                        <InputDescriptor>
+                            <InputType/>
+                        </InputDescriptor>
+                    </HDR.1.118..132>
+                    <HDR.2.001..039 authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Hdr 2 001 039" fieldNumber1="HDR.2.001..039" fieldType="" hotVal="no" length="18" length1="18" length2=" 39" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                        <InputDescriptor>
+                            <InputType/>
+                        </InputDescriptor>
+                    </HDR.2.001..039>
+                    <HDR.2.040..078 authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Hdr 2 040 078" fieldNumber1="HDR.2.040..078" fieldType="" hotVal="no" length="18" length1="18" length2=" 39" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                        <InputDescriptor>
+                            <InputType/>
+                        </InputDescriptor>
+                    </HDR.2.040..078>
+                    <HDR.2.079..117 authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Hdr 2 079 117" fieldNumber1="HDR.2.079..117" fieldType="" hotVal="no" length="18" length1="18" length2=" 39" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                        <InputDescriptor>
+                            <InputType/>
+                        </InputDescriptor>
+                    </HDR.2.079..117>
+                    <HDR.2.118..132 authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Hdr 2 118 132" fieldNumber1="HDR.2.118..132" fieldType="" hotVal="no" length="18" length1="18" length2=" 15" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                        <InputDescriptor>
+                            <InputType/>
+                        </InputDescriptor>
+                    </HDR.2.118..132>
+                </Value>
+            </HDR.1.001..039>
+            <FIELD.NO multivalue="yes" mvDetails="M_13.2_42.2">
+                <Value number="1">
+                    <FIELD.NO authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Field No" fieldNumber1="FIELD.NO" fieldType="" hotVal="no" length="18" length1="18" length2="40" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                        <InputDescriptor>
+                            <InputType/>
+                        </InputDescriptor>
+                    </FIELD.NO>
+                    <COLUMN authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Column" fieldNumber1="COLUMN" fieldType="" hotVal="no" length="18" length1="18" length2="3" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                        <InputDescriptor>
+                            <InputType/>
+                        </InputDescriptor>
+                    </COLUMN>
+                    <EXPANSION authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Expansion.1" fieldNumber1="EXPANSION" fieldType="" hotVal="no" length="18" length1="18" length2="" mode="O" posCol="" posRow="" postfix="" required="0" type="enrichment" type1="" type2="" value="">
+                        <InputDescriptor>
+                            <InputType>select</InputType>
+                            <options>
+                                <option label="" value="">default</option>
+                                <option label="NO" value="NO"/>
+                            </options>
+                        </InputDescriptor>
+                    </EXPANSION>
+                    <TEXT.CHAR.MAX authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Text Char Max" fieldNumber1="TEXT.CHAR.MAX" fieldType="" hotVal="no" length="18" length1="18" length2="03" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                        <InputDescriptor>
+                            <InputType/>
+                        </InputDescriptor>
+                    </TEXT.CHAR.MAX>
+                    <TEXT subvalue="yes" svDetails="S_17.1.2_20.1.2">
+                        <SubValue number="1">
+                            <TEXT authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Text" fieldNumber1="TEXT" fieldType="" hotVal="no" length="18" length1="18" length2=" 39" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                                <InputDescriptor>
+                                    <InputType/>
+                                </InputDescriptor>
+                            </TEXT>
+                            <TXT.040..078 authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Txt 040 078" fieldNumber1="TXT.040..078" fieldType="" hotVal="no" length="18" length1="18" length2=" 39" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                                <InputDescriptor>
+                                    <InputType/>
+                                </InputDescriptor>
+                            </TXT.040..078>
+                            <TXT.079..117 authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Txt 079 117" fieldNumber1="TXT.079..117" fieldType="" hotVal="no" length="18" length1="18" length2=" 39" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                                <InputDescriptor>
+                                    <InputType/>
+                                </InputDescriptor>
+                            </TXT.079..117>
+                            <TXT.118..132 authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Txt 118 132" fieldNumber1="TXT.118..132" fieldType="" hotVal="no" length="18" length1="18" length2=" 15" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                                <InputDescriptor>
+                                    <InputType/>
+                                </InputDescriptor>
+                            </TXT.118..132>
+                        </SubValue>
+                    </TEXT>
+                    <ENRICHM.CHAR authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Enrichm Char" fieldNumber1="ENRICHM.CHAR" fieldType="" hotVal="no" length="18" length1="18" length2="2" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                        <InputDescriptor>
+                            <InputType/>
+                        </InputDescriptor>
+                    </ENRICHM.CHAR>
+                    <TABLE.COLUMN authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Table Column" fieldNumber1="TABLE.COLUMN" fieldType="" hotVal="no" length="18" length1="18" length2="6" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+                        <InputDescriptor>
+                            <InputType/>
+                        </InputDescriptor>
+                    </TABLE.COLUMN>
+                    <TABLE.LINE authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Table Line" fieldNumber1="TABLE.LINE" fieldType="" hotVal="no" length="18" length1="18" length2="6" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+                        <InputDescriptor>
+                            <InputType/>
+                        </InputDescriptor>
+                    </TABLE.LINE>
+                    <ENRI.COL authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Enri Col" fieldNumber1="ENRI.COL" fieldType="" hotVal="no" length="18" length1="18" length2="3" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                        <InputDescriptor>
+                            <InputType/>
+                        </InputDescriptor>
+                    </ENRI.COL>
+                    <PROMPT.COL authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Prompt Col" fieldNumber1="PROMPT.COL" fieldType="" hotVal="no" length="18" length1="18" length2="3" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                        <InputDescriptor>
+                            <InputType/>
+                        </InputDescriptor>
+                    </PROMPT.COL>
+                    <RESERVED05 authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Reserved05" fieldNumber1="RESERVED05" fieldType="" hotVal="no" length="18" length1="18" length2="6" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+                        <InputDescriptor>
+                            <InputType/>
+                        </InputDescriptor>
+                    </RESERVED05>
+                    <RESERVED04 authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Reserved04" fieldNumber1="RESERVED04" fieldType="" hotVal="no" length="18" length1="18" length2="6" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+                        <InputDescriptor>
+                            <InputType/>
+                        </InputDescriptor>
+                    </RESERVED04>
+                    <RESERVED03 authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Reserved03" fieldNumber1="RESERVED03" fieldType="" hotVal="no" length="18" length1="18" length2="6" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+                        <InputDescriptor>
+                            <InputType/>
+                        </InputDescriptor>
+                    </RESERVED03>
+                    <RESERVED02 authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Reserved02" fieldNumber1="RESERVED02" fieldType="" hotVal="no" length="18" length1="18" length2="6" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+                        <InputDescriptor>
+                            <InputType/>
+                        </InputDescriptor>
+                    </RESERVED02>
+                    <RESERVED01 authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Reserved01" fieldNumber1="RESERVED01" fieldType="" hotVal="no" length="18" length1="18" length2="6" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+                        <InputDescriptor>
+                            <InputType/>
+                        </InputDescriptor>
+                    </RESERVED01>
+                    <PROMPT.TEXT subvalue="yes" svDetails="S_31.1.2_32.1.2">
+                        <SubValue number="1">
+                            <PROMPT.TEXT authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Prompt Text" fieldNumber1="PROMPT.TEXT" fieldType="" hotVal="no" length="18" length1="18" length2="70" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                                <InputDescriptor>
+                                    <InputType/>
+                                </InputDescriptor>
+                            </PROMPT.TEXT>
+                            <TOOL.TIP authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Tool Tip" fieldNumber1="TOOL.TIP" fieldType="" hotVal="no" length="18" length1="18" length2="50" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                                <InputDescriptor>
+                                    <InputType/>
+                                </InputDescriptor>
+                            </TOOL.TIP>
+                        </SubValue>
+                    </PROMPT.TEXT>
+                    <DROP.DOWN authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Drop Down" fieldNumber1="DROP.DOWN" fieldType="" hotVal="no" length="18" length1="18" length2="70" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                        <InputDescriptor>
+                            <InputType/>
+                        </InputDescriptor>
+                    </DROP.DOWN>
+                    <ENQ.SELECTION authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Enq Selection" fieldNumber1="ENQ.SELECTION" fieldType="" hotVal="no" length="18" length1="18" length2="70" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                        <InputDescriptor>
+                            <InputType/>
+                        </InputDescriptor>
+                    </ENQ.SELECTION>
+                    <POPUP.CONTROL authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Popup Control" fieldNumber1="POPUP.CONTROL" fieldType="" hotVal="no" length="18" length1="18" length2="12" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                        <InputDescriptor>
+                            <InputType>select</InputType>
+                            <options>
+                                <option label="" value="">default</option>
+                                <option label="Calculator" value="CALCULATOR"/>
+                                <option label="Calendar" value="CALENDAR"/>
+                                <option label="Rate Control" value="RATE CONTROL"/>
+                                <option label="Recurrence" value="RECURRENCE"/>
+                            </options>
+                        </InputDescriptor>
+                    </POPUP.CONTROL>
+                    <CASE.CONV authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Case Conv" fieldNumber1="CASE.CONV" fieldType="" hotVal="no" length="18" length1="18" length2="11" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                        <InputDescriptor>
+                            <InputType>select</InputType>
+                            <options>
+                                <option label="" value="">default</option>
+                                <option label="Lowercase" value="LOWERCASE"/>
+                                <option label="None" value="NONE"/>
+                                <option label="Proper Case" value="PROPER CASE"/>
+                                <option label="Uppercase" value="UPPERCASE"/>
+                            </options>
+                        </InputDescriptor>
+                    </CASE.CONV>
+                    <HYPERLINK authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Hyperlink" fieldNumber1="HYPERLINK" fieldType="" hotVal="no" length="18" length1="18" length2="80" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                        <InputDescriptor>
+                            <InputType/>
+                        </InputDescriptor>
+                    </HYPERLINK>
+                    <I.LINK subvalue="yes" svDetails="S_38.1.2_38.1.2">
+                        <SubValue number="1">
+                            <I.LINK authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="I Link" fieldNumber1="I.LINK" fieldType="" hotVal="no" length="18" length1="18" length2="40" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                                <InputDescriptor>
+                                    <InputType/>
+                                </InputDescriptor>
+                            </I.LINK>
+                        </SubValue>
+                    </I.LINK>
+                    <ASSOCIATION authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Association" fieldNumber1="ASSOCIATION" fieldType="" hotVal="no" length="18" length1="18" length2="40" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                        <InputDescriptor>
+                            <InputType/>
+                        </InputDescriptor>
+                    </ASSOCIATION>
+                    <DISPLAY.TYPE authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Display Type" fieldNumber1="DISPLAY.TYPE" fieldType="" hotVal="no" length="18" length1="18" length2="20" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                        <InputDescriptor>
+                            <InputType>select</InputType>
+                            <options>
+                                <option label="" value="">default</option>
+                                <option label="Combobox" value="COMBOBOX"/>
+                                <option label="Dropdown.noinput" value="DROPDOWN.NOINPUT"/>
+                                <option label="Nodisplay" value="NODISPLAY"/>
+                                <option label="Toggle" value="TOGGLE"/>
+                                <option label="Vertical.options" value="VERTICAL.OPTIONS"/>
+                            </options>
+                        </InputDescriptor>
+                    </DISPLAY.TYPE>
+                    <I.DESC authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="I Desc.1" fieldNumber1="I.DESC" fieldType="" hotVal="no" length="18" length1="18" length2="" mode="O" posCol="" posRow="" postfix="" required="0" type="enrichment" type1="" type2="" value="">
+                        <InputDescriptor>
+                            <InputType>select</InputType>
+                            <options>
+                                <option label="" value="">default</option>
+                                <option label="YES" value="YES"/>
+                            </options>
+                        </InputDescriptor>
+                    </I.DESC>
+                    <ATTRIBS subvalue="yes" svDetails="S_42.1.2_42.1.2">
+                        <SubValue number="1">
+                            <ATTRIBS authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Attribs" fieldNumber1="ATTRIBS" fieldType="" hotVal="no" length="18" length1="18" length2="20" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                                <InputDescriptor>
+                                    <InputType>select</InputType>
+                                    <options>
+                                        <option label="" value="">default</option>
+                                        <option label="Class-amnum" value="CLASS-AMNUM"/>
+                                        <option label="Class-arc-backbutton" value="CLASS-ARC-BACKBUTTON"/>
+                                        <option label="Class-arc-button" value="CLASS-ARC-BUTTON"/>
+                                        <option label="Class-bold" value="CLASS-BOLD"/>
+                                        <option label="Class-bold.italic" value="CLASS-BOLD.ITALIC"/>
+                                        <option label="Class-bold.red" value="CLASS-BOLD.RED"/>
+                                        <option label="Class-cos.heading" value="CLASS-COS.HEADING"/>
+                                        <option label="Class-cos.heading.data.label" value="CLASS-COS.HEADING.DATA.LABEL"/>
+                                        <option label="Class-cos.heading.data.value" value="CLASS-COS.HEADING.DATA.VALUE"/>
+                                        <option label="Class-cos.subheading" value="CLASS-COS.SUBHEADING"/>
+                                        <option label="Class-dates-italic" value="CLASS-DATES-ITALIC"/>
+                                        <option label="Class-dealbox-long" value="CLASS-DEALBOX-LONG"/>
+                                        <option label="Class-demo" value="CLASS-DEMO"/>
+                                        <option label="Class-descr" value="CLASS-DESCR"/>
+                                        <option label="Class-enq.aa.bal.type" value="CLASS-ENQ.AA.BAL.TYPE"/>
+                                        <option label="Class-enq.column.label" value="CLASS-ENQ.COLUMN.LABEL"/>
+                                        <option label="Class-enq.data.id" value="CLASS-ENQ.DATA.ID"/>
+                                        <option label="Class-enq.data.label" value="CLASS-ENQ.DATA.LABEL"/>
+                                        <option label="Class-enq.data.value" value="CLASS-ENQ.DATA.VALUE"/>
+                                        <option label="Class-enq.h.data" value="CLASS-ENQ.H.DATA"/>
+                                        <option label="Class-enq.h.data.label" value="CLASS-ENQ.H.DATA.LABEL"/>
+                                        <option label="Class-enq.h.id" value="CLASS-ENQ.H.ID"/>
+                                        <option label="Class-enq.h.title" value="CLASS-ENQ.H.TITLE"/>
+                                        <option label="Class-enq.id.label" value="CLASS-ENQ.ID.LABEL"/>
+                                        <option label="Class-enq.norecs" value="CLASS-ENQ.NORECS"/>
+                                        <option label="Class-fdct" value="CLASS-FDCT"/>
+                                        <option label="Class-fdlb" value="CLASS-FDLB"/>
+                                        <option label="Class-header" value="CLASS-HEADER"/>
+                                        <option label="Class-italic" value="CLASS-ITALIC"/>
+                                        <option label="Class-modelstatus" value="CLASS-MODELSTATUS"/>
+                                        <option label="Class-posneg" value="CLASS-POSNEG"/>
+                                        <option label="Class-rating" value="CLASS-RATING"/>
+                                        <option label="Class-tamnum" value="CLASS-TAMNUM"/>
+                                        <option label="Class-title" value="CLASS-TITLE"/>
+                                        <option label="Enrichment.only" value="ENRICHMENT.ONLY"/>
+                                        <option label="Hot.field" value="HOT.FIELD"/>
+                                        <option label="Hot.validate" value="HOT.VALIDATE"/>
+                                        <option label="No.browser.text" value="NO.BROWSER.TEXT"/>
+                                        <option label="Popup.dropdown" value="POPUP.DROPDOWN"/>
+                                        <option label="Web.validate" value="WEB.VALIDATE"/>
+                                    </options>
+                                </InputDescriptor>
+                            </ATTRIBS>
+                        </SubValue>
+                    </ATTRIBS>
+                </Value>
+            </FIELD.NO>
+            <RIGHT.ADJ.FIELD multivalue="yes" mvDetails="M_43.2_43.2">
+                <Value number="1">
+                    <RIGHT.ADJ.FIELD authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Right Adj Field" fieldNumber1="RIGHT.ADJ.FIELD" fieldType="" hotVal="no" length="18" length1="18" length2="40" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                        <InputDescriptor>
+                            <InputType/>
+                        </InputDescriptor>
+                    </RIGHT.ADJ.FIELD>
+                </Value>
+            </RIGHT.ADJ.FIELD>
+            <REF.NO.IN.1ST.LINE authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Ref No In 1st Line" fieldNumber1="REF.NO.IN.1ST.LINE" fieldType="CheckBox:fieldName" hotVal="no" length="18" length1="18" length2="" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                <InputDescriptor>
+                    <InputType>check</InputType>
+                </InputDescriptor>
+            </REF.NO.IN.1ST.LINE>
+            <ID.AUTOM.SEQU multivalue="yes" mvDetails="M_45.2_45.2">
+                <Value number="1">
+                    <ID.AUTOM.SEQU authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Id Autom Sequ" fieldNumber1="ID.AUTOM.SEQU" fieldType="" hotVal="no" length="18" length1="18" length2="35" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                        <InputDescriptor>
+                            <InputType/>
+                        </InputDescriptor>
+                    </ID.AUTOM.SEQU>
+                </Value>
+            </ID.AUTOM.SEQU>
+            <NO.OF.AUTH authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="0" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="No Of Auth" fieldNumber1="NO.OF.AUTH" fieldType="" hotVal="no" length="18" length1="18" length2="1" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="0">
+                <InputDescriptor>
+                    <InputType/>
+                </InputDescriptor>
+            </NO.OF.AUTH>
+            <NOINPUT.FIELD multivalue="yes" mvDetails="M_47.2_47.2">
+                <Value number="1">
+                    <NOINPUT.FIELD authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Noinput Field" fieldNumber1="NOINPUT.FIELD" fieldType="" hotVal="no" length="18" length1="18" length2="40" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                        <InputDescriptor>
+                            <InputType/>
+                        </InputDescriptor>
+                    </NOINPUT.FIELD>
+                </Value>
+            </NOINPUT.FIELD>
+            <NOCHANGE.FIELD multivalue="yes" mvDetails="M_48.2_48.2">
+                <Value number="1">
+                    <NOCHANGE.FIELD authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Nochange Field" fieldNumber1="NOCHANGE.FIELD" fieldType="" hotVal="no" length="18" length1="18" length2="40" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                        <InputDescriptor>
+                            <InputType/>
+                        </InputDescriptor>
+                    </NOCHANGE.FIELD>
+                </Value>
+            </NOCHANGE.FIELD>
+            <REKEY.FIELD.NO multivalue="yes" mvDetails="M_49.2_49.2">
+                <Value number="1">
+                    <REKEY.FIELD.NO authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Rekey Field No" fieldNumber1="REKEY.FIELD.NO" fieldType="" hotVal="no" length="18" length1="18" length2="40" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                        <InputDescriptor>
+                            <InputType/>
+                        </InputDescriptor>
+                    </REKEY.FIELD.NO>
+                </Value>
+            </REKEY.FIELD.NO>
+            <AUTOM.FIELD.NO multivalue="yes" mvDetails="M_50.2_52.2">
+                <Value number="1">
+                    <AUTOM.FIELD.NO authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Autom Field No" fieldNumber1="AUTOM.FIELD.NO" fieldType="" hotVal="no" length="18" length1="18" length2="40" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                        <InputDescriptor>
+                            <InputType/>
+                        </InputDescriptor>
+                    </AUTOM.FIELD.NO>
+                    <AUT.OLD.CONTENT authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Aut Old Content" fieldNumber1="AUT.OLD.CONTENT" fieldType="" hotVal="no" length="18" length1="18" length2="35" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                        <InputDescriptor>
+                            <InputType/>
+                        </InputDescriptor>
+                    </AUT.OLD.CONTENT>
+                    <AUT.NEW.CONTENT authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Aut New Content" fieldNumber1="AUT.NEW.CONTENT" fieldType="" hotVal="no" length="18" length1="18" length2="40" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                        <InputDescriptor>
+                            <InputType/>
+                        </InputDescriptor>
+                    </AUT.NEW.CONTENT>
+                </Value>
+            </AUTOM.FIELD.NO>
+            <MANDATORY.FIELD multivalue="yes" mvDetails="M_53.2_53.2">
+                <Value number="1">
+                    <MANDATORY.FIELD authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Mandatory Field" fieldNumber1="MANDATORY.FIELD" fieldType="" hotVal="no" length="18" length1="18" length2="40" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                        <InputDescriptor>
+                            <InputType/>
+                        </InputDescriptor>
+                    </MANDATORY.FIELD>
+                </Value>
+            </MANDATORY.FIELD>
+            <MULTI.POSSIBLE authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Multi Possible" fieldNumber1="MULTI.POSSIBLE" fieldType="" hotVal="no" length="18" length1="18" length2="6" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+                <InputDescriptor>
+                    <InputType/>
+                </InputDescriptor>
+            </MULTI.POSSIBLE>
+            <VAL.ASSOC multivalue="yes" mvDetails="M_55.2_55.2">
+                <Value number="1">
+                    <VAL.ASSOC subvalue="yes" svDetails="S_55.1.2_55.1.2">
+                        <SubValue number="1">
+                            <VAL.ASSOC authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="CHARGE.CODE" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Val Assoc" fieldNumber1="VAL.ASSOC" fieldType="" hotVal="no" length="18" length1="18" length2="" mode="O" posCol="" posRow="" postfix="" required="0" type="viewed" type1="" type2="" value="CHARGE.CODE">
+                                <InputDescriptor>
+                                    <InputType/>
+                                </InputDescriptor>
+                            </VAL.ASSOC>
+                        </SubValue>
+                        <SubValue number="2">
+                            <VAL.ASSOC authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="CHARGE.AMOUNT" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Val Assoc" fieldNumber1="VAL.ASSOC" fieldType="" hotVal="no" length="18" length1="18" length2="" mode="O" posCol="" posRow="" postfix="" required="0" type="viewed" type1="" type2="" value="CHARGE.AMOUNT">
+                                <InputDescriptor>
+                                    <InputType/>
+                                </InputDescriptor>
+                            </VAL.ASSOC>
+                        </SubValue>
+                    </VAL.ASSOC>
+                </Value>
+                <Value number="2">
+                    <VAL.ASSOC subvalue="yes" svDetails="S_55.2.2_55.2.2">
+                        <SubValue number="1">
+                            <VAL.ASSOC authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="ACTIVITY.CODE" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Val Assoc" fieldNumber1="VAL.ASSOC" fieldType="" hotVal="no" length="18" length1="18" length2="" mode="O" posCol="" posRow="" postfix="" required="0" type="viewed" type1="" type2="" value="ACTIVITY.CODE">
+                                <InputDescriptor>
+                                    <InputType/>
+                                </InputDescriptor>
+                            </VAL.ASSOC>
+                        </SubValue>
+                        <SubValue number="2">
+                            <VAL.ASSOC authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="ADVICE.SENT" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Val Assoc" fieldNumber1="VAL.ASSOC" fieldType="" hotVal="no" length="18" length1="18" length2="" mode="O" posCol="" posRow="" postfix="" required="0" type="viewed" type1="" type2="" value="ADVICE.SENT">
+                                <InputDescriptor>
+                                    <InputType/>
+                                </InputDescriptor>
+                            </VAL.ASSOC>
+                        </SubValue>
+                    </VAL.ASSOC>
+                </Value>
+                <Value number="3">
+                    <VAL.ASSOC subvalue="yes" svDetails="S_55.3.2_55.3.2">
+                        <SubValue number="1">
+                            <VAL.ASSOC authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="CHG.TAX.CODE" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Val Assoc" fieldNumber1="VAL.ASSOC" fieldType="" hotVal="no" length="18" length1="18" length2="" mode="O" posCol="" posRow="" postfix="" required="0" type="viewed" type1="" type2="" value="CHG.TAX.CODE">
+                                <InputDescriptor>
+                                    <InputType/>
+                                </InputDescriptor>
+                            </VAL.ASSOC>
+                        </SubValue>
+                        <SubValue number="2">
+                            <VAL.ASSOC authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="CHG.TAX.AMT.LCY" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Val Assoc" fieldNumber1="VAL.ASSOC" fieldType="" hotVal="no" length="18" length1="18" length2="" mode="O" posCol="" posRow="" postfix="" required="0" type="viewed" type1="" type2="" value="CHG.TAX.AMT.LCY">
+                                <InputDescriptor>
+                                    <InputType/>
+                                </InputDescriptor>
+                            </VAL.ASSOC>
+                        </SubValue>
+                    </VAL.ASSOC>
+                </Value>
+                <Value number="4">
+                    <VAL.ASSOC subvalue="yes" svDetails="S_55.4.2_55.4.2">
+                        <SubValue number="1">
+                            <VAL.ASSOC authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="MERGE.CONTRACT" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Val Assoc" fieldNumber1="VAL.ASSOC" fieldType="" hotVal="no" length="18" length1="18" length2="" mode="O" posCol="" posRow="" postfix="" required="0" type="viewed" type1="" type2="" value="MERGE.CONTRACT">
+                                <InputDescriptor>
+                                    <InputType/>
+                                </InputDescriptor>
+                            </VAL.ASSOC>
+                        </SubValue>
+                        <SubValue number="2">
+                            <VAL.ASSOC authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="MERGE.AMOUNT" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Val Assoc" fieldNumber1="VAL.ASSOC" fieldType="" hotVal="no" length="18" length1="18" length2="" mode="O" posCol="" posRow="" postfix="" required="0" type="viewed" type1="" type2="" value="MERGE.AMOUNT">
+                                <InputDescriptor>
+                                    <InputType/>
+                                </InputDescriptor>
+                            </VAL.ASSOC>
+                        </SubValue>
+                    </VAL.ASSOC>
+                </Value>
+                <Value number="5">
+                    <VAL.ASSOC subvalue="yes" svDetails="S_55.5.2_55.5.2">
+                        <SubValue number="1">
+                            <VAL.ASSOC authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="MIS.COF.TYPE" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Val Assoc" fieldNumber1="VAL.ASSOC" fieldType="" hotVal="no" length="18" length1="18" length2="" mode="O" posCol="" posRow="" postfix="" required="0" type="viewed" type1="" type2="" value="MIS.COF.TYPE">
+                                <InputDescriptor>
+                                    <InputType/>
+                                </InputDescriptor>
+                            </VAL.ASSOC>
+                        </SubValue>
+                        <SubValue number="2">
+                            <VAL.ASSOC authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="MIS.COF.DEPT" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Val Assoc" fieldNumber1="VAL.ASSOC" fieldType="" hotVal="no" length="18" length1="18" length2="" mode="O" posCol="" posRow="" postfix="" required="0" type="viewed" type1="" type2="" value="MIS.COF.DEPT">
+                                <InputDescriptor>
+                                    <InputType/>
+                                </InputDescriptor>
+                            </VAL.ASSOC>
+                        </SubValue>
+                    </VAL.ASSOC>
+                </Value>
+            </VAL.ASSOC>
+            <SUB.ASSOC multivalue="yes" mvDetails="M_56.2_56.2">
+                <Value number="1">
+                    <SUB.ASSOC subvalue="yes" svDetails="S_56.1.2_56.1.2">
+                        <SubValue number="1">
+                            <SUB.ASSOC authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Sub Assoc" fieldNumber1="SUB.ASSOC" fieldType="" hotVal="no" length="18" length1="18" length2="40" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+                                <InputDescriptor>
+                                    <InputType/>
+                                </InputDescriptor>
+                            </SUB.ASSOC>
+                        </SubValue>
+                    </SUB.ASSOC>
+                </Value>
+            </SUB.ASSOC>
+            <LOCAL.REF.FIELD authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="LOCAL.REF" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Local Ref Field" fieldNumber1="LOCAL.REF.FIELD" fieldType="" hotVal="no" length="18" length1="18" length2="" mode="O" posCol="" posRow="" postfix="" required="0" type="viewed" type1="" type2="" value="LOCAL.REF">
+                <InputDescriptor>
+                    <InputType/>
+                </InputDescriptor>
+            </LOCAL.REF.FIELD>
+            <VALIDATION.FLD multivalue="yes" mvDetails="M_58.2_59.2">
+                <Value number="1">
+                    <VALIDATION.FLD authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Validation Fld" fieldNumber1="VALIDATION.FLD" fieldType="" hotVal="no" length="18" length1="18" length2="40" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                        <InputDescriptor>
+                            <InputType/>
+                        </InputDescriptor>
+                    </VALIDATION.FLD>
+                    <VALIDATION.RTN authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Validation Rtn" fieldNumber1="VALIDATION.RTN" fieldType="" hotVal="no" length="18" length1="18" length2="35" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                        <InputDescriptor>
+                            <InputType/>
+                        </InputDescriptor>
+                    </VALIDATION.RTN>
+                </Value>
+            </VALIDATION.FLD>
+            <D.SLIP.FORMAT multivalue="yes" mvDetails="M_60.2_61.2">
+                <Value number="1">
+                    <D.SLIP.FORMAT authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="D Slip Format" fieldNumber1="D.SLIP.FORMAT" fieldType="" hotVal="no" length="18" length1="18" length2="35" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                        <InputDescriptor>
+                            <InputType/>
+                        </InputDescriptor>
+                    </D.SLIP.FORMAT>
+                    <D.SLIP.FUNCTION authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="D Slip Function" fieldNumber1="D.SLIP.FUNCTION" fieldType="" hotVal="no" length="18" length1="18" length2="6" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                        <InputDescriptor>
+                            <InputType>select</InputType>
+                            <options>
+                                <option label="" value="">default</option>
+                                <option label="A" value="A"/>
+                                <option label="C" value="C"/>
+                                <option label="D" value="D"/>
+                                <option label="Finish" value="FINISH"/>
+                                <option label="H" value="H"/>
+                                <option label="I" value="I"/>
+                                <option label="R" value="R"/>
+                            </options>
+                        </InputDescriptor>
+                    </D.SLIP.FUNCTION>
+                </Value>
+            </D.SLIP.FORMAT>
+            <D.SLIP.TRIGGER authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="D Slip Trigger" fieldNumber1="D.SLIP.TRIGGER" fieldType="radio:tab1" hotVal="no" length="18" length1="18" length2="" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                <InputDescriptor>
+                    <InputType>select</InputType>
+                    <options>
+                        <option label="Ol" value="OL"/>
+                        <option label="Rq" value="RQ"/>
+                        <option label="[None]" value=""/>
+                    </options>
+                </InputDescriptor>
+            </D.SLIP.TRIGGER>
+            <INPUT.ROUTINE multivalue="yes" mvDetails="M_63.2_63.2">
+                <Value number="1">
+                    <INPUT.ROUTINE authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Input Routine" fieldNumber1="INPUT.ROUTINE" fieldType="" hotVal="no" length="18" length1="18" length2="35" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                        <InputDescriptor>
+                            <InputType/>
+                        </InputDescriptor>
+                    </INPUT.ROUTINE>
+                </Value>
+            </INPUT.ROUTINE>
+            <AUTH.ROUTINE multivalue="yes" mvDetails="M_64.2_64.2">
+                <Value number="1">
+                    <AUTH.ROUTINE authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Auth Routine" fieldNumber1="AUTH.ROUTINE" fieldType="" hotVal="no" length="18" length1="18" length2="35" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                        <InputDescriptor>
+                            <InputType/>
+                        </InputDescriptor>
+                    </AUTH.ROUTINE>
+                </Value>
+            </AUTH.ROUTINE>
+            <REPORT.LOCKS authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="YES" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Report Locks" fieldNumber1="REPORT.LOCKS" fieldType="radio:tab1" hotVal="no" length="18" length1="18" length2="" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="YES">
+                <InputDescriptor>
+                    <InputType>select</InputType>
+                    <options>
+                        <option label="No" value="NO"/>
+                        <option label="Yes" value="YES"/>
+                        <option label="[None]" value=""/>
+                    </options>
+                </InputDescriptor>
+            </REPORT.LOCKS>
+            <GTS.CONTROL authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="1" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="1" fieldNumber1="GTS.CONTROL" fieldType="" hotVal="no" length="18" length1="18" length2="6" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="1">
+                <InputDescriptor>
+                    <InputType>select</InputType>
+                    <options>
+                        <option label="" value=""/>
+                        <option label="1" value="1">default</option>
+                        <option label="2" value="2"/>
+                        <option label="3" value="3"/>
+                        <option label="4" value="4"/>
+                    </options>
+                </InputDescriptor>
+            </GTS.CONTROL>
+            <DESCRIPTION multivalue="yes" mvDetails="M_67.2_67.2">
+                <Value number="1">
+                    <DESCRIPTION authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="GB Description" fieldNumber1="DESCRIPTION" fieldType="" hotVal="no" length="18" length1="18" length2="70" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                        <InputDescriptor>
+                            <InputType/>
+                        </InputDescriptor>
+                    </DESCRIPTION>
+                </Value>
+            </DESCRIPTION>
+            <ASSOC.VERSION multivalue="yes" mvDetails="M_68.2_68.2">
+                <Value number="1">
+                    <ASSOC.VERSION authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Assoc Version" fieldNumber1="ASSOC.VERSION" fieldType="" hotVal="no" length="18" length1="18" length2="54" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                        <InputDescriptor>
+                            <InputType/>
+                        </InputDescriptor>
+                    </ASSOC.VERSION>
+                </Value>
+            </ASSOC.VERSION>
+            <NEXT.VERSION authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Next Version" fieldNumber1="NEXT.VERSION" fieldType="" hotVal="no" length="18" length1="18" length2="71" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                <InputDescriptor>
+                    <InputType/>
+                </InputDescriptor>
+            </NEXT.VERSION>
+            <INITIAL.CURSOR.POS authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Initial Cursor Pos" fieldNumber1="INITIAL.CURSOR.POS" fieldType="" hotVal="no" length="18" length1="18" length2="40" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                <InputDescriptor>
+                    <InputType/>
+                </InputDescriptor>
+            </INITIAL.CURSOR.POS>
+            <RESERVED.4 multivalue="yes" mvDetails="M_71.2_71.2">
+                <Value number="1">
+                    <RESERVED.4 authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Reserved 4" fieldNumber1="RESERVED.4" fieldType="" hotVal="no" length="18" length1="18" length2="6" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+                        <InputDescriptor>
+                            <InputType/>
+                        </InputDescriptor>
+                    </RESERVED.4>
+                </Value>
+            </RESERVED.4>
+            <CAPTION multivalue="yes" mvDetails="M_72.2_72.2">
+                <Value number="1">
+                    <CAPTION authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Caption" fieldNumber1="CAPTION" fieldType="" hotVal="no" length="18" length1="18" length2="50" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                        <InputDescriptor>
+                            <InputType/>
+                        </InputDescriptor>
+                    </CAPTION>
+                </Value>
+            </CAPTION>
+            <EXC.INC.RTN authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="YES" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Exc Inc Rtn" fieldNumber1="EXC.INC.RTN" fieldType="radio:tab1" hotVal="no" length="18" length1="18" length2="" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="YES">
+                <InputDescriptor>
+                    <InputType>select</InputType>
+                    <options>
+                        <option label="No" value="NO"/>
+                        <option label="Yes" value="YES"/>
+                        <option label="[None]" value=""/>
+                    </options>
+                </InputDescriptor>
+            </EXC.INC.RTN>
+            <ID.RTN multivalue="yes" mvDetails="M_74.2_74.2">
+                <Value number="1">
+                    <ID.RTN authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Id Rtn" fieldNumber1="ID.RTN" fieldType="" hotVal="no" length="18" length1="18" length2="35" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                        <InputDescriptor>
+                            <InputType/>
+                        </InputDescriptor>
+                    </ID.RTN>
+                </Value>
+            </ID.RTN>
+            <CHECK.REC.RTN multivalue="yes" mvDetails="M_75.2_75.2">
+                <Value number="1">
+                    <CHECK.REC.RTN authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Check Rec Rtn" fieldNumber1="CHECK.REC.RTN" fieldType="" hotVal="no" length="18" length1="18" length2="35" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                        <InputDescriptor>
+                            <InputType/>
+                        </InputDescriptor>
+                    </CHECK.REC.RTN>
+                </Value>
+            </CHECK.REC.RTN>
+            <AFTER.UNAU.RTN multivalue="yes" mvDetails="M_76.2_76.2">
+                <Value number="1">
+                    <AFTER.UNAU.RTN authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="After Unau Rtn" fieldNumber1="AFTER.UNAU.RTN" fieldType="" hotVal="no" length="18" length1="18" length2="35" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                        <InputDescriptor>
+                            <InputType/>
+                        </InputDescriptor>
+                    </AFTER.UNAU.RTN>
+                </Value>
+            </AFTER.UNAU.RTN>
+            <BEFORE.AUTH.RTN multivalue="yes" mvDetails="M_77.2_77.2">
+                <Value number="1">
+                    <BEFORE.AUTH.RTN authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Before Auth Rtn" fieldNumber1="BEFORE.AUTH.RTN" fieldType="" hotVal="no" length="18" length1="18" length2="35" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                        <InputDescriptor>
+                            <InputType/>
+                        </InputDescriptor>
+                    </BEFORE.AUTH.RTN>
+                </Value>
+            </BEFORE.AUTH.RTN>
+            <VERSION.TYPE authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Version Type" fieldNumber1="VERSION.TYPE" fieldType="" hotVal="no" length="18" length1="18" length2="35" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                <InputDescriptor>
+                    <InputType/>
+                </InputDescriptor>
+            </VERSION.TYPE>
+            <ENABLE.GRID authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Enable Grid" fieldNumber1="ENABLE.GRID" fieldType="radio:tab1" hotVal="no" length="18" length1="18" length2="" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                <InputDescriptor>
+                    <InputType>select</InputType>
+                    <options>
+                        <option label="No" value="NO"/>
+                        <option label="Yes" value="YES"/>
+                        <option label="[None]" value=""/>
+                    </options>
+                </InputDescriptor>
+            </ENABLE.GRID>
+            <MAX.DISPLAY.LINES authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Max Display Lines" fieldNumber1="MAX.DISPLAY.LINES" fieldType="" hotVal="no" length="18" length1="18" length2="2" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                <InputDescriptor>
+                    <InputType/>
+                </InputDescriptor>
+            </MAX.DISPLAY.LINES>
+            <AUTO.OVERRIDES authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Auto Overrides" fieldNumber1="AUTO.OVERRIDES" fieldType="radio:tab1" hotVal="no" length="18" length1="18" length2="" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                <InputDescriptor>
+                    <InputType>select</InputType>
+                    <options>
+                        <option label="No" value="NO"/>
+                        <option label="Yes" value="YES"/>
+                        <option label="[None]" value=""/>
+                    </options>
+                </InputDescriptor>
+            </AUTO.OVERRIDES>
+            <NAU.PROCESSING authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Nau Processing" fieldNumber1="NAU.PROCESSING" fieldType="" hotVal="no" length="18" length1="18" length2="6" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                <InputDescriptor>
+                    <InputType>select</InputType>
+                    <options>
+                        <option label="" value="">default</option>
+                        <option label="0" value="0"/>
+                        <option label="1" value="1"/>
+                        <option label="2" value="2"/>
+                        <option label="3" value="3"/>
+                    </options>
+                </InputDescriptor>
+            </NAU.PROCESSING>
+            <COMPANY.ACCESS authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Company Access" fieldNumber1="COMPANY.ACCESS" fieldType="" hotVal="no" length="18" length1="18" length2="10" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                <InputDescriptor>
+                    <InputType>select</InputType>
+                    <options>
+                        <option label="" value="">default</option>
+                        <option label="Own" value="OWN"/>
+                    </options>
+                </InputDescriptor>
+            </COMPANY.ACCESS>
+            <BUSINESS.DAY authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Business Day" fieldNumber1="BUSINESS.DAY" fieldType="" hotVal="no" length="18" length1="18" length2="10" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                <InputDescriptor>
+                    <InputType>select</InputType>
+                    <options>
+                        <option label="" value="">default</option>
+                        <option label="Closed" value="CLOSED"/>
+                        <option label="Normal" value="NORMAL"/>
+                        <option label="Restricted" value="RESTRICTED"/>
+                    </options>
+                </InputDescriptor>
+            </BUSINESS.DAY>
+            <AUTO.COMP.CHANGE authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Auto Comp Change" fieldNumber1="AUTO.COMP.CHANGE" fieldType="" hotVal="no" length="18" length1="18" length2="6" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                <InputDescriptor>
+                    <InputType>select</InputType>
+                    <options>
+                        <option label="" value="">default</option>
+                        <option label="No" value="NO"/>
+                        <option label="Yes" value="YES"/>
+                    </options>
+                </InputDescriptor>
+            </AUTO.COMP.CHANGE>
+            <SYS.MSG.SUPPRESS authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Sys Msg Suppress" fieldNumber1="SYS.MSG.SUPPRESS" fieldType="radio:tab1" hotVal="no" length="18" length1="18" length2="" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                <InputDescriptor>
+                    <InputType>select</InputType>
+                    <options>
+                        <option label="No" value="NO"/>
+                        <option label="Yes" value="YES"/>
+                        <option label="[None]" value=""/>
+                    </options>
+                </InputDescriptor>
+            </SYS.MSG.SUPPRESS>
+            <ATTRIBUTES multivalue="yes" mvDetails="M_87.2_87.2">
+                <Value number="1">
+                    <ATTRIBUTES authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Attributes" fieldNumber1="ATTRIBUTES" fieldType="" hotVal="no" length="18" length1="18" length2="20" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                        <InputDescriptor>
+                            <InputType>select</InputType>
+                            <options>
+                                <option label="" value="">default</option>
+                                <option label="Aligning The Fields In Version" value="CUSTOM.VERSION.ALIGN"/>
+                                <option label="Combo Boxes Wouldn't Be Shown" value="NO.COMBO.BOX"/>
+                                <option label="Load All Fields Of Respective Appln" value="ENABLE.ALL.FIELDS"/>
+                                <option label="No Need To Calculate Tex.char.max" value="FIXED.LENGTH.FILE"/>
+                                <option label="Null Rekey Fields Display" value="SHOW.NULL.REKEYS"/>
+                                <option label="Prevent Head Tab Of Multi Tab Vers" value="NO.HEADER.TAB"/>
+                                <option label="To Display Null Fields In See Mode" value="SHOW.NULL.FIELDS"/>
+                                <option label="Transaction Id To Be Displayed" value="SHOW.TXN.ID"/>
+                            </options>
+                        </InputDescriptor>
+                    </ATTRIBUTES>
+                </Value>
+            </ATTRIBUTES>
+            <D.SLIP.STYLE.SHEET authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="D Slip Style Sheet" fieldNumber1="D.SLIP.STYLE.SHEET" fieldType="" hotVal="no" length="18" length1="18" length2="40" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                <InputDescriptor>
+                    <InputType/>
+                </InputDescriptor>
+            </D.SLIP.STYLE.SHEET>
+            <WEB.VAL.RTN authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Web Val Rtn" fieldNumber1="WEB.VAL.RTN" fieldType="" hotVal="no" length="18" length1="18" length2="35" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                <InputDescriptor>
+                    <InputType/>
+                </InputDescriptor>
+            </WEB.VAL.RTN>
+            <CONFIRM.VERSION authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Confirm Version" fieldNumber1="CONFIRM.VERSION" fieldType="" hotVal="no" length="18" length1="18" length2="54" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                <InputDescriptor>
+                    <InputType/>
+                </InputDescriptor>
+            </CONFIRM.VERSION>
+            <PREVIEW.VERSION authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Preview Version" fieldNumber1="PREVIEW.VERSION" fieldType="" hotVal="no" length="18" length1="18" length2="54" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                <InputDescriptor>
+                    <InputType/>
+                </InputDescriptor>
+            </PREVIEW.VERSION>
+            <BROWSER.TOOLBAR authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Browser Toolbar" fieldNumber1="BROWSER.TOOLBAR" fieldType="" hotVal="no" length="18" length1="18" length2="35" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                <InputDescriptor>
+                    <InputType/>
+                </InputDescriptor>
+            </BROWSER.TOOLBAR>
+            <EXPOSE authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Expose" fieldNumber1="EXPOSE" fieldType="" hotVal="no" length="18" length1="18" length2="6" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                <InputDescriptor>
+                    <InputType>select</InputType>
+                    <options>
+                        <option label="" value="">default</option>
+                        <option label="No" value="NO"/>
+                        <option label="Yes" value="YES"/>
+                    </options>
+                </InputDescriptor>
+            </EXPOSE>
+            <SERVICE multivalue="yes" mvDetails="M_94.2_94.2">
+                <Value number="1">
+                    <SERVICE authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Service" fieldNumber1="SERVICE" fieldType="" hotVal="no" length="18" length1="18" length2="35" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                        <InputDescriptor>
+                            <InputType/>
+                        </InputDescriptor>
+                    </SERVICE>
+                </Value>
+            </SERVICE>
+            <ACTIVITY authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Activity" fieldNumber1="ACTIVITY" fieldType="" hotVal="no" length="18" length1="18" length2="35" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                <InputDescriptor>
+                    <InputType/>
+                </InputDescriptor>
+            </ACTIVITY>
+            <FUNCT authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Funct" fieldNumber1="FUNCT" fieldType="" hotVal="no" length="18" length1="18" length2="1" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                <InputDescriptor>
+                    <InputType/>
+                </InputDescriptor>
+            </FUNCT>
+            <EXPOSE.DESC authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Expose Desc" fieldNumber1="EXPOSE.DESC" fieldType="" hotVal="no" length="18" length1="18" length2="35" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                <InputDescriptor>
+                    <InputType/>
+                </InputDescriptor>
+            </EXPOSE.DESC>
+            <CHALL.RESP authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Chall Resp" fieldNumber1="CHALL.RESP" fieldType="" hotVal="no" length="18" length1="18" length2="20" mode="I" posCol="" posRow="" postfix="" required="0" type="input" type1="" type2="" value="">
+                <InputDescriptor>
+                    <InputType/>
+                </InputDescriptor>
+            </CHALL.RESP>
+            <RESERVED.3 authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Reserved 3" fieldNumber1="RESERVED.3" fieldType="" hotVal="no" length="18" length1="18" length2="6" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+                <InputDescriptor>
+                    <InputType/>
+                </InputDescriptor>
+            </RESERVED.3>
+            <RESERVED.2 authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Reserved 2" fieldNumber1="RESERVED.2" fieldType="" hotVal="no" length="18" length1="18" length2="6" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+                <InputDescriptor>
+                    <InputType/>
+                </InputDescriptor>
+            </RESERVED.2>
+            <OVERRIDE multivalue="yes" mvDetails="M_101.2_101.2">
+                <Value number="1">
+                    <OVERRIDE authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Override" fieldNumber1="OVERRIDE" fieldType="" hotVal="no" length="18" length1="18" length2="35" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+                        <InputDescriptor>
+                            <InputType/>
+                        </InputDescriptor>
+                    </OVERRIDE>
+                </Value>
+            </OVERRIDE>
+            <RECORD.STATUS authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Record Status" fieldNumber1="RECORD.STATUS" fieldType="" hotVal="no" length="18" length1="18" length2="6" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+                <InputDescriptor>
+                    <InputType/>
+                </InputDescriptor>
+            </RECORD.STATUS>
+            <CURR.NO authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="1" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Curr No" fieldNumber1="CURR.NO" fieldType="" hotVal="no" length="18" length1="18" length2="" mode="O" posCol="" posRow="" postfix="" required="0" type="viewed" type1="" type2="" value="1">
+                <InputDescriptor>
+                    <InputType/>
+                </InputDescriptor>
+            </CURR.NO>
+            <INPUTTER multivalue="yes" mvDetails="M_104.2_104.2">
+                <Value number="1">
+                    <INPUTTER authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="55849_AUTHORISER__OFS_MB.OFS.AUTH" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Inputter" fieldNumber1="INPUTTER" fieldType="" hotVal="no" length="18" length1="18" length2="" mode="O" posCol="" posRow="" postfix="" required="0" type="viewed" type1="" type2="" value="55849_AUTHORISER__OFS_MB.OFS.AUTH">
+                        <InputDescriptor>
+                            <InputType/>
+                        </InputDescriptor>
+                    </INPUTTER>
+                </Value>
+            </INPUTTER>
+            <DATE.TIME multivalue="yes" mvDetails="M_105.2_105.2">
+                <Value number="1">
+                    <DATE.TIME authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="16 MAY 14 07:40" desc2="" enrichment="16 MAY 14 07:40" errorText="" fieldDescription="" fieldDescriptionAlternatives="Date Time" fieldNumber1="DATE.TIME" fieldType="" hotVal="no" length="18" length1="18" length2="" mode="O" posCol="" posRow="" postfix="" required="0" type="viewed" type1="" type2="" value="16 MAY 14 07:40">
+                        <InputDescriptor>
+                            <InputType/>
+                        </InputDescriptor>
+                    </DATE.TIME>
+                </Value>
+            </DATE.TIME>
+            <AUTHORISER authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="55849_AUTHORISER_OFS_MB.OFS.AUTH" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Authoriser" fieldNumber1="AUTHORISER" fieldType="" hotVal="no" length="18" length1="18" length2="" mode="O" posCol="" posRow="" postfix="" required="0" type="viewed" type1="" type2="" value="55849_AUTHORISER_OFS_MB.OFS.AUTH">
+                <InputDescriptor>
+                    <InputType/>
+                </InputDescriptor>
+            </AUTHORISER>
+            <CO.CODE authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="GB0010001" desc2="" enrichment="Model Bank R14-AMR" errorText="" fieldDescription="" fieldDescriptionAlternatives="Co Code" fieldNumber1="CO.CODE" fieldType="" hotVal="no" length="18" length1="18" length2="" mode="O" posCol="" posRow="" postfix="" required="0" type="viewed" type1="" type2="" value="GB0010001">
+                <InputDescriptor>
+                    <InputType/>
+                </InputDescriptor>
+            </CO.CODE>
+            <DEPT.CODE authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="1" desc2="" enrichment="Implementation" errorText="" fieldDescription="" fieldDescriptionAlternatives="Dept Code" fieldNumber1="DEPT.CODE" fieldType="" hotVal="no" length="18" length1="18" length2="" mode="O" posCol="" posRow="" postfix="" required="0" type="viewed" type1="" type2="" value="1">
+                <InputDescriptor>
+                    <InputType/>
+                </InputDescriptor>
+            </DEPT.CODE>
+            <AUDITOR.CODE authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Auditor Code" fieldNumber1="AUDITOR.CODE" fieldType="" hotVal="no" length="18" length1="18" length2="16" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+                <InputDescriptor>
+                    <InputType/>
+                </InputDescriptor>
+            </AUDITOR.CODE>
+            <AUDIT.DATE.TIME authDesc1="" authDesc2="" authErrorText="" authValue="" color="" desc1="" desc2="" enrichment="" errorText="" fieldDescription="" fieldDescriptionAlternatives="Audit Date Time" fieldNumber1="AUDIT.DATE.TIME" fieldType="" hotVal="no" length="18" length1="18" length2="15" mode="O" posCol="" posRow="" postfix="" required="0" type="noinput" type1="" type2="" value="">
+                <InputDescriptor>
+                    <InputType/>
+                </InputDescriptor>
+            </AUDIT.DATE.TIME>
+        </VersionFields>
+    </VersionDesign>
+</root>

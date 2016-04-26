@@ -59,3 +59,96 @@
 2016-04-26 15:30:36,644 INFO  [DefaultAgentManager] - Deleting local log files ...
 2016-04-26 15:30:36,651 INFO  [DefaultMaster] - Deleting local log files from directory C:/Users/leitelvein/git/TestTMGit/TestGitProjectEnv/log1461677284007
 2016-04-26 15:30:37,567 INFO  [DefaultMaster] - Suite '/suites/xmlinExecutor.ptxml' execution stopped!
+2016-04-26 15:52:02,467 DEBUG [DefaultMaster] - Bound to 'SuiteMaster6' in RMI registry 'RegistryImpl_Stub[UnicastRef [liveRef: [endpoint:[192.168.10.208:2100](remote),objID:[0:0:0, 0]]]]'.
+2016-04-26 15:52:03,365 INFO  [UtilConstants] - Using character encoding: ISO-8859-1
+2016-04-26 15:52:03,390 INFO  [DefaultMaster] - Starting suite '/suites/xmlinExecutor.ptxml'.
+2016-04-26 15:52:03,484 DEBUG [DefaultMaster] - Created Agent with name 'localhost' (agentName='AgentDaemon', process: '7112@leitelvein-pc').
+2016-04-26 15:52:03,987 INFO  [ExecutionPattern] - Executing test scenario .\scenarios\NewMM\MM_1.xmlin
+2016-04-26 15:52:04,538 DEBUG [HttpGlobusSessionFactory] - Connecting to 192.168.10.97:8080
+2016-04-26 15:52:04,543 INFO  [AbstractHttpScript] - No proxy server is used for HTTP(s) connections.
+2016-04-26 15:53:22,607 WARN  [HttpScriptT24] - commitMessages was null
+2016-04-26 15:53:23,435 INFO  [ExecutionPattern] - Execution of test case 4 on day 1 phase "" FAILED (3:Error message: CATEGORY - CATEGORY NOT APPLICABLE TO THIS APPLICATION)
+2016-04-26 15:53:23,465 DEBUG [HttpGlobusSessionFactory] - Connecting to 192.168.10.97:8080
+2016-04-26 15:53:30,871 INFO  [ExecutionPattern] - Execution of test case 5 on day 1 phase "" FAILED (1:RECORD IS LOCKED BY USER LEITELVEIN.1 (14))
+2016-04-26 15:53:40,549 INFO  [DefaultMaster] - All users stopped in suite '/suites/xmlinExecutor.ptxml'.
+2016-04-26 15:53:40,550 INFO  [DefaultMaster] - Downloading remote logs...
+2016-04-26 15:53:40,556 INFO  [DefaultMaster] - Download finished.
+2016-04-26 15:53:40,556 INFO  [DefaultMaster] - Processing input/output log files ...
+2016-04-26 15:53:40,558 INFO  [DefaultMaster] - Processing user group UserGroup during processing input/output log files.
+2016-04-26 15:53:40,739 INFO  [DefaultMaster] - Finished processing logs.
+2016-04-26 15:53:40,846 INFO  [DefaultMaster] - Deleting remote log files ...
+2016-04-26 15:53:40,846 INFO  [DefaultAgentManager] - Deleting local log files ...
+2016-04-26 15:53:40,851 INFO  [DefaultMaster] - Deleting local log files from directory C:/Users/leitelvein/git/TestTMGit/TestGitProjectEnv/log1461678723287
+2016-04-26 15:53:40,859 INFO  [DefaultMaster] - Suite '/suites/xmlinExecutor.ptxml' execution stopped!
+2016-04-26 15:54:24,597 DEBUG [DefaultMaster] - Bound to 'SuiteMaster7' in RMI registry 'RegistryImpl_Stub[UnicastRef [liveRef: [endpoint:[192.168.10.208:2100](remote),objID:[0:0:0, 0]]]]'.
+2016-04-26 15:54:25,470 INFO  [UtilConstants] - Using character encoding: ISO-8859-1
+2016-04-26 15:54:25,495 INFO  [DefaultMaster] - Starting suite '/suites/xmlinExecutor.ptxml'.
+2016-04-26 15:54:25,582 DEBUG [DefaultMaster] - Created Agent with name 'localhost' (agentName='AgentDaemon', process: '6348@leitelvein-pc').
+2016-04-26 15:54:26,416 INFO  [ExecutionPattern] - Executing test scenario .\scenarios\NewMM\MM_1.xmlin
+2016-04-26 15:54:26,700 DEBUG [HttpGlobusSessionFactory] - Connecting to 192.168.10.97:8080
+2016-04-26 15:54:26,705 INFO  [AbstractHttpScript] - No proxy server is used for HTTP(s) connections.
+2016-04-26 15:55:07,994 WARN  [HttpScriptT24] - commitMessages was null
+2016-04-26 15:55:08,388 INFO  [ExecutionPattern] - Execution of test case 4 on day 1 phase "" FAILED (5:Error message: MATURITY.DATE - MANDATORY INPUT)
+2016-04-26 15:55:15,544 INFO  [DefaultMaster] - All users stopped in suite '/suites/xmlinExecutor.ptxml'.
+2016-04-26 15:55:15,544 INFO  [DefaultMaster] - Downloading remote logs...
+2016-04-26 15:55:16,342 INFO  [DefaultMaster] - Download finished.
+2016-04-26 15:55:16,342 INFO  [DefaultMaster] - Processing input/output log files ...
+2016-04-26 15:55:16,345 INFO  [DefaultMaster] - Processing user group UserGroup during processing input/output log files.
+2016-04-26 15:55:16,484 INFO  [DefaultMaster] - Finished processing logs.
+2016-04-26 15:55:16,590 INFO  [DefaultMaster] - Deleting remote log files ...
+2016-04-26 15:55:16,591 INFO  [DefaultAgentManager] - Deleting local log files ...
+2016-04-26 15:55:16,597 INFO  [DefaultMaster] - Deleting local log files from directory C:/Users/leitelvein/git/TestTMGit/TestGitProjectEnv/log1461678865436
+2016-04-26 15:55:17,183 INFO  [DefaultMaster] - Suite '/suites/xmlinExecutor.ptxml' execution stopped!
+2016-04-26 15:56:01,370 DEBUG [DefaultMaster] - Bound to 'SuiteMaster8' in RMI registry 'RegistryImpl_Stub[UnicastRef [liveRef: [endpoint:[192.168.10.208:2100](remote),objID:[0:0:0, 0]]]]'.
+2016-04-26 15:56:01,415 INFO  [UtilConstants] - Using character encoding: ISO-8859-1
+2016-04-26 15:56:01,444 INFO  [DefaultMaster] - Starting suite '/suites/xmlinExecutor.ptxml'.
+2016-04-26 15:56:01,544 DEBUG [DefaultMaster] - Created Agent with name 'localhost' (agentName='AgentDaemon', process: '1768@leitelvein-pc').
+2016-04-26 15:56:02,555 INFO  [ExecutionPattern] - Executing test scenario .\scenarios\NewMM\MM_1.xmlin
+2016-04-26 15:56:03,038 DEBUG [HttpGlobusSessionFactory] - Connecting to 192.168.10.97:8080
+2016-04-26 15:56:03,043 INFO  [AbstractHttpScript] - No proxy server is used for HTTP(s) connections.
+2016-04-26 15:56:42,005 WARN  [HttpScriptT24] - commitMessages was null
+2016-04-26 15:56:44,336 INFO  [ExecutionPattern] - Execution of test case 4 on day 1 phase "" FAILED (3:Error message: INTEREST.RATE - INPUT MANDATORY FOR RATE TYPE)
+2016-04-26 15:56:50,942 INFO  [DefaultMaster] - All users stopped in suite '/suites/xmlinExecutor.ptxml'.
+2016-04-26 15:56:50,942 INFO  [DefaultMaster] - Downloading remote logs...
+2016-04-26 15:56:51,699 INFO  [DefaultMaster] - Download finished.
+2016-04-26 15:56:51,700 INFO  [DefaultMaster] - Processing input/output log files ...
+2016-04-26 15:56:51,701 INFO  [DefaultMaster] - Processing user group UserGroup during processing input/output log files.
+2016-04-26 15:56:51,838 INFO  [DefaultMaster] - Finished processing logs.
+2016-04-26 15:56:51,939 INFO  [DefaultMaster] - Deleting remote log files ...
+2016-04-26 15:56:51,939 INFO  [DefaultAgentManager] - Deleting local log files ...
+2016-04-26 15:56:51,946 INFO  [DefaultMaster] - Deleting local log files from directory C:/Users/leitelvein/git/TestTMGit/TestGitProjectEnv/log1461678961373
+2016-04-26 15:56:52,166 INFO  [DefaultMaster] - Suite '/suites/xmlinExecutor.ptxml' execution stopped!
+2016-04-26 15:57:11,289 DEBUG [DefaultMaster] - Bound to 'SuiteMaster9' in RMI registry 'RegistryImpl_Stub[UnicastRef [liveRef: [endpoint:[192.168.10.208:2100](remote),objID:[0:0:0, 0]]]]'.
+2016-04-26 15:57:12,184 INFO  [UtilConstants] - Using character encoding: ISO-8859-1
+2016-04-26 15:57:12,214 INFO  [DefaultMaster] - Starting suite '/suites/xmlinExecutor.ptxml'.
+2016-04-26 15:57:12,304 DEBUG [DefaultMaster] - Created Agent with name 'localhost' (agentName='AgentDaemon', process: '1556@leitelvein-pc').
+2016-04-26 15:57:13,504 INFO  [ExecutionPattern] - Executing test scenario .\scenarios\NewMM\MM_1.xmlin
+2016-04-26 15:57:13,803 DEBUG [HttpGlobusSessionFactory] - Connecting to 192.168.10.97:8080
+2016-04-26 15:57:13,808 INFO  [AbstractHttpScript] - No proxy server is used for HTTP(s) connections.
+2016-04-26 15:58:04,767 INFO  [DefaultMaster] - All users stopped in suite '/suites/xmlinExecutor.ptxml'.
+2016-04-26 15:58:04,767 INFO  [DefaultMaster] - Downloading remote logs...
+2016-04-26 15:58:05,518 INFO  [DefaultMaster] - Download finished.
+2016-04-26 15:58:05,518 INFO  [DefaultMaster] - Processing input/output log files ...
+2016-04-26 15:58:05,519 INFO  [DefaultMaster] - Processing user group UserGroup during processing input/output log files.
+2016-04-26 15:58:05,649 INFO  [DefaultMaster] - Finished processing logs.
+2016-04-26 15:58:05,756 INFO  [DefaultMaster] - Deleting remote log files ...
+2016-04-26 15:58:05,756 INFO  [DefaultAgentManager] - Deleting local log files ...
+2016-04-26 15:58:05,763 INFO  [DefaultMaster] - Deleting local log files from directory C:/Users/leitelvein/git/TestTMGit/TestGitProjectEnv/log1461679032097
+2016-04-26 15:58:05,989 INFO  [DefaultMaster] - Suite '/suites/xmlinExecutor.ptxml' execution stopped!
+2016-04-26 15:58:12,196 DEBUG [DefaultMaster] - Bound to 'SuiteMaster10' in RMI registry 'RegistryImpl_Stub[UnicastRef [liveRef: [endpoint:[192.168.10.208:2100](remote),objID:[0:0:0, 0]]]]'.
+2016-04-26 15:58:13,328 INFO  [UtilConstants] - Using character encoding: ISO-8859-1
+2016-04-26 15:58:13,354 INFO  [DefaultMaster] - Starting suite '/suites/xmlinExecutor.ptxml'.
+2016-04-26 15:58:13,440 DEBUG [DefaultMaster] - Created Agent with name 'localhost' (agentName='AgentDaemon', process: '3916@leitelvein-pc').
+2016-04-26 15:58:13,906 INFO  [ExecutionPattern] - Executing test scenario .\scenarios\NewMM\MM_1.xmlin
+2016-04-26 15:58:14,382 DEBUG [HttpGlobusSessionFactory] - Connecting to 192.168.10.97:8080
+2016-04-26 15:58:14,388 INFO  [AbstractHttpScript] - No proxy server is used for HTTP(s) connections.
+2016-04-26 15:58:46,200 INFO  [DefaultMaster] - All users stopped in suite '/suites/xmlinExecutor.ptxml'.
+2016-04-26 15:58:46,200 INFO  [DefaultMaster] - Downloading remote logs...
+2016-04-26 15:58:46,963 INFO  [DefaultMaster] - Download finished.
+2016-04-26 15:58:46,963 INFO  [DefaultMaster] - Processing input/output log files ...
+2016-04-26 15:58:46,965 INFO  [DefaultMaster] - Processing user group UserGroup during processing input/output log files.
+2016-04-26 15:58:47,103 INFO  [DefaultMaster] - Finished processing logs.
+2016-04-26 15:58:47,221 INFO  [DefaultMaster] - Deleting remote log files ...
+2016-04-26 15:58:47,221 INFO  [DefaultAgentManager] - Deleting local log files ...
+2016-04-26 15:58:47,229 INFO  [DefaultMaster] - Deleting local log files from directory C:/Users/leitelvein/git/TestTMGit/TestGitProjectEnv/log1461679093294
+2016-04-26 15:58:47,436 INFO  [DefaultMaster] - Suite '/suites/xmlinExecutor.ptxml' execution stopped!
