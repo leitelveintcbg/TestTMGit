@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xsd:schema name="STMT.ENT.LAST" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:include schemaLocation="project://.schema/field.xsd"/>
+    <!--
+			START root type definition
+		-->
+    <xsd:complexType name="tEnquiryValues_STMT.ENT.LAST">
+        <xsd:complexContent>
+            <xsd:extension base="tFieldValuesBase">
+                <xsd:group ref="aSTMT.ENT.LAST_gROOT"/>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+    <!--
+			END root type definition
+		-->
+    <!--
+			START root group definition
+		-->
+    <xsd:group name="aSTMT.ENT.LAST_gROOT">
+        <xsd:sequence>
+            <xsd:element maxOccurs="1" minOccurs="0" name="QAList">
+                <xsd:annotation>
+                    <xsd:appinfo>
+                        <decoration textXpath="'Questions &amp;  Answers'"/>
+                    </xsd:appinfo>
+                </xsd:annotation>
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element maxOccurs="unbounded" minOccurs="1" name="QA">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <decoration textXpath="concat('Q: &quot;',@Question,'&quot; A:&quot;',@Answer,'&quot;')"/>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                            <xsd:complexType>
+                                <xsd:attribute name="Question" type="xsd:string" use="required"/>
+                                <xsd:attribute name="Answer" type="xsd:string" use="required"/>
+                            </xsd:complexType>
+                        </xsd:element>
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+            <xsd:element name="FilterFields">
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element maxOccurs="100" minOccurs="0" name="FilterField">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <decoration textXpath="concat(@name,' ',@operator,' ',@value)"/>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                            <xsd:complexType>
+                                <xsd:attribute name="name" type="xsd:string" use="required">
+                                    <xsd:simpleType>
+                                        <xsd:restriction base="xsd:string">
+                                            <xsd:enumeration value="ACCT.ID"/>
+                                            <xsd:enumeration value="NO.SORT.OPTION"/>
+                                            <xsd:enumeration value="INCLUDE.DL"/>
+                                        </xsd:restriction>
+                                    </xsd:simpleType>
+                                </xsd:attribute>
+                                <xsd:attribute fixed="" name="number" type="xsd:string" use="required"/>
+                                <xsd:attribute name="value" type="xsd:string" use="required"/>
+                                <xsd:attribute default="EQ" name="operator" type="tEnquiryOperator" use="required"/>
+                                <xsd:attribute default="No sort" name="sortDirection" type="tFilterSort"/>
+                            </xsd:complexType>
+                        </xsd:element>
+                    </xsd:sequence>
+                    <xsd:attribute fixed="ACCT.ID;NO.SORT.OPTION;INCLUDE.DL;" name="filterFields" type="xsd:string" use="required"/>
+                    <xsd:attribute fixed="3/Booking Date;15/Description;30/Reference;47/Value Date;59/Amount;15/BFWD;59/AMT.BFWD;" name="fields" type="xsd:string" use="required"/>
+                    <xsd:attribute fixed="1,0/HDR.1/HDR.1;1,1/HDR.2/HDR.2;1,2/HDR.3/HDR.3;1,3/HDR.3/HDR.3;15,+1/DESCRIPT/DESCRIPT;15,+1/EXTRA.DESC/EXTRA.DESC;10,3/Currency:/PRT.CUR;10,2/Customer:/D.CUST;15,2/D.CUSTNM/D.CUSTNM;15,1/Account No:/P.ACC;59,+1/TOTAL/TOTAL;15,+1/CFWD/CFWD;1/ZERONORECORDS/ZERONORECORDS;" name="headerFields" type="xsd:string" use="required"/>
+                </xsd:complexType>
+            </xsd:element>
+            <xsd:element minOccurs="0" name="PLACE_HOLDER">
+                <xsd:annotation>
+                    <xsd:appinfo>
+                        <decoration image="watch_exp.gif" textXpath="concat('>>', @Name, '&lt;&lt; ')"/>
+                        <displayName textXPath=">>PLACE_HOLDER&lt;&lt;"/>
+                    </xsd:appinfo>
+                </xsd:annotation>
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element maxOccurs="unbounded" minOccurs="0" name="parameter">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <decoration textXpath="concat( @name, ' = ', @value)"/>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                            <xsd:complexType>
+                                <xsd:attribute name="name" type="xsd:string" use="required"/>
+                                <xsd:attribute name="value" type="xsd:string" use="required"/>
+                            </xsd:complexType>
+                        </xsd:element>
+                    </xsd:sequence>
+                    <xsd:attribute name="Name" type="xsd:string" use="required"/>
+                    <xsd:attribute name="transformationXsl" type="xsd:string" use="required">
+                        <xsd:annotation>
+                            <xsd:appinfo>
+                                <valueOptions class="hu.fot.testManager.tce.views.StylesheetCollector" plugin="hu.fot.testManager.tce"/>
+                            </xsd:appinfo>
+                        </xsd:annotation>
+                    </xsd:attribute>
+                    <xsd:attribute name="transformationJava" type="xsd:string" use="required">
+                        <xsd:annotation>
+                            <xsd:appinfo>
+                                <valueOptions class="hu.fot.testManager.tce.views.IGenerateXmlElementCollector" plugin="hu.fot.testManager.tce"/>
+                            </xsd:appinfo>
+                        </xsd:annotation>
+                    </xsd:attribute>
+                </xsd:complexType>
+            </xsd:element>
+            <xsd:element maxOccurs="unbounded" minOccurs="1" name="ExpectedOutput">
+                <xsd:annotation>
+                    <xsd:appinfo>
+                        <decoration textXpath="concat('Result selection: page=',@pageNumber,', row= ',@rowNumber,', contains=', @contains)"/>
+                    </xsd:appinfo>
+                </xsd:annotation>
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element maxOccurs="100" minOccurs="0" name="Field">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <decoration textXpath="concat(@name,' --- Filter ',@filterOperator,' ',@filterValue, ' --- Result ',@expectedOperator, ' ',@expectedValue)"/>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                            <xsd:complexType>
+                                <xsd:attribute name="name" type="xsd:string" use="required">
+                                    <xsd:simpleType>
+                                        <xsd:restriction base="xsd:string">
+                                            <xsd:enumeration value="Booking Date"/>
+                                            <xsd:enumeration value="Description"/>
+                                            <xsd:enumeration value="Reference"/>
+                                            <xsd:enumeration value="Value Date"/>
+                                            <xsd:enumeration value="Amount"/>
+                                            <xsd:enumeration value="BFWD"/>
+                                            <xsd:enumeration value="AMT.BFWD"/>
+                                            <xsd:enumeration value="HDR.1"/>
+                                            <xsd:enumeration value="HDR.2"/>
+                                            <xsd:enumeration value="HDR.3"/>
+                                            <xsd:enumeration value="HDR.3"/>
+                                            <xsd:enumeration value="DESCRIPT"/>
+                                            <xsd:enumeration value="EXTRA.DESC"/>
+                                            <xsd:enumeration value="Currency:"/>
+                                            <xsd:enumeration value="Customer:"/>
+                                            <xsd:enumeration value="D.CUSTNM"/>
+                                            <xsd:enumeration value="Account No:"/>
+                                            <xsd:enumeration value="TOTAL"/>
+                                            <xsd:enumeration value="CFWD"/>
+                                            <xsd:enumeration value="ZERONORECORDS"/>
+                                        </xsd:restriction>
+                                    </xsd:simpleType>
+                                </xsd:attribute>
+                                <xsd:attribute default="EQ" name="filterOperator" type="tFilterOperator" use="required"/>
+                                <xsd:attribute name="filterValue" type="xsd:string" use="required"/>
+                                <xsd:attribute default="EQ" name="expectedOperator" type="tFilterOperator" use="required"/>
+                                <xsd:attribute name="expectedValue" type="xsd:string" use="required"/>
+                            </xsd:complexType>
+                        </xsd:element>
+                    </xsd:sequence>
+                    <xsd:attribute default="one or more rows" name="expectedResult" type="tEnquiryExpectedResult" use="required"/>
+                    <xsd:attribute name="pageNumber" type="xsd:int"/>
+                    <xsd:attribute name="rowNumber" type="xsd:int"/>
+                    <xsd:attribute name="contains" type="xsd:string"/>
+                    <xsd:attribute name="skipEmptyColumns" type="xsd:string"/>
+                    <xsd:attribute name="skipEmptyRows" type="xsd:string"/>
+                    <xsd:attribute name="randomSelection" type="xsd:boolean"/>
+                    <xsd:attribute default="None" name="popUpMenu" use="required">
+                        <xsd:simpleType>
+                            <xsd:restriction base="xsd:string">
+                                <xsd:enumeration value="None"/>
+                                <xsd:enumeration value="Transaction details (S.ID S S.KEY)"/>
+                            </xsd:restriction>
+                        </xsd:simpleType>
+                    </xsd:attribute>
+                    <xsd:attribute name="fieldSelected">
+                        <xsd:simpleType>
+                            <xsd:restriction base="xsd:string">
+                                <xsd:enumeration value="Booking Date"/>
+                                <xsd:enumeration value="Description"/>
+                                <xsd:enumeration value="Reference"/>
+                                <xsd:enumeration value="Value Date"/>
+                                <xsd:enumeration value="Amount"/>
+                                <xsd:enumeration value="BFWD"/>
+                                <xsd:enumeration value="AMT.BFWD"/>
+                                <xsd:enumeration value="HDR.1"/>
+                                <xsd:enumeration value="HDR.2"/>
+                                <xsd:enumeration value="HDR.3"/>
+                                <xsd:enumeration value="HDR.3"/>
+                                <xsd:enumeration value="DESCRIPT"/>
+                                <xsd:enumeration value="EXTRA.DESC"/>
+                                <xsd:enumeration value="Currency:"/>
+                                <xsd:enumeration value="Customer:"/>
+                                <xsd:enumeration value="D.CUSTNM"/>
+                                <xsd:enumeration value="Account No:"/>
+                                <xsd:enumeration value="TOTAL"/>
+                                <xsd:enumeration value="CFWD"/>
+                                <xsd:enumeration value="ZERONORECORDS"/>
+                            </xsd:restriction>
+                        </xsd:simpleType>
+                    </xsd:attribute>
+                </xsd:complexType>
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:group>
+    <!--
+			END root group definition
+		-->
+</xsd:schema>

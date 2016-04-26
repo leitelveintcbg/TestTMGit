@@ -154,6 +154,30 @@
             <visible>true</visible>
             <wrap>false</wrap>
         </value>
+        <key>EXAMPLE_IDS</key>
+        <value>
+            <_type>0</_type>
+            <autoCreateFile>true</autoCreateFile>
+            <columnSeparator>;</columnSeparator>
+            <compulsory>false</compulsory>
+            <cursorPos>0</cursorPos>
+            <description/>
+            <filePath>.datapool/EXAMPLE_IDS.csv</filePath>
+            <persistent>false</persistent>
+            <poolId>
+                <poolName>EXAMPLE_IDS</poolName>
+                <projectName>TestGitProjectEnv</projectName>
+            </poolId>
+            <readOnly>false</readOnly>
+            <refreshOrder>0</refreshOrder>
+            <remotePort>0</remotePort>
+            <rmiHost>192.168.10.208</rmiHost>
+            <rmiPort>2100</rmiPort>
+            <rootPath/>
+            <rowSeparator>\r\n</rowSeparator>
+            <visible>true</visible>
+            <wrap>false</wrap>
+        </value>
         <key>ScriptSummary</key>
         <value>
             <_type>4</_type>

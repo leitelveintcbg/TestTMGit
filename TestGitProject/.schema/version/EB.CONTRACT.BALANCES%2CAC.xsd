@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xsd:schema name="EB.CONTRACT.BALANCES,AC" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:include schemaLocation="project://.schema/field.xsd"/>
+    <!--START root type definition-->
+    <xsd:complexType name="tFieldValues_EB.CONTRACT.BALANCES_2CAC">
+        <xsd:complexContent>
+            <xsd:extension base="tFieldValuesBase">
+                <xsd:group ref="aEB.CONTRACT.BALANCES_2CAC_gROOT"/>
+                <xsd:attribute name="dealSlip" type="xsd:boolean" use="optional" value="$"/>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+    <!--END root type definition-->
+    <!--START root group definition-->
+    <xsd:group name="aEB.CONTRACT.BALANCES_2CAC_gROOT">
+        <xsd:all>
+            <xsd:element name="SEARCH_ID" type="tFieldWithValue">
+                <xsd:annotation>
+                    <xsd:appinfo>
+                        <decoration textXpath="concat('Transaction ID: ',@Value)"/>
+                    </xsd:appinfo>
+                </xsd:annotation>
+            </xsd:element>
+            <xsd:element minOccurs="0" name="PLACE_HOLDER">
+                <xsd:annotation>
+                    <xsd:appinfo>
+                        <decoration image="watch_exp.gif" textXpath="concat('>>', @Name, '&lt;&lt; ')"/>
+                        <displayName textXPath=">>PLACE_HOLDER&lt;&lt;"/>
+                    </xsd:appinfo>
+                </xsd:annotation>
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element maxOccurs="unbounded" minOccurs="0" name="parameter">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <decoration textXpath="concat( @name, ' = ', @value)"/>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                            <xsd:complexType>
+                                <xsd:attribute name="name" type="xsd:string" use="required"/>
+                                <xsd:attribute name="value" type="xsd:string" use="required"/>
+                            </xsd:complexType>
+                        </xsd:element>
+                    </xsd:sequence>
+                    <xsd:attribute name="Name" type="xsd:string" use="required"/>
+                    <xsd:attribute name="transformationXsl" type="xsd:string" use="required">
+                        <xsd:annotation>
+                            <xsd:appinfo>
+                                <valueOptions class="hu.fot.testManager.tce.views.StylesheetCollector" plugin="hu.fot.testManager.tce"/>
+                            </xsd:appinfo>
+                        </xsd:annotation>
+                    </xsd:attribute>
+                    <xsd:attribute name="transformationJava" type="xsd:string" use="required">
+                        <xsd:annotation>
+                            <xsd:appinfo>
+                                <valueOptions class="hu.fot.testManager.tce.views.IGenerateXmlElementCollector" plugin="hu.fot.testManager.tce"/>
+                            </xsd:appinfo>
+                        </xsd:annotation>
+                    </xsd:attribute>
+                </xsd:complexType>
+            </xsd:element>
+            <xsd:element minOccurs="0" name="APPLICATION">
+                <xsd:annotation>
+                    <xsd:appinfo>
+                        <decoration textXpath="concat(name(),'=&quot;', @Value, '&quot; expected=&quot;', @Expected, '&quot;', '   ', substring(concat('[',@Format,']'), 0 div string-length(@Format), string-length(@Format)+3))"/>
+                    </xsd:appinfo>
+                </xsd:annotation>
+                <xsd:complexType>
+                    <xsd:complexContent>
+                        <xsd:extension base="tField">
+                            <xsd:attribute fixed="APPLICATION" name="fldNo" type="xsd:string" use="required"/>
+                            <xsd:attribute name="Value" type="xsd:string" use="required"/>
+                            <xsd:attribute default="Ig" name="Type" type="tFieldType" use="required"/>
+                            <xsd:attribute fixed="" name="postfix" type="xsd:string" use="required"/>
+                            <xsd:attribute fixed="no" name="hotVal" type="xsd:string" use="required"/>
+                            <xsd:attribute fixed="" name="fieldType" type="xsd:string" use="required"/>
+                            <xsd:attribute name="required" type="xsd:string" use="required"/>
+                            <xsd:attribute name="ExpectedEnrichment" type="xsd:string"/>
+                            <xsd:attribute fixed="" name="fieldDescriptor" type="xsd:string" use="required"/>
+                            <xsd:attribute fixed="FullView" name="tabDescriptor" type="xsd:string" use="required"/>
+                        </xsd:extension>
+                    </xsd:complexContent>
+                </xsd:complexType>
+            </xsd:element>
+            <xsd:element minOccurs="0" name="PRODUCT">
+                <xsd:annotation>
+                    <xsd:appinfo>
+                        <decoration textXpath="concat(name(),'=&quot;', @Value, '&quot; expected=&quot;', @Expected, '&quot;', '   ', substring(concat('[',@Format,']'), 0 div string-length(@Format), string-length(@Format)+3))"/>
+                    </xsd:appinfo>
+                </xsd:annotation>
+                <xsd:complexType>
+                    <xsd:complexContent>
+                        <xsd:extension base="tField">
+                            <xsd:attribute fixed="PRODUCT" name="fldNo" type="xsd:string" use="required"/>
+                            <xsd:attribute name="Value" type="xsd:string" use="required"/>
+                            <xsd:attribute default="Ig" name="Type" type="tFieldType" use="required"/>
+                            <xsd:attribute fixed="" name="postfix" type="xsd:string" use="required"/>
+                            <xsd:attribute fixed="no" name="hotVal" type="xsd:string" use="required"/>
+                            <xsd:attribute fixed="" name="fieldType" type="xsd:string" use="required"/>
+                            <xsd:attribute name="required" type="xsd:string" use="required"/>
+                            <xsd:attribute name="ExpectedEnrichment" type="xsd:string"/>
+                            <xsd:attribute fixed="" name="fieldDescriptor" type="xsd:string" use="required"/>
+                            <xsd:attribute fixed="FullView" name="tabDescriptor" type="xsd:string" use="required"/>
+                        </xsd:extension>
+                    </xsd:complexContent>
+                </xsd:complexType>
+            </xsd:element>
+            <xsd:element minOccurs="0" name="ONLINE.ACTUAL.BAL">
+                <xsd:annotation>
+                    <xsd:appinfo>
+                        <decoration textXpath="concat(name(),'=&quot;', @Value, '&quot; expected=&quot;', @Expected, '&quot;', '   ', substring(concat('[',@Format,']'), 0 div string-length(@Format), string-length(@Format)+3))"/>
+                    </xsd:appinfo>
+                </xsd:annotation>
+                <xsd:complexType>
+                    <xsd:complexContent>
+                        <xsd:extension base="tField">
+                            <xsd:attribute fixed="ONLINE.ACTUAL.BAL" name="fldNo" type="xsd:string" use="required"/>
+                            <xsd:attribute name="Value" type="xsd:string" use="required"/>
+                            <xsd:attribute default="Ig" name="Type" type="tFieldType" use="required"/>
+                            <xsd:attribute fixed="" name="postfix" type="xsd:string" use="required"/>
+                            <xsd:attribute fixed="no" name="hotVal" type="xsd:string" use="required"/>
+                            <xsd:attribute fixed="" name="fieldType" type="xsd:string" use="required"/>
+                            <xsd:attribute name="required" type="xsd:string" use="required"/>
+                            <xsd:attribute name="ExpectedEnrichment" type="xsd:string"/>
+                            <xsd:attribute fixed="" name="fieldDescriptor" type="xsd:string" use="required"/>
+                            <xsd:attribute fixed="FullView" name="tabDescriptor" type="xsd:string" use="required"/>
+                        </xsd:extension>
+                    </xsd:complexContent>
+                </xsd:complexType>
+            </xsd:element>
+            <xsd:element minOccurs="0" name="ONLINE.CLEARED.BAL">
+                <xsd:annotation>
+                    <xsd:appinfo>
+                        <decoration textXpath="concat(name(),'=&quot;', @Value, '&quot; expected=&quot;', @Expected, '&quot;', '   ', substring(concat('[',@Format,']'), 0 div string-length(@Format), string-length(@Format)+3))"/>
+                    </xsd:appinfo>
+                </xsd:annotation>
+                <xsd:complexType>
+                    <xsd:complexContent>
+                        <xsd:extension base="tField">
+                            <xsd:attribute fixed="ONLINE.CLEARED.BAL" name="fldNo" type="xsd:string" use="required"/>
+                            <xsd:attribute name="Value" type="xsd:string" use="required"/>
+                            <xsd:attribute default="Ig" name="Type" type="tFieldType" use="required"/>
+                            <xsd:attribute fixed="" name="postfix" type="xsd:string" use="required"/>
+                            <xsd:attribute fixed="no" name="hotVal" type="xsd:string" use="required"/>
+                            <xsd:attribute fixed="" name="fieldType" type="xsd:string" use="required"/>
+                            <xsd:attribute name="required" type="xsd:string" use="required"/>
+                            <xsd:attribute name="ExpectedEnrichment" type="xsd:string"/>
+                            <xsd:attribute fixed="" name="fieldDescriptor" type="xsd:string" use="required"/>
+                            <xsd:attribute fixed="FullView" name="tabDescriptor" type="xsd:string" use="required"/>
+                        </xsd:extension>
+                    </xsd:complexContent>
+                </xsd:complexType>
+            </xsd:element>
+            <xsd:element minOccurs="0" name="WORKING.BALANCE">
+                <xsd:annotation>
+                    <xsd:appinfo>
+                        <decoration textXpath="concat(name(),'=&quot;', @Value, '&quot; expected=&quot;', @Expected, '&quot;', '   ', substring(concat('[',@Format,']'), 0 div string-length(@Format), string-length(@Format)+3))"/>
+                    </xsd:appinfo>
+                </xsd:annotation>
+                <xsd:complexType>
+                    <xsd:complexContent>
+                        <xsd:extension base="tField">
+                            <xsd:attribute fixed="WORKING.BALANCE" name="fldNo" type="xsd:string" use="required"/>
+                            <xsd:attribute name="Value" type="xsd:string" use="required"/>
+                            <xsd:attribute default="Ig" name="Type" type="tFieldType" use="required"/>
+                            <xsd:attribute fixed="" name="postfix" type="xsd:string" use="required"/>
+                            <xsd:attribute fixed="no" name="hotVal" type="xsd:string" use="required"/>
+                            <xsd:attribute fixed="" name="fieldType" type="xsd:string" use="required"/>
+                            <xsd:attribute name="required" type="xsd:string" use="required"/>
+                            <xsd:attribute name="ExpectedEnrichment" type="xsd:string"/>
+                            <xsd:attribute fixed="" name="fieldDescriptor" type="xsd:string" use="required"/>
+                            <xsd:attribute fixed="FullView" name="tabDescriptor" type="xsd:string" use="required"/>
+                        </xsd:extension>
+                    </xsd:complexContent>
+                </xsd:complexType>
+            </xsd:element>
+            <xsd:element minOccurs="0" name="INITIATOR.TYPE">
+                <xsd:annotation>
+                    <xsd:appinfo>
+                        <decoration textXpath="concat('(',name(),')',substring(' - append', (0 div string-length(@append))*(0 div (5-string-length(@append))), 10))"/>
+                    </xsd:appinfo>
+                </xsd:annotation>
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element maxOccurs="unbounded" minOccurs="1" name="item">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <decoration textXpath="concat(name(),substring(concat(' - iterateDatapool=',@iterateDatapool), 0 div string-length(@iterateDatapool), string-length(@iterateDatapool)+20))"/>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                            <xsd:complexType>
+                                <xsd:all>
+                                    <xsd:element minOccurs="0" name="INITIATOR.TYPE">
+                                        <xsd:annotation>
+                                            <xsd:appinfo>
+                                                <decoration textXpath="concat(name(),'=&quot;', @Value, '&quot; expected=&quot;', @Expected, '&quot;', '   ', substring(concat('[',@Format,']'), 0 div string-length(@Format), string-length(@Format)+3))"/>
+                                            </xsd:appinfo>
+                                        </xsd:annotation>
+                                        <xsd:complexType>
+                                            <xsd:complexContent>
+                                                <xsd:extension base="tField">
+                                                    <xsd:attribute fixed="INITIATOR.TYPE" name="fldNo" type="xsd:string" use="required"/>
+                                                    <xsd:attribute name="Value" type="xsd:string" use="required"/>
+                                                    <xsd:attribute default="Ig" name="Type" type="tFieldType" use="required"/>
+                                                    <xsd:attribute fixed="" name="postfix" type="xsd:string" use="required"/>
+                                                    <xsd:attribute fixed="no" name="hotVal" type="xsd:string" use="required"/>
+                                                    <xsd:attribute fixed="" name="fieldType" type="xsd:string" use="required"/>
+                                                    <xsd:attribute name="required" type="xsd:string" use="required"/>
+                                                    <xsd:attribute name="ExpectedEnrichment" type="xsd:string"/>
+                                                    <xsd:attribute fixed="" name="fieldDescriptor" type="xsd:string" use="required"/>
+                                                    <xsd:attribute fixed="FullView" name="tabDescriptor" type="xsd:string" use="required"/>
+                                                </xsd:extension>
+                                            </xsd:complexContent>
+                                        </xsd:complexType>
+                                    </xsd:element>
+                                    <xsd:element minOccurs="0" name="DATE.LAST">
+                                        <xsd:annotation>
+                                            <xsd:appinfo>
+                                                <decoration textXpath="concat(name(),'=&quot;', @Value, '&quot; expected=&quot;', @Expected, '&quot;', '   ', substring(concat('[',@Format,']'), 0 div string-length(@Format), string-length(@Format)+3))"/>
+                                            </xsd:appinfo>
+                                        </xsd:annotation>
+                                        <xsd:complexType>
+                                            <xsd:complexContent>
+                                                <xsd:extension base="tField">
+                                                    <xsd:attribute fixed="DATE.LAST" name="fldNo" type="xsd:string" use="required"/>
+                                                    <xsd:attribute name="Value" type="xsd:string" use="required"/>
+                                                    <xsd:attribute default="Ig" name="Type" type="tFieldType" use="required"/>
+                                                    <xsd:attribute fixed="" name="postfix" type="xsd:string" use="required"/>
+                                                    <xsd:attribute fixed="no" name="hotVal" type="xsd:string" use="required"/>
+                                                    <xsd:attribute fixed="" name="fieldType" type="xsd:string" use="required"/>
+                                                    <xsd:attribute name="required" type="xsd:string" use="required"/>
+                                                    <xsd:attribute name="ExpectedEnrichment" type="xsd:string"/>
+                                                    <xsd:attribute fixed="" name="fieldDescriptor" type="xsd:string" use="required"/>
+                                                    <xsd:attribute fixed="FullView" name="tabDescriptor" type="xsd:string" use="required"/>
+                                                </xsd:extension>
+                                            </xsd:complexContent>
+                                        </xsd:complexType>
+                                    </xsd:element>
+                                    <xsd:element minOccurs="0" name="AMNT.LAST">
+                                        <xsd:annotation>
+                                            <xsd:appinfo>
+                                                <decoration textXpath="concat(name(),'=&quot;', @Value, '&quot; expected=&quot;', @Expected, '&quot;', '   ', substring(concat('[',@Format,']'), 0 div string-length(@Format), string-length(@Format)+3))"/>
+                                            </xsd:appinfo>
+                                        </xsd:annotation>
+                                        <xsd:complexType>
+                                            <xsd:complexContent>
+                                                <xsd:extension base="tField">
+                                                    <xsd:attribute fixed="AMNT.LAST" name="fldNo" type="xsd:string" use="required"/>
+                                                    <xsd:attribute name="Value" type="xsd:string" use="required"/>
+                                                    <xsd:attribute default="Ig" name="Type" type="tFieldType" use="required"/>
+                                                    <xsd:attribute fixed="" name="postfix" type="xsd:string" use="required"/>
+                                                    <xsd:attribute fixed="no" name="hotVal" type="xsd:string" use="required"/>
+                                                    <xsd:attribute fixed="" name="fieldType" type="xsd:string" use="required"/>
+                                                    <xsd:attribute name="required" type="xsd:string" use="required"/>
+                                                    <xsd:attribute name="ExpectedEnrichment" type="xsd:string"/>
+                                                    <xsd:attribute fixed="" name="fieldDescriptor" type="xsd:string" use="required"/>
+                                                    <xsd:attribute fixed="FullView" name="tabDescriptor" type="xsd:string" use="required"/>
+                                                </xsd:extension>
+                                            </xsd:complexContent>
+                                        </xsd:complexType>
+                                    </xsd:element>
+                                    <xsd:element minOccurs="0" name="TRANS.LAST">
+                                        <xsd:annotation>
+                                            <xsd:appinfo>
+                                                <decoration textXpath="concat(name(),'=&quot;', @Value, '&quot; expected=&quot;', @Expected, '&quot;', '   ', substring(concat('[',@Format,']'), 0 div string-length(@Format), string-length(@Format)+3))"/>
+                                            </xsd:appinfo>
+                                        </xsd:annotation>
+                                        <xsd:complexType>
+                                            <xsd:complexContent>
+                                                <xsd:extension base="tField">
+                                                    <xsd:attribute fixed="TRANS.LAST" name="fldNo" type="xsd:string" use="required"/>
+                                                    <xsd:attribute name="Value" type="xsd:string" use="required"/>
+                                                    <xsd:attribute default="Ig" name="Type" type="tFieldType" use="required"/>
+                                                    <xsd:attribute fixed="" name="postfix" type="xsd:string" use="required"/>
+                                                    <xsd:attribute fixed="no" name="hotVal" type="xsd:string" use="required"/>
+                                                    <xsd:attribute fixed="" name="fieldType" type="xsd:string" use="required"/>
+                                                    <xsd:attribute name="required" type="xsd:string" use="required"/>
+                                                    <xsd:attribute name="ExpectedEnrichment" type="xsd:string"/>
+                                                    <xsd:attribute fixed="" name="fieldDescriptor" type="xsd:string" use="required"/>
+                                                    <xsd:attribute fixed="FullView" name="tabDescriptor" type="xsd:string" use="required"/>
+                                                </xsd:extension>
+                                            </xsd:complexContent>
+                                        </xsd:complexType>
+                                    </xsd:element>
+                                </xsd:all>
+                                <xsd:attribute name="iterateDatapool" type="tName" use="optional">
+                                    <xsd:annotation>
+                                        <xsd:appinfo>
+                                            <valueOptions class="hu.fot.testManager.tce.views.DatapoolCollector" plugin="hu.fot.testManager.tce"/>
+                                        </xsd:appinfo>
+                                    </xsd:annotation>
+                                </xsd:attribute>
+                            </xsd:complexType>
+                        </xsd:element>
+                    </xsd:sequence>
+                    <xsd:attribute fixed="yes" name="multivalue" type="xsd:string" use="required"/>
+                    <xsd:attribute default="false" name="append" type="tBool" use="optional"/>
+                    <xsd:attribute default="" name="toBeDeletedFirst" type="xsd:string" use="optional"/>
+                </xsd:complexType>
+            </xsd:element>
+            <xsd:element minOccurs="0" name="DATE.LAST.UPDATE">
+                <xsd:annotation>
+                    <xsd:appinfo>
+                        <decoration textXpath="concat(name(),'=&quot;', @Value, '&quot; expected=&quot;', @Expected, '&quot;', '   ', substring(concat('[',@Format,']'), 0 div string-length(@Format), string-length(@Format)+3))"/>
+                    </xsd:appinfo>
+                </xsd:annotation>
+                <xsd:complexType>
+                    <xsd:complexContent>
+                        <xsd:extension base="tField">
+                            <xsd:attribute fixed="DATE.LAST.UPDATE" name="fldNo" type="xsd:string" use="required"/>
+                            <xsd:attribute name="Value" type="xsd:string" use="required"/>
+                            <xsd:attribute default="Ig" name="Type" type="tFieldType" use="required"/>
+                            <xsd:attribute fixed="" name="postfix" type="xsd:string" use="required"/>
+                            <xsd:attribute fixed="no" name="hotVal" type="xsd:string" use="required"/>
+                            <xsd:attribute fixed="" name="fieldType" type="xsd:string" use="required"/>
+                            <xsd:attribute name="required" type="xsd:string" use="required"/>
+                            <xsd:attribute name="ExpectedEnrichment" type="xsd:string"/>
+                            <xsd:attribute fixed="" name="fieldDescriptor" type="xsd:string" use="required"/>
+                            <xsd:attribute fixed="FullView" name="tabDescriptor" type="xsd:string" use="required"/>
+                        </xsd:extension>
+                    </xsd:complexContent>
+                </xsd:complexType>
+            </xsd:element>
+            <xsd:element minOccurs="0" name="BALANCE.MOVED">
+                <xsd:annotation>
+                    <xsd:appinfo>
+                        <decoration textXpath="concat(name(),'=&quot;', @Value, '&quot; expected=&quot;', @Expected, '&quot;', '   ', substring(concat('[',@Format,']'), 0 div string-length(@Format), string-length(@Format)+3))"/>
+                    </xsd:appinfo>
+                </xsd:annotation>
+                <xsd:complexType>
+                    <xsd:complexContent>
+                        <xsd:extension base="tField">
+                            <xsd:attribute fixed="BALANCE.MOVED" name="fldNo" type="xsd:string" use="required"/>
+                            <xsd:attribute name="Value" type="xsd:string" use="required"/>
+                            <xsd:attribute default="Ig" name="Type" type="tFieldType" use="required"/>
+                            <xsd:attribute fixed="" name="postfix" type="xsd:string" use="required"/>
+                            <xsd:attribute fixed="no" name="hotVal" type="xsd:string" use="required"/>
+                            <xsd:attribute fixed="" name="fieldType" type="xsd:string" use="required"/>
+                            <xsd:attribute name="required" type="xsd:string" use="required"/>
+                            <xsd:attribute name="ExpectedEnrichment" type="xsd:string"/>
+                            <xsd:attribute fixed="" name="fieldDescriptor" type="xsd:string" use="required"/>
+                            <xsd:attribute fixed="FullView" name="tabDescriptor" type="xsd:string" use="required"/>
+                        </xsd:extension>
+                    </xsd:complexContent>
+                </xsd:complexType>
+            </xsd:element>
+        </xsd:all>
+    </xsd:group>
+    <!--END root group definition-->
+</xsd:schema>

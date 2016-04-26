@@ -87,6 +87,18 @@
                     </EnquiryData>
                 </InputMessage>
             </Sequence>
+            <Sequence class="hu.fot.testManager.globus.http.VERSION" comment="" id="" seqId="8" type="Test">
+                <InputMessage blockType="T24Enquiry" class="hu.fot.testManager.globus.http.VERSION">
+                    <EnquiryData UniqueVerName="ACCT.BAL.TODAY_8" expectedRowNumber="" name="ACCT.BAL.TODAY" resultSelection="Selected only" retryOnErrorCount="0" retryOnErrorDelay="10" saveAs="None" usePreviousFilterValues="false">
+                        <FilterFields fields="1/Account No;3/Name;4/Limit ref;5/Product;6/Ccy;7/Working Bal;8/Ledger Bal;9/Cleared Bal;10/Locked Amount;" filterFields="ACCOUNT.NUMBER;CUSTOMER.CODE;CATEGORY;CURRENCY;LIMIT.REF;NO.SORT.OPTION;INCLUDE.DL;" headerFields="1,0/HEADER.TITTLE/HEADER.TITTLE;1,1/HEADER/HEADER;P/B.CUST/B.CUST;12,1/D.CUST/D.CUST;30,1/D.CUSTNM/D.CUSTNM;1/ZERORECORDS/ZERORECORDS;">
+                            <FilterField name="ACCOUNT.NUMBER" number="" operator="EQ" sortDirection="No sort" value="#TX_ID('ACCOUNT','4')"/>
+                        </FilterFields>
+                        <ExpectedOutput expectedResult="one or more rows" popUpMenu="None">
+                            <Field expectedOperator="EQ" expectedValue="EUR" filterOperator="EQ" filterValue="" name="Ccy"/>
+                        </ExpectedOutput>
+                    </EnquiryData>
+                </InputMessage>
+            </Sequence>
         </Day>
     </Days>
 </InputMessages>

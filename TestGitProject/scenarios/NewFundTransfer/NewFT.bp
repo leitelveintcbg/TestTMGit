@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<BusinessProcess callable="false" category="" comment="creates a user, account and a new fund transfer" creator="" idSeq="7" module="" priority="Medium" refId="" xmlns:xe="http://www.fot.hu/xmleditor" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="project://.schema/bp.xsd">
+<BusinessProcess callable="false" category="" comment="creates a user, account and a new fund transfer" creator="" idSeq="8" module="" priority="Medium" refId="" xmlns:xe="http://www.fot.hu/xmleditor" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="project://.schema/bp.xsd">
     <Parameters/>
     <Days>
         <Day seqId="1" value="1">
@@ -9,6 +9,7 @@
                 <GlobusVersion adapter="Default" class="hu.fot.testManager.globus.http.VERSION" dealSlip="false" deliveryPreview="false" mode="I" multiplicity="0..1" name="FT" onFailure="Drop" reopenMode="S" seqId="5" type="Test" verify="true"/>
                 <GlobusVersion adapter="Default" class="hu.fot.testManager.globus.http.VERSION" dealSlip="false" deliveryPreview="false" mode="A" multiplicity="0..1" name="FT" onFailure="Drop" reopenMode="S" seqId="6" type="Test" verify="true"/>
                 <GlobusEnquiry adapter="Default" class="hu.fot.testManager.globus.http.VERSION" multiplicity="0..1" name="STMT.ENT.TODAY" saveAs="None" seqId="7" type="Test"/>
+                <GlobusEnquiry adapter="Default" class="hu.fot.testManager.globus.http.VERSION" multiplicity="0..1" name="ACCT.BAL.TODAY" saveAs="None" seqId="8" type="Test"/>
             </Phase>
         </Day>
     </Days>

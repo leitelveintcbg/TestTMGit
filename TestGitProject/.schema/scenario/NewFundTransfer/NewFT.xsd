@@ -5,6 +5,7 @@
     <xsd:include schemaLocation="project://.schema/version/ACCOUNT%2C.xsd"/>
     <xsd:include schemaLocation="project://.schema/version/FT.xsd"/>
     <xsd:include schemaLocation="project://.schema/enquiry/STMT.ENT.TODAY.xsd"/>
+    <xsd:include schemaLocation="project://.schema/enquiry/ACCT.BAL.TODAY.xsd"/>
     <xsd:element name="InputMessages">
         <xsd:annotation>
             <xsd:appinfo>
@@ -476,6 +477,67 @@
                                                     </xsd:element>
                                                 </xsd:sequence>
                                                 <xsd:attribute fixed="7" name="seqId" use="required"/>
+                                                <xsd:attribute fixed="hu.fot.testManager.globus.http.VERSION" name="class" use="required"/>
+                                                <xsd:attribute fixed="Test" name="type" use="required"/>
+                                                <xsd:attribute name="id" type="xsd:string" use="required"/>
+                                                <xsd:attribute name="skipExec" type="xsd:boolean"/>
+                                                <xsd:attribute default="" name="comment" type="xsd:string"/>
+                                            </xsd:complexType>
+                                        </xsd:element>
+                                        <xsd:element name="Sequence">
+                                            <xsd:annotation>
+                                                <xsd:appinfo>
+                                                    <decoration fColorXpath="&lt;xsl:choose>&lt;xsl:when test=&quot;@type='Check'&quot;>DARK_RED&lt;/xsl:when>&lt;xsl:when test=&quot;@type='Test'&quot;>RED&lt;/xsl:when>&lt;xsl:when test=&quot;@type='Preparatory'&quot;>DARK_GRAY&lt;/xsl:when>&lt;/xsl:choose>" fontXpath="&lt;xsl:choose>&lt;xsl:when test=&quot;@type='Preparatory'&quot;>italic&lt;/xsl:when>&lt;xsl:when test=&quot;@type='Test'&quot;>bold&lt;/xsl:when>&lt;xsl:when test=&quot;@type='Check'&quot;>bold&lt;/xsl:when>&lt;/xsl:choose>" image="$concat('enquiry',name(@skipExec),@skipExec,'.gif')" textXpath="concat(TM:position(), ' - ',substring(@type,1,1), '. test case: T24Enquiry - ACCT.BAL.TODAY(8)', '   //', @comment)"/>
+                                                </xsd:appinfo>
+                                            </xsd:annotation>
+                                            <xsd:complexType>
+                                                <xsd:sequence>
+                                                    <xsd:element maxOccurs="1" minOccurs="0" name="InputMessage">
+                                                        <xsd:annotation>
+                                                            <xsd:appinfo>
+                                                                <decoration textXpath="'Input data'"/>
+                                                                <displayName textXPath="Input data"/>
+                                                            </xsd:appinfo>
+                                                        </xsd:annotation>
+                                                        <xsd:complexType>
+                                                            <xsd:sequence>
+                                                                <xsd:element maxOccurs="1" minOccurs="0" name="Requirements" type="RequirementType"/>
+                                                                <xsd:element name="EnquiryData">
+                                                                    <xsd:annotation>
+                                                                        <xsd:appinfo>
+                                                                            <decoration textXpath="&lt;xsl:choose>&lt;xsl:when test=&quot;@usergroup&quot;>&lt;xsl:value-of select=&quot;concat('EnquiryData (ACCT.BAL.TODAY) executed by  ',@usergroup)&quot;/>&lt;/xsl:when>&lt;xsl:otherwise>&lt;xsl:value-of select=&quot;concat('EnquiryData (ACCT.BAL.TODAY)','')&quot;/>&lt;/xsl:otherwise>&lt;/xsl:choose>"/>
+                                                                        </xsd:appinfo>
+                                                                    </xsd:annotation>
+                                                                    <xsd:complexType>
+                                                                        <xsd:complexContent>
+                                                                            <xsd:extension base="tEnquiryValues_ACCT.BAL.TODAY">
+                                                                                <xsd:attribute fixed="ACCT.BAL.TODAY" name="name" type="xsd:string" use="required"/>
+                                                                                <xsd:attribute fixed="ACCT.BAL.TODAY_8" name="UniqueVerName" type="xsd:string" use="required"/>
+                                                                                <xsd:attribute default="Selected only" name="resultSelection" type="tEnquiryResultSelection" use="required"/>
+                                                                                <xsd:attribute name="expectedRowNumber" type="xsd:string" use="required"/>
+                                                                                <xsd:attribute default="false" name="usePreviousFilterValues" type="xsd:boolean" use="required"/>
+                                                                                <xsd:attribute name="usergroup" type="xsd:string" use="optional">
+                                                                                    <xsd:annotation>
+                                                                                        <xsd:appinfo>
+                                                                                            <valueOptions class="hu.fot.testManager.tce.views.UserCollector" plugin="hu.fot.testManager.tce"/>
+                                                                                        </xsd:appinfo>
+                                                                                    </xsd:annotation>
+                                                                                </xsd:attribute>
+                                                                                <xsd:attribute name="timeout" type="xsd:string" use="optional"/>
+                                                                                <xsd:attribute default="0" name="retryOnErrorCount" type="xsd:integer" use="required"/>
+                                                                                <xsd:attribute default="10" name="retryOnErrorDelay" type="xsd:integer" use="required"/>
+                                                                                <xsd:attribute default="None" name="saveAs" type="tSaveAs" use="required"/>
+                                                                            </xsd:extension>
+                                                                        </xsd:complexContent>
+                                                                    </xsd:complexType>
+                                                                </xsd:element>
+                                                            </xsd:sequence>
+                                                            <xsd:attribute fixed="hu.fot.testManager.globus.http.VERSION" name="class" use="required"/>
+                                                            <xsd:attribute fixed="T24Enquiry" name="blockType" use="required"/>
+                                                        </xsd:complexType>
+                                                    </xsd:element>
+                                                </xsd:sequence>
+                                                <xsd:attribute fixed="8" name="seqId" use="required"/>
                                                 <xsd:attribute fixed="hu.fot.testManager.globus.http.VERSION" name="class" use="required"/>
                                                 <xsd:attribute fixed="Test" name="type" use="required"/>
                                                 <xsd:attribute name="id" type="xsd:string" use="required"/>
