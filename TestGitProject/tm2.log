@@ -1,0 +1,18 @@
+2016-04-26 14:28:49,996 DEBUG [DefaultMaster] - Bound to 'SuiteMaster1' in RMI registry 'RegistryImpl_Stub[UnicastRef [liveRef: [endpoint:[192.168.10.208:2100](remote),objID:[0:0:0, 0]]]]'.
+2016-04-26 14:28:50,877 INFO  [UtilConstants] - Using character encoding: ISO-8859-1
+2016-04-26 14:28:50,904 INFO  [DefaultMaster] - Starting suite '/suites/xmlinExecutor.ptxml'.
+2016-04-26 14:28:51,015 DEBUG [DefaultMaster] - Created Agent with name 'localhost' (agentName='AgentDaemon', process: '3276@leitelvein-pc').
+2016-04-26 14:28:51,128 INFO  [ExecutionPattern] - Executing test scenario .\scenarios\NewFundTransfer\NewFT_1.xmlin
+2016-04-26 14:28:51,277 DEBUG [HttpGlobusSessionFactory] - Connecting to 192.168.10.97:8080
+2016-04-26 14:28:51,285 INFO  [AbstractHttpScript] - No proxy server is used for HTTP(s) connections.
+2016-04-26 14:30:10,923 DEBUG [HttpGlobusSessionFactory] - Connecting to 192.168.10.97:8080
+2016-04-26 14:30:36,623 INFO  [DefaultMaster] - All users stopped in suite '/suites/xmlinExecutor.ptxml'.
+2016-04-26 14:30:36,623 INFO  [DefaultMaster] - Downloading remote logs...
+2016-04-26 14:30:36,647 INFO  [DefaultMaster] - Download finished.
+2016-04-26 14:30:36,647 INFO  [DefaultMaster] - Processing input/output log files ...
+2016-04-26 14:30:36,650 INFO  [DefaultMaster] - Processing user group UserGroup during processing input/output log files.
+2016-04-26 14:30:36,863 INFO  [DefaultMaster] - Finished processing logs.
+2016-04-26 14:30:36,979 INFO  [DefaultMaster] - Deleting remote log files ...
+2016-04-26 14:30:36,980 INFO  [DefaultAgentManager] - Deleting local log files ...
+2016-04-26 14:30:36,985 INFO  [DefaultMaster] - Deleting local log files from directory C:/TM/TM_2.6.7_internal_160311_19816/workspace2/TestGitProjectEnv/log1461673730800
+2016-04-26 14:30:36,996 INFO  [DefaultMaster] - Suite '/suites/xmlinExecutor.ptxml' execution stopped!

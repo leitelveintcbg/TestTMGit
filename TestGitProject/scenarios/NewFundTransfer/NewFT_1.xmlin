@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<InputMessages bpOrigin="project://scenarios/NewFundTransfer/NewFT.bp" callable="false" category="" comment="creates a user, account and a new fund transfer" creator="" expectedResult="" module="" priority="Medium" refId="" status="New" xmlns:xe="http://www.fot.hu/xmleditor" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="project://.schema/scenario/NewFundTransfer/NewFT.xsd">
+    <TestCase Value="1"/>
+    <Datapool Value=""/>
+    <TestPlan Value="creates a user, account and a new fund transfer" prepareComment=""/>
+    <Days>
+        <Day seqId="1,2" value="1">
+            <Sequence class="hu.fot.testManager.globus.http.VERSION" comment="" id="" seqId="3" type="Test">
+                <InputMessage blockType="T24Version" class="hu.fot.testManager.globus.http.VERSION">
+                    <FieldValues Authorize="" Commit="PASS" Mode="I" Override="-1" UniqueVerName="CUSTOMER_3" Verify="true" onFailure="Drop" reopenMode="S" version="CUSTOMER,">
+                        <SEARCH_ID Expected="" Type="I" Valid="V" Value=""/>
+                        <MNEMONIC Expected="" Type="I" Valid="V" Value="@C+#TX_ID()" fieldDescriptor="" fieldType="" fldNo="MNEMONIC" hotVal="no" postfix="" required="" tabDescriptor="FullView"/>
+                        <SHORT.NAME append="false" multivalue="yes" toBeDeletedFirst="">
+                            <item>
+                                <SHORT.NAME Expected="" Type="I" Valid="V" Value="TEST CUSTOMER" fieldDescriptor="" fieldType="" fldNo="SHORT.NAME" hotVal="no" postfix="" required="" tabDescriptor="FullView"/>
+                            </item>
+                        </SHORT.NAME>
+                        <NAME.1 append="false" multivalue="yes" toBeDeletedFirst="">
+                            <item>
+                                <NAME.1 Expected="" Type="I" Valid="V" Value="TEST CUSTOMER" fieldDescriptor="" fieldType="" fldNo="NAME.1" hotVal="no" postfix="" required="" tabDescriptor="FullView"/>
+                            </item>
+                        </NAME.1>
+                        <STREET append="false" multivalue="yes" toBeDeletedFirst="">
+                            <item>
+                                <STREET Expected="" Type="I" Valid="V" Value="STST" fieldDescriptor="" fieldType="" fldNo="STREET" hotVal="no" postfix="" required="" tabDescriptor="FullView"/>
+                            </item>
+                        </STREET>
+                        <SECTOR Expected="" Type="I" Valid="V" Value="1001" fieldDescriptor="" fieldType="" fldNo="SECTOR" hotVal="no" postfix="" required="" tabDescriptor="FullView"/>
+                        <ACCOUNT.OFFICER Expected="" Type="I" Valid="V" Value="1" fieldDescriptor="" fieldType="" fldNo="ACCOUNT.OFFICER" hotVal="no" postfix="" required="" tabDescriptor="FullView"/>
+                        <NATIONALITY Expected="" Type="I" Valid="V" Value="EU" fieldDescriptor="" fieldType="" fldNo="NATIONALITY" hotVal="no" postfix="" required="" tabDescriptor="FullView"/>
+                        <RESIDENCE Expected="" Type="I" Valid="V" Value="EU" fieldDescriptor="" fieldType="" fldNo="RESIDENCE" hotVal="no" postfix="" required="" tabDescriptor="FullView"/>
+                        <LANGUAGE Expected="" Type="I" Valid="V" Value="1" fieldDescriptor="" fieldType="" fldNo="LANGUAGE" hotVal="no" postfix="" required="" tabDescriptor="FullView"/>
+                    </FieldValues>
+                </InputMessage>
+            </Sequence>
+            <Sequence class="hu.fot.testManager.globus.http.VERSION" comment="" id="" seqId="4" type="Test">
+                <InputMessage blockType="T24Version" class="hu.fot.testManager.globus.http.VERSION">
+                    <FieldValues Authorize="" Commit="PASS" Mode="I" Override="-1" UniqueVerName="ACCOUNT_4" Verify="true" onFailure="Drop" reopenMode="S" version="ACCOUNT,">
+                        <SEARCH_ID Expected="" Type="I" Valid="V" Value=""/>
+                        <CUSTOMER Expected="" Type="I" Valid="V" Value="#TX_ID('CUSTOMER','3')" fieldDescriptor="" fieldType="" fldNo="CUSTOMER" hotVal="no" postfix="" required="" tabDescriptor="FullView"/>
+                        <CATEGORY Expected="" Type="I" Valid="V" Value="1001" fieldDescriptor="" fieldType="" fldNo="CATEGORY" hotVal="no" postfix="" required="" tabDescriptor="FullView"/>
+                        <CURRENCY Expected="" Type="I" Valid="V" Value="EUR" fieldDescriptor="" fieldType="" fldNo="CURRENCY" hotVal="no" postfix="" required="" tabDescriptor="FullView"/>
+                        <SHORT.TITLE Expected="" Type="I" Valid="V" Value="ACCT" fieldDescriptor="" fieldType="" fldNo="SHORT.TITLE" hotVal="no" postfix="" required="" tabDescriptor="FullView"/>
+                    </FieldValues>
+                </InputMessage>
+            </Sequence>
+            <Sequence class="hu.fot.testManager.globus.http.VERSION" comment="" id="" seqId="5" type="Test">
+                <InputMessage blockType="T24Version" class="hu.fot.testManager.globus.http.VERSION">
+                    <FieldValues Authorize="" Commit="PASS" Mode="I" Override="-1" UniqueVerName="FT_5" Verify="true" onFailure="Drop" reopenMode="S" version="FT">
+                        <SEARCH_ID Expected="" Type="I" Valid="V" Value=""/>
+                        <TRANSACTION.TYPE Expected="" Type="I" Valid="V" Value="AC" fieldDescriptor="" fieldType="" fldNo="TRANSACTION.TYPE" hotVal="no" postfix="" required="" tabDescriptor="FullView"/>
+                        <DEBIT.CURRENCY Expected="" Type="I" Valid="V" Value="EUR" fieldDescriptor="" fieldType="" fldNo="DEBIT.CURRENCY" hotVal="no" postfix="" required="" tabDescriptor="FullView"/>
+                        <DEBIT.AMOUNT Expected="" Type="I" Valid="V" Value="1000" fieldDescriptor="" fieldType="" fldNo="DEBIT.AMOUNT" hotVal="no" postfix="" required="" tabDescriptor="FullView"/>
+                        <DEBIT.VALUE.DATE Expected="" Type="I" Valid="V" Value="#TODAY('0')" fieldDescriptor="" fieldType="" fldNo="DEBIT.VALUE.DATE" hotVal="no" postfix="" required="" tabDescriptor="FullView"/>
+                        <DEBIT.ACCT.NO Expected="" Type="I" Valid="V" Value="EUR1000115100001" fieldDescriptor="" fieldType="" fldNo="DEBIT.ACCT.NO" hotVal="no" postfix="" required="" tabDescriptor="FullView"/>
+                        <CREDIT.ACCT.NO Expected="" Type="I" Valid="V" Value="#TX_ID('ACCOUNT','4')" fieldDescriptor="" fieldType="" fldNo="CREDIT.ACCT.NO" hotVal="no" postfix="" required="" tabDescriptor="FullView"/>
+                        <CREDIT.CURRENCY Expected="" Type="I" Valid="V" Value="EUR" fieldDescriptor="" fieldType="" fldNo="CREDIT.CURRENCY" hotVal="no" postfix="" required="" tabDescriptor="FullView"/>
+                        <ORDERING.CUST append="false" multivalue="yes" toBeDeletedFirst="">
+                            <item>
+                                <ORDERING.CUST Expected="" Type="I" Valid="V" Value="CUST1" fieldDescriptor="" fieldType="" fldNo="ORDERING.CUST" hotVal="no" postfix="" required="" tabDescriptor="FullView"/>
+                            </item>
+                        </ORDERING.CUST>
+                        <ORDERING.BANK append="false" multivalue="yes" toBeDeletedFirst="">
+                            <item>
+                                <ORDERING.BANK Expected="" Type="I" Valid="V" Value="BANK1" fieldDescriptor="" fieldType="" fldNo="ORDERING.BANK" hotVal="no" postfix="" required="" tabDescriptor="FullView"/>
+                            </item>
+                        </ORDERING.BANK>
+                    </FieldValues>
+                </InputMessage>
+            </Sequence>
+            <Sequence class="hu.fot.testManager.globus.http.VERSION" comment="" id="" seqId="6" type="Test">
+                <InputMessage blockType="T24Version" class="hu.fot.testManager.globus.http.VERSION">
+                    <FieldValues Authorize="" Commit="PASS" Mode="A" Override="-1" UniqueVerName="FT_6" Verify="true" bpUsergroup="DEFAULT_AUTH_USER" onFailure="Drop" reopenMode="S" version="FT">
+                        <SEARCH_ID Expected="" Type="I" Valid="V" Value="#TX_ID('FT','5')"/>
+                    </FieldValues>
+                </InputMessage>
+            </Sequence>
+            <Sequence class="hu.fot.testManager.globus.http.VERSION" comment="" id="" seqId="7" type="Test">
+                <InputMessage blockType="T24Enquiry" class="hu.fot.testManager.globus.http.VERSION">
+                    <EnquiryData UniqueVerName="STMT.ENT.TODAY_7" expectedRowNumber="" name="STMT.ENT.TODAY" resultSelection="Selected only" retryOnErrorCount="0" retryOnErrorDelay="10" saveAs="None" usePreviousFilterValues="false">
+                        <FilterFields fields="10/Booking Date;14/Description;34/Reference;48/Value Date;60/Amount;" filterFields="ACCT.ID;NO.SORT.OPTION;INCLUDE.DL;" headerFields="1,0/HDR.LINE1.1/HDR.LINE1.1;1,1/HDR.LINE2.1/HDR.LINE2.1;1,2/HDR.LINE2.2/HDR.LINE2.2;1,3/HDR.LINE.3/HDR.LINE.3;10,1/D.ACC/D.ACC;10,2/CUS/CUS;35,2/SPACE/SPACE;36,2/PRTNM/PRTNM;10,3/D.CCY/D.CCY;14,+1/BFWD/BFWD;14,+1/EXTRA.NARR/EXTRA.NARR;60,+1/OPENING.BALANCE/OPENING.BALANCE;14,+1/D.BAL/D.BAL;60,+1/Closing Balance/TOTAL;1/ZERORECORDS/ZERORECORDS;">
+                            <FilterField name="ACCT.ID" number="" operator="EQ" sortDirection="No sort" value="#TX_ID('ACCOUNT','4')"/>
+                        </FilterFields>
+                        <ExpectedOutput expectedResult="one or more rows" popUpMenu="None">
+                            <Field expectedOperator="EQ" expectedValue="" filterOperator="EQ" filterValue="#TX_ID('FT','5')" name="Reference"/>
+                        </ExpectedOutput>
+                    </EnquiryData>
+                </InputMessage>
+            </Sequence>
+        </Day>
+    </Days>
+</InputMessages>
