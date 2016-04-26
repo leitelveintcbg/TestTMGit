@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <IgnoreFromCompareWithBaseline IsExpanded="true">
+
+        <IgnAttribute name="Version.Time"/>
+        <IgnAttribute name="Version.version"/>
+        <IgnAttribute name="*.Duration"/>
+        <IgnAttribute name="Result.*"/>
+        <IgnAttribute name="Call.*"/>
+
+        <IgnAttribute name="*.fieldDescriptionAlternatives"/>
+
+        <IgnAttribute name="ORDER.TIME.1.value"/>
+        <IgnAttribute name="ORDER.TIME.value"/>
+
+        <IgnAttribute name="AUTHORISER.value"/>
+        <IgnAttribute name="AUTHORISER.desc1"/>
+        <IgnAttribute name="ADV.SENT.value"/>
+        <IgnAttribute name="ADV.SENT.desc1"/>
+        <IgnAttribute name="ADV.SENT.1.value"/>
+        <IgnAttribute name="ADV.SENT.1.desc1"/>
+        <IgnAttribute name="ADV.SENT.2.value"/>
+        <IgnAttribute name="ADV.SENT.2.desc1"/>        
+        <IgnAttribute name="ARRANGEMENT.value"/>
+        <IgnAttribute name="ARRANGEMENT.desc1"/>
+        <IgnAttribute name="ARRANGEMENT.1.value"/>
+        <IgnAttribute name="ARRANGEMENT.1.desc1"/>
+        <IgnAttribute name="CHILD.ACTIVITY.value"/>
+        <IgnAttribute name="CHILD.ACTIVITY.desc1"/>
+        <IgnAttribute name="CONSOL.ENT.IDS.value"/>
+        <IgnAttribute name="CONSOL.ENT.IDS.desc1"/>
+        <IgnAttribute name="CONFIRM.SENT.1.1.value"/>
+        <IgnAttribute name="CONFIRM.SENT.1.1.desc1"/>
+        <IgnAttribute name="DELIVERY.REF.value"/>
+        <IgnAttribute name="DELIVERY.REF.desc1"/>
+        <IgnAttribute name="DELIVERY.REF.1.value"/>
+        <IgnAttribute name="DELIVERY.REF.1.desc1"/>
+        <IgnAttribute name="DELIVERY.OUTREF.value"/>
+        <IgnAttribute name="DELIVERY.OUTREF.desc1"/>
+        <IgnAttribute name="DELIVERY.OUTREF.1.value"/>
+        <IgnAttribute name="DELIVERY.OUTREF.1.desc1"/>
+        <IgnAttribute name="DELIVERY.OUTREF.2.value"/>
+        <IgnAttribute name="DELIVERY.OUTREF.2.desc1"/>
+        <IgnAttribute name="ID.COMP.1.value"/>
+        <IgnAttribute name="ID.COMP.1.desc1"/>
+        <IgnAttribute name="ID.COMP.1.1.value"/>
+        <IgnAttribute name="ID.COMP.1.1.desc1"/>
+        <IgnAttribute name="AUTHORISER.1.value"/>
+        <IgnAttribute name="AUTHORISER.1.desc1"/>
+        <IgnAttribute name="DATE.TIME.1.value"/>
+        <IgnAttribute name="DATE.TIME.1.desc1"/>
+        <IgnAttribute name="INFO.Time"/>
+        <IgnAttribute name="INFO.Text"/>
+        <IgnAttribute name="INFO.OriginalValue"/>
+        <IgnAttribute name="INFO_IGNORE.*"/>
+        <IgnAttribute name="INPUTTER.value"/>
+        <IgnAttribute name="INPUTTER.desc1"/>
+        <IgnAttribute name="NET.PARAM.1.value"/>
+        <IgnAttribute name="NET.PARAM.1.desc1"/>
+        <IgnAttribute name="NET.PARAM.value"/>
+        <IgnAttribute name="NET.PARAM.desc1"/>
+        <IgnAttribute name="INPUTTER.1.value"/>
+        <IgnAttribute name="INPUTTER.1.desc1"/>
+        <IgnAttribute name="STMT.NOS.value"/>
+        <IgnAttribute name="STMT.NOS.desc1"/>
+        <IgnAttribute name="STMT.NO.value"/>
+        <IgnAttribute name="STMT.NO.desc1"/>
+        <IgnAttribute name="STMT.NOS.1.value"/>
+        <IgnAttribute name="STMT.NOS.1.desc1"/>
+        <IgnAttribute name="STMT.ENT.IDS.value"/>
+        <IgnAttribute name="STMT.ENT.IDS.desc1"/>
+        <IgnAttribute name="SIM.RUN.REF.value"/>
+        <IgnAttribute name="SIM.RUN.REF.desc1"/>
+        <IgnAttribute name="SIM.RUN.REF.1.value"/>
+        <IgnAttribute name="SIM.RUN.REF.1.desc1"/>
+        <IgnAttribute name="RawData.Value"/>
+        <SkipTag name="RECEIVED"/>
+        <SkipTag name="SENT"/>
+        <IgnAttribute name="Row.Header"/>
+        <IgnAttribute name="Row.Text"/>
+        <IgnAttribute name="Row.xpath"/>
+        <IgnAttribute name="Row.Drill_id"/>
+        <IgnAttribute name="Row.Number"/>
+
+        <IgnAttribute name="RECEIVED.*"/>
+        <IgnAttribute name="SEARCH_ID.Value"/>
+        <IgnAttribute name="SEARCH_ID.desc1"/>
+        <IgnAttribute name="SEARCH_ID.value"/>
+        <IgnAttribute name="SENT.*"/>
+        <IgnAttribute name="*.Time"/>
+        <IgnAttribute name="*.postfix"/>
+        <IgnAttribute name="Testcase.Reason"/>
+        <IgnAttribute name="Testcase.Time"/>
+        <IgnAttribute name="TESTCASE.Time"/>
+
+        <IgnAttribute name="*.Expected"/>
+        <IgnAttribute name="InputMessage.class"/>
+        <IgnAttribute name="Script.class"/>
+        <IgnAttribute name="Script.name"/>
+        <IgnAttribute name="SET_FIELD.Value"/>
+        <IgnAttribute name="SET_FIELD.Expected"/>
+        <IgnAttribute name="SET_FIELD.OriginalValue"/>
+        <IgnAttribute name="SEARCH_ID.fieldNumber1"/>
+        <IgnAttribute name="SEARCH_ID.desc1"/>
+        <IgnTag name="RESERVED.*"/>
+        <IgnTag name="Actual"/>
+        <IgnTag name="Baseline"/>
+        <IgnTag name="Day"/>
+        <IgnAttribute name="_108.Value"/>
+        <LogicalAttribute name="DEBIT.CUSTOMER.value"/>
+        <LogicalAttribute name="CREDIT.CUSTOMER.value"/>
+        <LogicalAttribute name="BLOCKING_REFERENCE.Value"/>
+        <LogicalAttribute name="TransactionID.id"/>
+        <LogicalAttribute name="TransactionID.desc"/>
+        <LogicalAttribute name="SEC.TRADE.ID.value"/>
+
+        <LogicalAttribute name="MNEMONIC.value"/>
+        <LogicalAttribute name="MNEMONIC.desc1"/>
+
+        <LogicalAttribute name="Output.value"/>
+
+        <LogicalAttribute name="ACCOUNT.REFERENCE.value"/>
+    	<LogicalAttribute name="ACCOUNT.REFERENCE.1.value"/>
+        <LogicalAttribute name="ACCOUNT.REFERENCE.desc1"/>
+    	<LogicalAttribute name="ACCOUNT.REFERENCE.1.desc1"/>
+    	<LogicalAttribute name="REV.MASTER.AAA.1.value"/>
+    	<LogicalAttribute name="MASTER.AAA.1.value"/>
+
+
+        <IgnAttribute name="*.mvDetails"/>
+        <IgnAttribute name="*.length2"/>
+        <IgnAttribute name="*.length1"/>
+        <IgnAttribute name="*.length"/>
+        <IgnAttribute name="*.desc2"/>
+        <IgnAttribute name="*.desc1"/>
+        <!--IgnAttribute name="*.fieldDescription"/-->
+        <IgnAttribute name="*.fieldNumber1"/>
+        <IgnAttribute name="*.fieldType"/>
+        <IgnAttribute name="*.type"/>
+        <IgnAttribute name="*.type1"/>
+        <IgnAttribute name="*.type2"/>
+        <IgnAttribute name="*.posRow"/>
+        <IgnAttribute name="*.hotVal"/>
+        <IgnAttribute name="*.color"/>
+        <IgnAttribute name="*.posCol"/>
+        <IgnAttribute name="*.required"/>
+        <IgnAttribute name="*.isInput"/>
+        <IgnAttribute name="*.seqid"/>
+
+        <!--IgnAttribute name="Field.Value"/-->
+        <IgnAttribute name="Field.NumericValue"/>
+        <IgnAttribute name="Field.PopupCommand"/>
+
+        <!-- IgnAttribute name="Testcase.Text"/ -->
+        <!-- IgnAttribute name="Testcase.Status"/ -->
+
+	<IgnAttribute name="DATE.TIME.*"/>
+	<IgnAttribute name="INPUTTER.*"/>
+
+	<MaskOut name="Testcase.Text" regexp="Txn Complete(.*)"/>
+	<MaskOut name="Testcase.Text" regexp="Override reason:.* account (.*)"/>
+	<MaskOut name="Testcase.Text" regexp="The expected regular expression.* matches value = (.*)"/>
+	<MaskOut name="Testcase.Text" regexp="Override reason: POSSIBLE DUPLICATE CONTRACT (.*)"/>
+	<MaskOut name="OVERRIDE.value" regexp="POSSIBLE DUPLICATE CONTRACT (.*)"/>
+
+</IgnoreFromCompareWithBaseline>

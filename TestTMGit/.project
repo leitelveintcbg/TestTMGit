@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>TestTMGit</name>
+	<comment>2.6</comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>hu.fot.testManager.builder.TMBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>hu.fot.testManager.launching.testManagerDesignNature</nature>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+</projectDescription>

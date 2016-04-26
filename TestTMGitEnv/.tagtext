@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TagTexts>
+	<xmlout>
+		<VersionFields sortChildren="true">
+			<tabDisplayName/>
+		</VersionFields>
+		<Day>
+            <value />
+            <phase />
+        </Day>
+        <SET_FIELD>
+            <Text />
+        </SET_FIELD>
+        <Field>
+            <Name />
+        </Field>
+		<INFO>
+			<Text />
+		</INFO>
+		<Info>
+			<Text />
+		</Info>
+		<Message>
+			<Key />
+			<Interface />
+		</Message>
+		<Param>
+			<name />
+		</Param>
+		<SEND>
+			<Command />
+		</SEND>
+	</xmlout>
+</TagTexts>

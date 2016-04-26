@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<InputMessages bpOrigin="project://scenarios/NewFT/NewFT.bp" callable="false" category="" comment="creates a new fund transfer and check for it" creator="" expectedResult="" module="" priority="Medium" refId="" status="New" xmlns:xe="http://www.fot.hu/xmleditor" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="project://.schema/scenario/NewFT/NewFT.xsd">
+    <TestCase Value="1"/>
+    <Datapool Value=""/>
+    <TestPlan Value="creates a new fund transfer and check for it" prepareComment=""/>
+    <Days>
+        <Day seqId="1,2" value="1">
+            <Sequence class="hu.fot.testManager.globus.http.VERSION" comment="" id="" seqId="3" type="Test">
+                <InputMessage blockType="T24Version" class="hu.fot.testManager.globus.http.VERSION">
+                    <FieldValues Authorize="" Commit="PASS" Mode="I" Override="-1" UniqueVerName="CUSTOMER_3" Verify="true" onFailure="Drop" reopenMode="S" version="CUSTOMER,">
+                        <SEARCH_ID Expected="" Type="I" Valid="V" Value=""/>
+                        <MNEMONIC Expected="" Type="I" Valid="V" Value="@C+#TX_ID()" fieldDescriptor="" fieldType="" fldNo="MNEMONIC" hotVal="no" postfix="" required="" tabDescriptor="FullView"/>
+                        <SHORT.NAME append="false" multivalue="yes" toBeDeletedFirst="">
+                            <item>
+                                <SHORT.NAME Expected="" Type="I" Valid="V" Value="CUSTOMER" fieldDescriptor="" fieldType="" fldNo="SHORT.NAME" hotVal="no" postfix="" required="" tabDescriptor="FullView"/>
+                            </item>
+                        </SHORT.NAME>
+                        <NAME.1 append="false" multivalue="yes" toBeDeletedFirst="">
+                            <item>
+                                <NAME.1 Expected="" Type="I" Valid="V" Value="CUSTOMER NAME" fieldDescriptor="" fieldType="" fldNo="NAME.1" hotVal="no" postfix="" required="" tabDescriptor="FullView"/>
+                            </item>
+                        </NAME.1>
+                        <STREET append="false" multivalue="yes" toBeDeletedFirst="">
+                            <item>
+                                <STREET Expected="" Type="I" Valid="V" Value="STST" fieldDescriptor="" fieldType="" fldNo="STREET" hotVal="no" postfix="" required="" tabDescriptor="FullView"/>
+                            </item>
+                        </STREET>
+                        <SECTOR Expected="" Type="I" Valid="V" Value="1001" fieldDescriptor="" fieldType="" fldNo="SECTOR" hotVal="no" postfix="" required="" tabDescriptor="FullView"/>
+                        <ACCOUNT.OFFICER Expected="" Type="I" Valid="V" Value="1" fieldDescriptor="" fieldType="" fldNo="ACCOUNT.OFFICER" hotVal="no" postfix="" required="" tabDescriptor="FullView"/>
+                        <NATIONALITY Expected="" Type="I" Valid="V" Value="EU" fieldDescriptor="" fieldType="" fldNo="NATIONALITY" hotVal="no" postfix="" required="" tabDescriptor="FullView"/>
+                        <LANGUAGE Expected="" Type="I" Valid="V" Value="1" fieldDescriptor="" fieldType="" fldNo="LANGUAGE" hotVal="no" postfix="" required="" tabDescriptor="FullView"/>
+                    </FieldValues>
+                </InputMessage>
+            </Sequence>
+            <Sequence class="hu.fot.testManager.globus.http.VERSION" comment="" id="" seqId="4" type="Test">
+                <InputMessage blockType="T24Version" class="hu.fot.testManager.globus.http.VERSION">
+                    <FieldValues Authorize="" Commit="PASS" Mode="I" Override="-1" UniqueVerName="ACCOUNT_4" Verify="true" onFailure="Drop" reopenMode="S" version="ACCOUNT,">
+                        <SEARCH_ID Expected="" Type="I" Valid="V" Value=""/>
+                        <CUSTOMER Expected="" Type="I" Valid="V" Value="#TX_ID('CUSTOMER','3')" fieldDescriptor="" fieldType="" fldNo="CUSTOMER" hotVal="no" postfix="" required="" tabDescriptor="FullView"/>
+                        <CATEGORY Expected="" Type="I" Valid="V" Value="1001" fieldDescriptor="" fieldType="" fldNo="CATEGORY" hotVal="no" postfix="" required="" tabDescriptor="FullView"/>
+                        <SHORT.TITLE Expected="" Type="I" Valid="V" Value="ACCT" fieldDescriptor="" fieldType="" fldNo="SHORT.TITLE" hotVal="no" postfix="" required="" tabDescriptor="FullView"/>
+                        <CURRENCY Expected="" Type="I" Valid="V" Value="EUR" fieldDescriptor="" fieldType="" fldNo="CURRENCY" hotVal="no" postfix="" required="" tabDescriptor="FullView"/>
+                    </FieldValues>
+                </InputMessage>
+            </Sequence>
+        </Day>
+    </Days>
+</InputMessages>
