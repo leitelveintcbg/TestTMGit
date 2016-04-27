@@ -37,10 +37,55 @@ line 418 column 244 - Warning: <td> attribute "width" has invalid value "25%"
 line 428 column 9 - Warning: trimming empty <blockquote>
 line 432 column 37 - Warning: content occurs after end of body
 line 432 column 44 - Warning: discarding unexpected </html>
+line 434 column 1 - Warning: <!DOCTYPE> isn't allowed after elements
+line 435 column 1 - Warning: discarding unexpected <html>
+line 436 column 1 - Warning: content occurs after end of body
+line 436 column 1 - Warning: <head> isn't allowed in <body> elements
+line 437 column 1 - Warning: content occurs after end of body
+line 437 column 1 - Warning: <meta> isn't allowed in <body> elements
+line 438 column 1 - Warning: content occurs after end of body
+line 438 column 1 - Warning: <meta> isn't allowed in <body> elements
+line 439 column 1 - Warning: content occurs after end of body
+line 439 column 1 - Warning: <title> isn't allowed in <body> elements
+line 440 column 1 - Warning: content occurs after end of body
+line 440 column 1 - Warning: <style> isn't allowed in <body> elements
+line 607 column 1 - Warning: content occurs after end of body
+line 620 column 48 - Warning: content occurs after end of body
+line 707 column 25 - Warning: content occurs after end of body
+line 727 column 33 - Warning: content occurs after end of body
+line 757 column 58 - Warning: content occurs after end of body
+line 757 column 155 - Warning: content occurs after end of body
+line 761 column 134 - Warning: content occurs after end of body
+line 761 column 224 - Warning: content occurs after end of body
+line 761 column 224 - Warning: </head> isn't allowed in <body> elements
+line 762 column 1 - Warning: content occurs after end of body
+line 762 column 1 - Warning: <body> isn't allowed in <body> elements
+line 763 column 1 - Warning: <div> Anchor "main" already defined
+line 763 column 1 - Warning: content occurs after end of body
+line 764 column 1 - Warning: <div> Anchor "top" already defined
+line 765 column 1 - Warning: <div> Anchor "logo-window" already defined
+line 766 column 1 - Warning: <table> Anchor "links" already defined
+line 768 column 15 - Warning: <img> Anchor "logo" already defined
+line 768 column 120 - Warning: <td> attribute "width" has invalid value "80%"
+line 769 column 1 - Warning: <div> Anchor "middle" already defined
+line 770 column 1 - Warning: unknown attribute "autocomplete"
+line 770 column 1 - Warning: <form> Anchor "login" already defined
+line 773 column 1 - Warning: <span> Anchor "title" already defined
+line 779 column 1 - Warning: unknown attribute "sv"
+line 779 column 1 - Warning: <div> Anchor "error" already defined
+line 785 column 112 - Warning: <input> Anchor "signOnName" already defined
+line 785 column 244 - Warning: <td> attribute "width" has invalid value "25%"
+line 789 column 110 - Warning: <input> Anchor "password" already defined
+line 793 column 7 - Warning: <label> Anchor "empty_cell" already defined
+line 793 column 65 - Warning: <input> Anchor "sign-in" already defined
+line 795 column 9 - Warning: trimming empty <blockquote>
+line 796 column 1 - Warning: <div> Anchor "bottom_text" already defined
+line 799 column 37 - Warning: content occurs after end of body
+line 799 column 44 - Warning: discarding unexpected </html>
 line 1 column 1 - Warning: html doctype doesn't match content
 InputStream: Doctype given is "-//W3C//DTD HTML 4.01 Transitional//EN"
 InputStream: Document content looks like HTML proprietary
-40 warnings, no errors were found!
+85 warnings, no errors were found!
 The table summary attribute should be used to describe
 the table structure. It is very helpful for people using
 non-visual browsers. The scope and headers attributes for

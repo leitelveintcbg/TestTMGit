@@ -2,14 +2,14 @@
 <InOutLog suite="/suites/xmlinExecutor.ptxml" day="1" phase="">
 <UserGroup name="UserGroup">
 <User number="1">
-<Script name="hu.fot.testManager.core.scripts.BusinessProcessExecutor" class="hu.fot.testManager.core.scripts.BusinessProcessExecutor" Time="1461679093487">
+<Script name="hu.fot.testManager.core.scripts.BusinessProcessExecutor" class="hu.fot.testManager.core.scripts.BusinessProcessExecutor" Time="1461747511083">
 
 <INFO 
 	Status="12"
 	Text="Day=1, phase=&quot;&quot;" 
 	User="1" 
 	UserGroup="UserGroup"
-	Time="1461679093506" />
+	Time="1461747511114" />
 
 <TESTCASE 
 	Status="11" 
@@ -17,21 +17,21 @@
 	File="scenarios/NewMM/MM_1.xmlin" 
 	Reason="" 
 	User="1" 
-	UserGroup="UserGroup" Time="1461679093836">
+	UserGroup="UserGroup" Time="1461747511505">
 
 <INFO
 	Status="12"
-	Text="Login (Browser): DEFAULT_AUTH_USER (LEITELVEIN2)"
+	Text="Login (Browser): DEFAULT_INPUT_USER (LEITELVEIN1)"
 	User="1"
 	UserGroup="UserGroup"
-	Time="1461679094383">
+	Time="1461747512001">
 
 <INFO
 	Status="12"
 	Text="Browse login page"
 	User="1"
 	UserGroup="UserGroup"
-	Time="1461679094385">
+	Time="1461747512004">
 
 <SENT 
 Status ="11" Text="GET: /BrowserWeb/servlet/BrowserServlet"
@@ -39,7 +39,7 @@ Command="hu.fot.testManager.globus.http.session.HttpGlobusSessionFactory-BrowseT
 User="1" 
 UserGroup="UserGroup"
 	BytesCount="0" 
-Time="1461679094393"
+Time="1461747512013"
 	URL="http://192.168.10.97:8080/BrowserWeb/servlet/BrowserServlet"
 	Method="GET"
  Request.Request.Accept="[text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8]"
@@ -55,16 +55,16 @@ Command="hu.fot.testManager.globus.http.session.HttpGlobusSessionFactory-BrowseT
 User="1" 
 UserGroup="UserGroup" 
 BytesCount="11330" 
-Time="1461679094548"
+Time="1461747512154"
 	responseCodeValue="200" responseCodeText="OK"
 	URL="http://192.168.10.97:8080/BrowserWeb/servlet/BrowserServlet"
 	Content-Length="11330"
 	startbyte="0" endbyte="11698"
  Response.Transfer-Encoding="[chunked]"
- Response.Date="[Tue, 26 Apr 2016 13:58:14 GMT]"
+ Response.Date="[Wed, 30 Mar 2016 00:45:44 GMT]"
  Response.Expires="[Thu, 01 Jan 1970 00:00:00 GMT]"
  Response.X-FRAME-OPTIONS="[SAMEORIGIN]"
- Response.Set-Cookie="[JSESSIONID=1F4F233DDD4D09F3CFA07A7F344335B3; Path=/]"
+ Response.Set-Cookie="[JSESSIONID=6585D9C11E71F716AB9CD7D270955611; Path=/]"
  Response.Content-Type="[text/html;charset=utf-8]"
  Response.Server="[Apache-Coyote/1.1]"
  Response.X-Powered-By="[Servlet 2.4; JBoss-4.2.2.GA (build: SVNTag=JBoss_4_2_2_GA date=200710221139)/Tomcat-5.5]"
@@ -77,17 +77,17 @@ Time="1461679094548"
 
 <INFO
 	Status="12"
-	Text="Sign on user &apos;LEITELVEIN2&apos;"
+	Text="Sign on user &apos;LEITELVEIN1&apos;"
 	User="1"
 	UserGroup="UserGroup"
-	Time="1461679094865">
+	Time="1461747512513">
 
 <INFO 
 	Status="12"
 	Text="Reseting T24Rxx.xsl..." 
 	User="1" 
 	UserGroup="UserGroup"
-	Time="1461679094866" />
+	Time="1461747512513" />
 
 <SENT 
 Status ="11"	
@@ -97,11 +97,11 @@ Command="hu.fot.testManager.globus.http.session.HttpGlobusSessionFactory-SignOn_
 User="1" 
 UserGroup="UserGroup"
 	BytesCount="162" 
-Time="1461679094875"
+Time="1461747512529"
 	URL="http://192.168.10.97:8080/BrowserWeb/servlet/BrowserServlet"
 	Method="POST"
  Request.Request.Accept="[text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8]"
- Request.Request.Cookie="[JSESSIONID=1F4F233DDD4D09F3CFA07A7F344335B3]"
+ Request.Request.Cookie="[JSESSIONID=6585D9C11E71F716AB9CD7D270955611]"
  Request.Request.Accept-Encoding="[gzip]"
  Request.Request.Referer="[BrowserWeb/servlet/BrowserServlet]"
  Request.Request.Accept-Language="[en-us,en;q=0.5]"
@@ -114,15 +114,15 @@ Command="hu.fot.testManager.globus.http.session.HttpGlobusSessionFactory-SignOn_
 User="1" 
 UserGroup="UserGroup" 
 BytesCount="6025" 
-Time="1461679095453"
+Time="1461747513875"
 	responseCodeValue="200" responseCodeText="OK"
 	URL="http://192.168.10.97:8080/BrowserWeb/servlet/BrowserServlet"
 	Content-Length="6025"
 	startbyte="11864" endbyte="17916"
- Response.Date="[Tue, 26 Apr 2016 13:58:15 GMT]"
+ Response.Date="[Wed, 30 Mar 2016 00:45:46 GMT]"
  Response.Expires="[Thu, 01 Jan 1970 00:00:00 GMT]"
  Response.X-FRAME-OPTIONS="[SAMEORIGIN]"
- Response.Set-Cookie="[JSESSIONID=1F4F233DDD4D09F3CFA07A7F344335B3; Path=/; HttpOnly]"
+ Response.Set-Cookie="[JSESSIONID=6585D9C11E71F716AB9CD7D270955611; Path=/; HttpOnly]"
  Response.Content-Type="[text/html;charset=utf-8]"
  Response.Server="[Apache-Coyote/1.1]"
  Response.X-Powered-By="[Servlet 2.4; JBoss-4.2.2.GA (build: SVNTag=JBoss_4_2_2_GA date=200710221139)/Tomcat-5.5]"
@@ -136,27 +136,27 @@ Time="1461679095453"
 	Text="Open all frames"
 	User="1"
 	UserGroup="UserGroup"
-	Time="1461679095581">
+	Time="1461747514031">
 
 <INFO
 	Status="12"
 	Text="Resend a post for frame 2"
 	User="1"
 	UserGroup="UserGroup"
-	Time="1461679095582"
-	frameId="menu475615749401">
+	Time="1461747514047"
+	frameId="menu162960994501">
 
 <SENT 
-Status ="11" Text="GET: /BrowserWeb/servlet/BrowserServlet/../../jsps/genrequest.jsp?&amp;routineName=OS.NEW.USER&amp;routineArgs=MENU&amp;skin=default&amp;compId=GB0010001&amp;usrRole=&amp;compScreen=COMPOSITE.SCREEN_LEITELVEIN.2_475615749402&amp;contextRoot=&amp;windowName=menu475615749401&amp;user=LEITELVEIN.2&amp;WS_replaceAll=&amp;WS_parentComposite="
+Status ="11" Text="GET: /BrowserWeb/servlet/BrowserServlet/../../jsps/genrequest.jsp?&amp;routineName=OS.NEW.USER&amp;routineArgs=MENU&amp;skin=default&amp;compId=GB0010001&amp;usrRole=&amp;compScreen=COMPOSITE.SCREEN_LEITELVEIN.1_162960994502&amp;contextRoot=&amp;windowName=menu162960994501&amp;user=LEITELVEIN.1&amp;WS_replaceAll=&amp;WS_parentComposite="
 Command="hu.fot.testManager.globus.http.session.HttpGlobusSessionFactory-SignOn_01-Resend a post for frame" 
 User="1" 
 UserGroup="UserGroup"
 	BytesCount="162" 
-Time="1461679095584"
-	URL="http://192.168.10.97:8080/BrowserWeb/servlet/BrowserServlet/../../jsps/genrequest.jsp?&amp;routineName=OS.NEW.USER&amp;routineArgs=MENU&amp;skin=default&amp;compId=GB0010001&amp;usrRole=&amp;compScreen=COMPOSITE.SCREEN_LEITELVEIN.2_475615749402&amp;contextRoot=&amp;windowName=menu475615749401&amp;user=LEITELVEIN.2&amp;WS_replaceAll=&amp;WS_parentComposite="
+Time="1461747514047"
+	URL="http://192.168.10.97:8080/BrowserWeb/servlet/BrowserServlet/../../jsps/genrequest.jsp?&amp;routineName=OS.NEW.USER&amp;routineArgs=MENU&amp;skin=default&amp;compId=GB0010001&amp;usrRole=&amp;compScreen=COMPOSITE.SCREEN_LEITELVEIN.1_162960994502&amp;contextRoot=&amp;windowName=menu162960994501&amp;user=LEITELVEIN.1&amp;WS_replaceAll=&amp;WS_parentComposite="
 	Method="GET"
  Request.Request.Accept="[text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8]"
- Request.Request.Cookie="[JSESSIONID=1F4F233DDD4D09F3CFA07A7F344335B3]"
+ Request.Request.Cookie="[JSESSIONID=6585D9C11E71F716AB9CD7D270955611]"
  Request.Request.Accept-Encoding="[gzip]"
  Request.Request.Referer="[BrowserWeb/servlet/BrowserServlet]"
  Request.Request.Accept-Language="[en-us,en;q=0.5]"
@@ -169,12 +169,12 @@ Command="hu.fot.testManager.globus.http.session.HttpGlobusSessionFactory-SignOn_
 User="1" 
 UserGroup="UserGroup" 
 BytesCount="1720" 
-Time="1461679095591"
+Time="1461747514047"
 	responseCodeValue="200" responseCodeText="OK"
-	URL="http://192.168.10.97:8080/BrowserWeb/servlet/BrowserServlet/../../jsps/genrequest.jsp?&amp;routineName=OS.NEW.USER&amp;routineArgs=MENU&amp;skin=default&amp;compId=GB0010001&amp;usrRole=&amp;compScreen=COMPOSITE.SCREEN_LEITELVEIN.2_475615749402&amp;contextRoot=&amp;windowName=menu475615749401&amp;user=LEITELVEIN.2&amp;WS_replaceAll=&amp;WS_parentComposite="
+	URL="http://192.168.10.97:8080/BrowserWeb/servlet/BrowserServlet/../../jsps/genrequest.jsp?&amp;routineName=OS.NEW.USER&amp;routineArgs=MENU&amp;skin=default&amp;compId=GB0010001&amp;usrRole=&amp;compScreen=COMPOSITE.SCREEN_LEITELVEIN.1_162960994502&amp;contextRoot=&amp;windowName=menu162960994501&amp;user=LEITELVEIN.1&amp;WS_replaceAll=&amp;WS_parentComposite="
 	Content-Length="1720"
 	startbyte="17918" endbyte="19638"
- Response.Date="[Tue, 26 Apr 2016 13:58:15 GMT]"
+ Response.Date="[Wed, 30 Mar 2016 00:45:46 GMT]"
  Response.Expires="[Thu, 01 Jan 1970 00:00:00 GMT]"
  Response.X-FRAME-OPTIONS="[SAMEORIGIN]"
  Response.Content-Type="[text/html;charset=UTF-8]"
@@ -193,11 +193,11 @@ Command="hu.fot.testManager.globus.http.session.HttpGlobusSessionFactory-SignOn_
 User="1" 
 UserGroup="UserGroup"
 	BytesCount="255" 
-Time="1461679095666"
+Time="1461747514140"
 	URL="http://192.168.10.97:8080/BrowserWeb/servlet/BrowserServlet"
 	Method="POST"
  Request.Request.Accept="[text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8]"
- Request.Request.Cookie="[JSESSIONID=1F4F233DDD4D09F3CFA07A7F344335B3]"
+ Request.Request.Cookie="[JSESSIONID=6585D9C11E71F716AB9CD7D270955611]"
  Request.Request.Accept-Encoding="[gzip]"
  Request.Request.Referer="[BrowserWeb/servlet/BrowserServlet]"
  Request.Request.Accept-Language="[en-us,en;q=0.5]"
@@ -209,14 +209,14 @@ Time="1461679095666"
 Command="hu.fot.testManager.globus.http.session.HttpGlobusSessionFactory-SignOn_01-Resend a post for frame-Post content for frame" 
 User="1" 
 UserGroup="UserGroup" 
-BytesCount="938846" 
-Time="1461679097664"
+BytesCount="938848" 
+Time="1461747515953"
 	responseCodeValue="200" responseCodeText="OK"
 	URL="http://192.168.10.97:8080/BrowserWeb/servlet/BrowserServlet"
-	Content-Length="938846"
-	startbyte="19897" endbyte="966306"
+	Content-Length="938848"
+	startbyte="19897" endbyte="966308"
  Response.Transfer-Encoding="[chunked]"
- Response.Date="[Tue, 26 Apr 2016 13:58:17 GMT]"
+ Response.Date="[Wed, 30 Mar 2016 00:45:48 GMT]"
  Response.Expires="[Thu, 01 Jan 1970 00:00:00 GMT]"
  Response.X-FRAME-OPTIONS="[SAMEORIGIN]"
  Response.Content-Type="[text/html;charset=utf-8]"
@@ -232,16 +232,16 @@ Time="1461679097664"
 </INFO>
 
 <SENT 
-Status ="11" Text="GET: /BrowserWeb/servlet/BrowserServlet/../../jsps/genrequest.jsp?&amp;routineName=OS.NEW.USER&amp;routineArgs=BANNER&amp;skin=default&amp;compId=GB0010001&amp;usrRole=&amp;compScreen=COMPOSITE.SCREEN_LEITELVEIN.2_475615749402&amp;contextRoot=&amp;windowName=banner475615749400&amp;user=LEITELVEIN.2&amp;WS_replaceAll=&amp;WS_parentComposite="
+Status ="11" Text="GET: /BrowserWeb/servlet/BrowserServlet/../../jsps/genrequest.jsp?&amp;routineName=OS.NEW.USER&amp;routineArgs=BANNER&amp;skin=default&amp;compId=GB0010001&amp;usrRole=&amp;compScreen=COMPOSITE.SCREEN_LEITELVEIN.1_162960994502&amp;contextRoot=&amp;windowName=banner162960994500&amp;user=LEITELVEIN.1&amp;WS_replaceAll=&amp;WS_parentComposite="
 Command="hu.fot.testManager.globus.http.session.HttpGlobusSessionFactory-SignOn-Get frame content" 
 User="1" 
 UserGroup="UserGroup"
 	BytesCount="255" 
-Time="1461679107276"
-	URL="http://192.168.10.97:8080/BrowserWeb/servlet/BrowserServlet/../../jsps/genrequest.jsp?&amp;routineName=OS.NEW.USER&amp;routineArgs=BANNER&amp;skin=default&amp;compId=GB0010001&amp;usrRole=&amp;compScreen=COMPOSITE.SCREEN_LEITELVEIN.2_475615749402&amp;contextRoot=&amp;windowName=banner475615749400&amp;user=LEITELVEIN.2&amp;WS_replaceAll=&amp;WS_parentComposite="
+Time="1461747525724"
+	URL="http://192.168.10.97:8080/BrowserWeb/servlet/BrowserServlet/../../jsps/genrequest.jsp?&amp;routineName=OS.NEW.USER&amp;routineArgs=BANNER&amp;skin=default&amp;compId=GB0010001&amp;usrRole=&amp;compScreen=COMPOSITE.SCREEN_LEITELVEIN.1_162960994502&amp;contextRoot=&amp;windowName=banner162960994500&amp;user=LEITELVEIN.1&amp;WS_replaceAll=&amp;WS_parentComposite="
 	Method="GET"
  Request.Request.Accept="[text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8]"
- Request.Request.Cookie="[JSESSIONID=1F4F233DDD4D09F3CFA07A7F344335B3]"
+ Request.Request.Cookie="[JSESSIONID=6585D9C11E71F716AB9CD7D270955611]"
  Request.Request.Accept-Encoding="[gzip]"
  Request.Request.Referer="[BrowserWeb/servlet/BrowserServlet]"
  Request.Request.Accept-Language="[en-us,en;q=0.5]"
@@ -254,12 +254,12 @@ Command="hu.fot.testManager.globus.http.session.HttpGlobusSessionFactory-SignOn-
 User="1" 
 UserGroup="UserGroup" 
 BytesCount="1724" 
-Time="1461679107284"
+Time="1461747525724"
 	responseCodeValue="200" responseCodeText="OK"
-	URL="http://192.168.10.97:8080/BrowserWeb/servlet/BrowserServlet/../../jsps/genrequest.jsp?&amp;routineName=OS.NEW.USER&amp;routineArgs=BANNER&amp;skin=default&amp;compId=GB0010001&amp;usrRole=&amp;compScreen=COMPOSITE.SCREEN_LEITELVEIN.2_475615749402&amp;contextRoot=&amp;windowName=banner475615749400&amp;user=LEITELVEIN.2&amp;WS_replaceAll=&amp;WS_parentComposite="
+	URL="http://192.168.10.97:8080/BrowserWeb/servlet/BrowserServlet/../../jsps/genrequest.jsp?&amp;routineName=OS.NEW.USER&amp;routineArgs=BANNER&amp;skin=default&amp;compId=GB0010001&amp;usrRole=&amp;compScreen=COMPOSITE.SCREEN_LEITELVEIN.1_162960994502&amp;contextRoot=&amp;windowName=banner162960994500&amp;user=LEITELVEIN.1&amp;WS_replaceAll=&amp;WS_parentComposite="
 	Content-Length="1724"
-	startbyte="966308" endbyte="968032"
- Response.Date="[Tue, 26 Apr 2016 13:58:26 GMT]"
+	startbyte="966310" endbyte="968034"
+ Response.Date="[Wed, 30 Mar 2016 00:45:58 GMT]"
  Response.Expires="[Thu, 01 Jan 1970 00:00:00 GMT]"
  Response.X-FRAME-OPTIONS="[SAMEORIGIN]"
  Response.Content-Type="[text/html;charset=UTF-8]"
@@ -272,17 +272,17 @@ Time="1461679107284"
 
 <SENT 
 Status ="11"	
-	startbyte="968034" endbyte="968293"
+	startbyte="968036" endbyte="968295"
 
 Command="hu.fot.testManager.globus.http.session.HttpGlobusSessionFactory-SignOn_01-Post content for frame" 
 User="1" 
 UserGroup="UserGroup"
 	BytesCount="259" 
-Time="1461679107359"
+Time="1461747525786"
 	URL="http://192.168.10.97:8080/BrowserWeb/servlet/BrowserServlet"
 	Method="POST"
  Request.Request.Accept="[text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8]"
- Request.Request.Cookie="[JSESSIONID=1F4F233DDD4D09F3CFA07A7F344335B3]"
+ Request.Request.Cookie="[JSESSIONID=6585D9C11E71F716AB9CD7D270955611]"
  Request.Request.Accept-Encoding="[gzip]"
  Request.Request.Referer="[BrowserWeb/servlet/BrowserServlet]"
  Request.Request.Accept-Language="[en-us,en;q=0.5]"
@@ -295,13 +295,13 @@ Command="hu.fot.testManager.globus.http.session.HttpGlobusSessionFactory-SignOn_
 User="1" 
 UserGroup="UserGroup" 
 BytesCount="16709" 
-Time="1461679107793"
+Time="1461747526208"
 	responseCodeValue="200" responseCodeText="OK"
 	URL="http://192.168.10.97:8080/BrowserWeb/servlet/BrowserServlet"
 	Content-Length="16709"
-	startbyte="968295" endbyte="985051"
+	startbyte="968297" endbyte="985053"
  Response.Transfer-Encoding="[chunked]"
- Response.Date="[Tue, 26 Apr 2016 13:58:26 GMT]"
+ Response.Date="[Wed, 30 Mar 2016 00:45:58 GMT]"
  Response.Expires="[Thu, 01 Jan 1970 00:00:00 GMT]"
  Response.X-FRAME-OPTIONS="[SAMEORIGIN]"
  Response.Content-Type="[text/html;charset=utf-8]"
@@ -317,14 +317,325 @@ Time="1461679107793"
 	Text="Today has been set to: &quot;20140422&quot;" 
 	User="1" 
 	UserGroup="UserGroup"
-	Time="1461679107880" />
+	Time="1461747526317" />
 
 <INFO 
 	Status="12"
 	Text="User logged in into company GB0010001  Model Bank R14-AMR" 
 	User="1" 
 	UserGroup="UserGroup"
-	Time="1461679107881" />
+	Time="1461747526317" />
+
+</INFO>
+
+</INFO>
+
+<INFO
+	Status="12"
+	Text="Login (Browser): DEFAULT_AUTH_USER (LEITELVEIN2)"
+	User="1"
+	UserGroup="UserGroup"
+	Time="1461747582967">
+
+<INFO
+	Status="12"
+	Text="Browse login page"
+	User="1"
+	UserGroup="UserGroup"
+	Time="1461747582968">
+
+<SENT 
+Status ="11" Text="GET: /BrowserWeb/servlet/BrowserServlet"
+Command="hu.fot.testManager.globus.http.session.HttpGlobusSessionFactory-BrowseT24" 
+User="1" 
+UserGroup="UserGroup"
+	BytesCount="259" 
+Time="1461747582968"
+	URL="http://192.168.10.97:8080/BrowserWeb/servlet/BrowserServlet"
+	Method="GET"
+ Request.Request.Accept="[text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8]"
+ Request.Request.Accept-Encoding="[gzip]"
+ Request.Request.Referer="[BrowserWeb/servlet/BrowserServlet]"
+ Request.Request.Accept-Language="[en-us,en;q=0.5]"
+
+/>
+
+<RECEIVED 
+	Status="11" 
+Command="hu.fot.testManager.globus.http.session.HttpGlobusSessionFactory-BrowseT24" 
+User="1" 
+UserGroup="UserGroup" 
+BytesCount="11330" 
+Time="1461747583093"
+	responseCodeValue="200" responseCodeText="OK"
+	URL="http://192.168.10.97:8080/BrowserWeb/servlet/BrowserServlet"
+	Content-Length="11330"
+	startbyte="985055" endbyte="996753"
+ Response.Transfer-Encoding="[chunked]"
+ Response.Date="[Wed, 30 Mar 2016 00:46:55 GMT]"
+ Response.Expires="[Thu, 01 Jan 1970 00:00:00 GMT]"
+ Response.X-FRAME-OPTIONS="[SAMEORIGIN]"
+ Response.Set-Cookie="[JSESSIONID=5CA11A6AA45DB090ADAB5F0F590FE9C6; Path=/]"
+ Response.Content-Type="[text/html;charset=utf-8]"
+ Response.Server="[Apache-Coyote/1.1]"
+ Response.X-Powered-By="[Servlet 2.4; JBoss-4.2.2.GA (build: SVNTag=JBoss_4_2_2_GA date=200710221139)/Tomcat-5.5]"
+ Response.Pragma="[no-cache]"
+ Response.Cache-Control="[no-cache,no-store]"
+>
+</RECEIVED>
+
+</INFO>
+
+<INFO
+	Status="12"
+	Text="Sign on user &apos;LEITELVEIN2&apos;"
+	User="1"
+	UserGroup="UserGroup"
+	Time="1461747583124">
+
+<INFO 
+	Status="12"
+	Text="Reseting T24Rxx.xsl..." 
+	User="1" 
+	UserGroup="UserGroup"
+	Time="1461747583124" />
+
+<SENT 
+Status ="11"	
+	startbyte="996755" endbyte="996917"
+
+Command="hu.fot.testManager.globus.http.session.HttpGlobusSessionFactory-SignOn_01" 
+User="1" 
+UserGroup="UserGroup"
+	BytesCount="162" 
+Time="1461747583140"
+	URL="http://192.168.10.97:8080/BrowserWeb/servlet/BrowserServlet"
+	Method="POST"
+ Request.Request.Accept="[text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8]"
+ Request.Request.Cookie="[JSESSIONID=5CA11A6AA45DB090ADAB5F0F590FE9C6]"
+ Request.Request.Accept-Encoding="[gzip]"
+ Request.Request.Referer="[BrowserWeb/servlet/BrowserServlet]"
+ Request.Request.Accept-Language="[en-us,en;q=0.5]"
+
+/>
+
+<RECEIVED 
+	Status="11" 
+Command="hu.fot.testManager.globus.http.session.HttpGlobusSessionFactory-SignOn_01" 
+User="1" 
+UserGroup="UserGroup" 
+BytesCount="6025" 
+Time="1461747583890"
+	responseCodeValue="200" responseCodeText="OK"
+	URL="http://192.168.10.97:8080/BrowserWeb/servlet/BrowserServlet"
+	Content-Length="6025"
+	startbyte="996919" endbyte="1002971"
+ Response.Date="[Wed, 30 Mar 2016 00:46:56 GMT]"
+ Response.Expires="[Thu, 01 Jan 1970 00:00:00 GMT]"
+ Response.X-FRAME-OPTIONS="[SAMEORIGIN]"
+ Response.Set-Cookie="[JSESSIONID=5CA11A6AA45DB090ADAB5F0F590FE9C6; Path=/; HttpOnly]"
+ Response.Content-Type="[text/html;charset=utf-8]"
+ Response.Server="[Apache-Coyote/1.1]"
+ Response.X-Powered-By="[Servlet 2.4; JBoss-4.2.2.GA (build: SVNTag=JBoss_4_2_2_GA date=200710221139)/Tomcat-5.5]"
+ Response.Pragma="[no-cache]"
+ Response.Cache-Control="[no-cache,no-store]"
+>
+</RECEIVED>
+
+<INFO
+	Status="12"
+	Text="Open all frames"
+	User="1"
+	UserGroup="UserGroup"
+	Time="1461747583968">
+
+<INFO
+	Status="12"
+	Text="Resend a post for frame 2"
+	User="1"
+	UserGroup="UserGroup"
+	Time="1461747583968"
+	frameId="menu162961001601">
+
+<SENT 
+Status ="11" Text="GET: /BrowserWeb/servlet/BrowserServlet/../../jsps/genrequest.jsp?&amp;routineName=OS.NEW.USER&amp;routineArgs=MENU&amp;skin=default&amp;compId=GB0010001&amp;usrRole=&amp;compScreen=COMPOSITE.SCREEN_LEITELVEIN.2_162961001602&amp;contextRoot=&amp;windowName=menu162961001601&amp;user=LEITELVEIN.2&amp;WS_replaceAll=&amp;WS_parentComposite="
+Command="hu.fot.testManager.globus.http.session.HttpGlobusSessionFactory-SignOn_01-Resend a post for frame" 
+User="1" 
+UserGroup="UserGroup"
+	BytesCount="162" 
+Time="1461747583968"
+	URL="http://192.168.10.97:8080/BrowserWeb/servlet/BrowserServlet/../../jsps/genrequest.jsp?&amp;routineName=OS.NEW.USER&amp;routineArgs=MENU&amp;skin=default&amp;compId=GB0010001&amp;usrRole=&amp;compScreen=COMPOSITE.SCREEN_LEITELVEIN.2_162961001602&amp;contextRoot=&amp;windowName=menu162961001601&amp;user=LEITELVEIN.2&amp;WS_replaceAll=&amp;WS_parentComposite="
+	Method="GET"
+ Request.Request.Accept="[text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8]"
+ Request.Request.Cookie="[JSESSIONID=5CA11A6AA45DB090ADAB5F0F590FE9C6]"
+ Request.Request.Accept-Encoding="[gzip]"
+ Request.Request.Referer="[BrowserWeb/servlet/BrowserServlet]"
+ Request.Request.Accept-Language="[en-us,en;q=0.5]"
+
+/>
+
+<RECEIVED 
+	Status="11" 
+Command="hu.fot.testManager.globus.http.session.HttpGlobusSessionFactory-SignOn_01-Resend a post for frame" 
+User="1" 
+UserGroup="UserGroup" 
+BytesCount="1720" 
+Time="1461747583968"
+	responseCodeValue="200" responseCodeText="OK"
+	URL="http://192.168.10.97:8080/BrowserWeb/servlet/BrowserServlet/../../jsps/genrequest.jsp?&amp;routineName=OS.NEW.USER&amp;routineArgs=MENU&amp;skin=default&amp;compId=GB0010001&amp;usrRole=&amp;compScreen=COMPOSITE.SCREEN_LEITELVEIN.2_162961001602&amp;contextRoot=&amp;windowName=menu162961001601&amp;user=LEITELVEIN.2&amp;WS_replaceAll=&amp;WS_parentComposite="
+	Content-Length="1720"
+	startbyte="1002973" endbyte="1004693"
+ Response.Date="[Wed, 30 Mar 2016 00:46:56 GMT]"
+ Response.Expires="[Thu, 01 Jan 1970 00:00:00 GMT]"
+ Response.X-FRAME-OPTIONS="[SAMEORIGIN]"
+ Response.Content-Type="[text/html;charset=UTF-8]"
+ Response.Server="[Apache-Coyote/1.1]"
+ Response.X-Powered-By="[Servlet 2.4; JBoss-4.2.2.GA (build: SVNTag=JBoss_4_2_2_GA date=200710221139)/Tomcat-5.5]"
+ Response.Cache-Control="[no-cache,no-store]"
+ Response.Pragma="[no-cache]"
+>
+</RECEIVED>
+
+<SENT 
+Status ="11"	
+	startbyte="1004695" endbyte="1004950"
+
+Command="hu.fot.testManager.globus.http.session.HttpGlobusSessionFactory-SignOn_01-Resend a post for frame-Post content for frame" 
+User="1" 
+UserGroup="UserGroup"
+	BytesCount="255" 
+Time="1461747583983"
+	URL="http://192.168.10.97:8080/BrowserWeb/servlet/BrowserServlet"
+	Method="POST"
+ Request.Request.Accept="[text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8]"
+ Request.Request.Cookie="[JSESSIONID=5CA11A6AA45DB090ADAB5F0F590FE9C6]"
+ Request.Request.Accept-Encoding="[gzip]"
+ Request.Request.Referer="[BrowserWeb/servlet/BrowserServlet]"
+ Request.Request.Accept-Language="[en-us,en;q=0.5]"
+
+/>
+
+<RECEIVED 
+	Status="11" 
+Command="hu.fot.testManager.globus.http.session.HttpGlobusSessionFactory-SignOn_01-Resend a post for frame-Post content for frame" 
+User="1" 
+UserGroup="UserGroup" 
+BytesCount="938846" 
+Time="1461747585640"
+	responseCodeValue="200" responseCodeText="OK"
+	URL="http://192.168.10.97:8080/BrowserWeb/servlet/BrowserServlet"
+	Content-Length="938846"
+	startbyte="1004952" endbyte="1951361"
+ Response.Transfer-Encoding="[chunked]"
+ Response.Date="[Wed, 30 Mar 2016 00:46:58 GMT]"
+ Response.Expires="[Thu, 01 Jan 1970 00:00:00 GMT]"
+ Response.X-FRAME-OPTIONS="[SAMEORIGIN]"
+ Response.Content-Type="[text/html;charset=utf-8]"
+ Response.Server="[Apache-Coyote/1.1]"
+ Response.X-Powered-By="[Servlet 2.4; JBoss-4.2.2.GA (build: SVNTag=JBoss_4_2_2_GA date=200710221139)/Tomcat-5.5]"
+ Response.Pragma="[no-cache]"
+ Response.Cache-Control="[no-cache,no-store]"
+>
+</RECEIVED>
+
+</INFO>
+
+</INFO>
+
+<SENT 
+Status ="11" Text="GET: /BrowserWeb/servlet/BrowserServlet/../../jsps/genrequest.jsp?&amp;routineName=OS.NEW.USER&amp;routineArgs=BANNER&amp;skin=default&amp;compId=GB0010001&amp;usrRole=&amp;compScreen=COMPOSITE.SCREEN_LEITELVEIN.2_162961001602&amp;contextRoot=&amp;windowName=banner162961001600&amp;user=LEITELVEIN.2&amp;WS_replaceAll=&amp;WS_parentComposite="
+Command="hu.fot.testManager.globus.http.session.HttpGlobusSessionFactory-SignOn-Get frame content" 
+User="1" 
+UserGroup="UserGroup"
+	BytesCount="255" 
+Time="1461747586015"
+	URL="http://192.168.10.97:8080/BrowserWeb/servlet/BrowserServlet/../../jsps/genrequest.jsp?&amp;routineName=OS.NEW.USER&amp;routineArgs=BANNER&amp;skin=default&amp;compId=GB0010001&amp;usrRole=&amp;compScreen=COMPOSITE.SCREEN_LEITELVEIN.2_162961001602&amp;contextRoot=&amp;windowName=banner162961001600&amp;user=LEITELVEIN.2&amp;WS_replaceAll=&amp;WS_parentComposite="
+	Method="GET"
+ Request.Request.Accept="[text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8]"
+ Request.Request.Cookie="[JSESSIONID=5CA11A6AA45DB090ADAB5F0F590FE9C6]"
+ Request.Request.Accept-Encoding="[gzip]"
+ Request.Request.Referer="[BrowserWeb/servlet/BrowserServlet]"
+ Request.Request.Accept-Language="[en-us,en;q=0.5]"
+
+/>
+
+<RECEIVED 
+	Status="11" 
+Command="hu.fot.testManager.globus.http.session.HttpGlobusSessionFactory-SignOn-Get frame content" 
+User="1" 
+UserGroup="UserGroup" 
+BytesCount="1724" 
+Time="1461747586015"
+	responseCodeValue="200" responseCodeText="OK"
+	URL="http://192.168.10.97:8080/BrowserWeb/servlet/BrowserServlet/../../jsps/genrequest.jsp?&amp;routineName=OS.NEW.USER&amp;routineArgs=BANNER&amp;skin=default&amp;compId=GB0010001&amp;usrRole=&amp;compScreen=COMPOSITE.SCREEN_LEITELVEIN.2_162961001602&amp;contextRoot=&amp;windowName=banner162961001600&amp;user=LEITELVEIN.2&amp;WS_replaceAll=&amp;WS_parentComposite="
+	Content-Length="1724"
+	startbyte="1951363" endbyte="1953087"
+ Response.Date="[Wed, 30 Mar 2016 00:46:58 GMT]"
+ Response.Expires="[Thu, 01 Jan 1970 00:00:00 GMT]"
+ Response.X-FRAME-OPTIONS="[SAMEORIGIN]"
+ Response.Content-Type="[text/html;charset=UTF-8]"
+ Response.Server="[Apache-Coyote/1.1]"
+ Response.X-Powered-By="[Servlet 2.4; JBoss-4.2.2.GA (build: SVNTag=JBoss_4_2_2_GA date=200710221139)/Tomcat-5.5]"
+ Response.Cache-Control="[no-cache,no-store]"
+ Response.Pragma="[no-cache]"
+>
+</RECEIVED>
+
+<SENT 
+Status ="11"	
+	startbyte="1953089" endbyte="1953348"
+
+Command="hu.fot.testManager.globus.http.session.HttpGlobusSessionFactory-SignOn_01-Post content for frame" 
+User="1" 
+UserGroup="UserGroup"
+	BytesCount="259" 
+Time="1461747586030"
+	URL="http://192.168.10.97:8080/BrowserWeb/servlet/BrowserServlet"
+	Method="POST"
+ Request.Request.Accept="[text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8]"
+ Request.Request.Cookie="[JSESSIONID=5CA11A6AA45DB090ADAB5F0F590FE9C6]"
+ Request.Request.Accept-Encoding="[gzip]"
+ Request.Request.Referer="[BrowserWeb/servlet/BrowserServlet]"
+ Request.Request.Accept-Language="[en-us,en;q=0.5]"
+
+/>
+
+<RECEIVED 
+	Status="11" 
+Command="hu.fot.testManager.globus.http.session.HttpGlobusSessionFactory-SignOn_01-Post content for frame" 
+User="1" 
+UserGroup="UserGroup" 
+BytesCount="16703" 
+Time="1461747586233"
+	responseCodeValue="200" responseCodeText="OK"
+	URL="http://192.168.10.97:8080/BrowserWeb/servlet/BrowserServlet"
+	Content-Length="16703"
+	startbyte="1953350" endbyte="1970100"
+ Response.Transfer-Encoding="[chunked]"
+ Response.Date="[Wed, 30 Mar 2016 00:46:58 GMT]"
+ Response.Expires="[Thu, 01 Jan 1970 00:00:00 GMT]"
+ Response.X-FRAME-OPTIONS="[SAMEORIGIN]"
+ Response.Content-Type="[text/html;charset=utf-8]"
+ Response.Server="[Apache-Coyote/1.1]"
+ Response.X-Powered-By="[Servlet 2.4; JBoss-4.2.2.GA (build: SVNTag=JBoss_4_2_2_GA date=200710221139)/Tomcat-5.5]"
+ Response.Pragma="[no-cache]"
+ Response.Cache-Control="[no-cache,no-store]"
+>
+</RECEIVED>
+
+<INFO 
+	Status="12"
+	Text="Today has been set to: &quot;20140422&quot;" 
+	User="1" 
+	UserGroup="UserGroup"
+	Time="1461747586249" />
+
+<INFO 
+	Status="12"
+	Text="User logged in into company GB0010001  Model Bank R14-AMR" 
+	User="1" 
+	UserGroup="UserGroup"
+	Time="1461747586249" />
 
 </INFO>
 
@@ -337,39 +648,39 @@ Time="1461679107793"
 	Day="1" 
 	Phase="" 
 	User="1" 
-	UserGroup="UserGroup"	Time="1461679119636" />
+	UserGroup="UserGroup"	Time="1461747599816" />
 
 </TESTCASE><!--MM_1.xmlin-->
 </Script>
-<Script name="hu.fot.testManager.globus.scripts.CloseSessions" class="hu.fot.testManager.globus.scripts.CloseSessions" Time="1461679125239">
+<Script name="hu.fot.testManager.globus.scripts.CloseSessions" class="hu.fot.testManager.globus.scripts.CloseSessions" Time="1461747605254">
 
 <INFO
 	Status="12"
 	Text="Logout (Browser): DEFAULT_AUTH_USER (LEITELVEIN2)"
 	User="1"
 	UserGroup="UserGroup"
-	Time="1461679125244">
+	Time="1461747605254">
 
 <INFO
 	Status="12"
 	Text="Sign off"
 	User="1"
 	UserGroup="UserGroup"
-	Time="1461679125246">
+	Time="1461747605269">
 
 <SENT 
 Status ="11"	
-	startbyte="985053" endbyte="985667"
+	startbyte="1970102" endbyte="1970716"
 
 Command="hu.fot.testManager.globus.http.session.HttpGlobusSessionFactory-SignOff_01" 
 User="1" 
 UserGroup="UserGroup"
 	BytesCount="614" 
-Time="1461679125255"
+Time="1461747605269"
 	URL="http://192.168.10.97:8080/BrowserWeb/servlet/BrowserServlet"
 	Method="POST"
  Request.Request.Accept="[text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8]"
- Request.Request.Cookie="[JSESSIONID=1F4F233DDD4D09F3CFA07A7F344335B3]"
+ Request.Request.Cookie="[JSESSIONID=5CA11A6AA45DB090ADAB5F0F590FE9C6]"
  Request.Request.Accept-Encoding="[gzip]"
  Request.Request.Referer="[BrowserWeb/servlet/BrowserServlet]"
  Request.Request.Accept-Language="[en-us,en;q=0.5]"
@@ -382,13 +693,73 @@ Command="hu.fot.testManager.globus.http.session.HttpGlobusSessionFactory-SignOff
 User="1" 
 UserGroup="UserGroup" 
 BytesCount="11207" 
-Time="1461679125749"
+Time="1461747605504"
 	responseCodeValue="200" responseCodeText="OK"
 	URL="http://192.168.10.97:8080/BrowserWeb/servlet/BrowserServlet"
 	Content-Length="11207"
-	startbyte="985669" endbyte="997243"
+	startbyte="1970718" endbyte="1982292"
  Response.Transfer-Encoding="[chunked]"
- Response.Date="[Tue, 26 Apr 2016 13:58:45 GMT]"
+ Response.Date="[Wed, 30 Mar 2016 00:47:18 GMT]"
+ Response.Expires="[Thu, 01 Jan 1970 00:00:00 GMT]"
+ Response.X-FRAME-OPTIONS="[SAMEORIGIN]"
+ Response.Content-Type="[text/html;charset=utf-8]"
+ Response.Server="[Apache-Coyote/1.1]"
+ Response.X-Powered-By="[Servlet 2.4; JBoss-4.2.2.GA (build: SVNTag=JBoss_4_2_2_GA date=200710221139)/Tomcat-5.5]"
+ Response.Pragma="[no-cache]"
+ Response.Cache-Control="[no-cache,no-store]"
+>
+</RECEIVED>
+
+</INFO>
+
+</INFO>
+
+<INFO
+	Status="12"
+	Text="Logout (Browser): DEFAULT_INPUT_USER (LEITELVEIN1)"
+	User="1"
+	UserGroup="UserGroup"
+	Time="1461747605551">
+
+<INFO
+	Status="12"
+	Text="Sign off"
+	User="1"
+	UserGroup="UserGroup"
+	Time="1461747605551">
+
+<SENT 
+Status ="11"	
+	startbyte="1982294" endbyte="1982908"
+
+Command="hu.fot.testManager.globus.http.session.HttpGlobusSessionFactory-SignOff_01" 
+User="1" 
+UserGroup="UserGroup"
+	BytesCount="614" 
+Time="1461747605551"
+	URL="http://192.168.10.97:8080/BrowserWeb/servlet/BrowserServlet"
+	Method="POST"
+ Request.Request.Accept="[text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8]"
+ Request.Request.Cookie="[JSESSIONID=6585D9C11E71F716AB9CD7D270955611]"
+ Request.Request.Accept-Encoding="[gzip]"
+ Request.Request.Referer="[BrowserWeb/servlet/BrowserServlet]"
+ Request.Request.Accept-Language="[en-us,en;q=0.5]"
+
+/>
+
+<RECEIVED 
+	Status="11" 
+Command="hu.fot.testManager.globus.http.session.HttpGlobusSessionFactory-SignOff_01" 
+User="1" 
+UserGroup="UserGroup" 
+BytesCount="11207" 
+Time="1461747605801"
+	responseCodeValue="200" responseCodeText="OK"
+	URL="http://192.168.10.97:8080/BrowserWeb/servlet/BrowserServlet"
+	Content-Length="11207"
+	startbyte="1982910" endbyte="1994484"
+ Response.Transfer-Encoding="[chunked]"
+ Response.Date="[Wed, 30 Mar 2016 00:47:18 GMT]"
  Response.Expires="[Thu, 01 Jan 1970 00:00:00 GMT]"
  Response.X-FRAME-OPTIONS="[SAMEORIGIN]"
  Response.Content-Type="[text/html;charset=utf-8]"

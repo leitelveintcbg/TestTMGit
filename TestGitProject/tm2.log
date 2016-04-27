@@ -152,3 +152,21 @@
 2016-04-26 15:58:47,221 INFO  [DefaultAgentManager] - Deleting local log files ...
 2016-04-26 15:58:47,229 INFO  [DefaultMaster] - Deleting local log files from directory C:/Users/leitelvein/git/TestTMGit/TestGitProjectEnv/log1461679093294
 2016-04-26 15:58:47,436 INFO  [DefaultMaster] - Suite '/suites/xmlinExecutor.ptxml' execution stopped!
+2016-04-27 10:58:29,502 DEBUG [DefaultMaster] - Bound to 'SuiteMaster1' in RMI registry 'RegistryImpl_Stub[UnicastRef [liveRef: [endpoint:[192.168.10.208:2100](remote),objID:[0:0:0, 0]]]]'.
+2016-04-27 10:58:30,564 INFO  [UtilConstants] - Using character encoding: ISO-8859-1
+2016-04-27 10:58:30,583 INFO  [DefaultMaster] - Starting suite '/suites/xmlinExecutor.ptxml'.
+2016-04-27 10:58:31,020 DEBUG [DefaultMaster] - Created Agent with name 'localhost' (agentName='AgentDaemon', process: '2584@leitelvein-pc').
+2016-04-27 10:58:31,520 INFO  [ExecutionPattern] - Executing test scenario .\scenarios\NewMM\MM_1.xmlin
+2016-04-27 10:58:32,000 DEBUG [HttpGlobusSessionFactory] - Connecting to 192.168.10.97:8080
+2016-04-27 10:58:32,008 INFO  [AbstractHttpScript] - No proxy server is used for HTTP(s) connections.
+2016-04-27 10:59:42,962 DEBUG [HttpGlobusSessionFactory] - Connecting to 192.168.10.97:8080
+2016-04-27 11:00:07,170 INFO  [DefaultMaster] - All users stopped in suite '/suites/xmlinExecutor.ptxml'.
+2016-04-27 11:00:07,170 INFO  [DefaultMaster] - Downloading remote logs...
+2016-04-27 11:00:07,172 INFO  [DefaultMaster] - Download finished.
+2016-04-27 11:00:07,172 INFO  [DefaultMaster] - Processing input/output log files ...
+2016-04-27 11:00:07,172 INFO  [DefaultMaster] - Processing user group UserGroup during processing input/output log files.
+2016-04-27 11:00:07,360 INFO  [DefaultMaster] - Finished processing logs.
+2016-04-27 11:00:07,469 INFO  [DefaultMaster] - Deleting remote log files ...
+2016-04-27 11:00:07,469 INFO  [DefaultAgentManager] - Deleting local log files ...
+2016-04-27 11:00:07,485 INFO  [DefaultMaster] - Deleting local log files from directory C:/TM/TM_2.6.7_internal_160311_19816/workspace3/TestTMGit/TestGitProjectEnv/log1461747510314
+2016-04-27 11:00:07,851 INFO  [DefaultMaster] - Suite '/suites/xmlinExecutor.ptxml' execution stopped!

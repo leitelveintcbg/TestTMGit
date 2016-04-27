@@ -27,8 +27,13 @@
                         </STREET>
                         <SECTOR Expected="" Type="I" Valid="V" Value="1001" fieldDescriptor="" fieldType="" fldNo="SECTOR" hotVal="no" postfix="" required="" tabDescriptor="FullView"/>
                         <ACCOUNT.OFFICER Expected="" Type="I" Valid="V" Value="1" fieldDescriptor="" fieldType="" fldNo="ACCOUNT.OFFICER" hotVal="no" postfix="" required="" tabDescriptor="FullView"/>
-                        <INDUSTRY Expected="" Type="I" Valid="V" Value="1930" fieldDescriptor="" fieldType="" fldNo="INDUSTRY" hotVal="no" postfix="" required="" tabDescriptor="FullView"/>
                         <LANGUAGE Expected="" Type="I" Valid="V" Value="1" fieldDescriptor="" fieldType="" fldNo="LANGUAGE" hotVal="no" postfix="" required="" tabDescriptor="FullView"/>
+                        <NAME.2 append="false" multivalue="yes" toBeDeletedFirst="">
+                            <item>
+                                <NAME.2 Expected="" Type="I" Valid="V" Value="CUSTOMER NAME 2" fieldDescriptor="" fieldType="" fldNo="NAME.2" hotVal="no" postfix="" required="" tabDescriptor="FullView"/>
+                            </item>
+                        </NAME.2>
+                        <TARGET Expected="" Type="I" Valid="V" Value="999" fieldDescriptor="" fieldType="" fldNo="TARGET" hotVal="no" postfix="" required="" tabDescriptor="FullView"/>
                     </FieldValues>
                 </InputMessage>
             </Sequence>
@@ -49,8 +54,10 @@
                         <SEARCH_ID Expected="" Type="I" Valid="V" Value=""/>
                         <CUSTOMER Expected="" Type="I" Valid="V" Value="#TX_ID('CUSTOMER','3')" fieldDescriptor="" fieldType="" fldNo="CUSTOMER" hotVal="no" postfix="" required="" tabDescriptor="FullView"/>
                         <CATEGORY Expected="" Type="I" Valid="V" Value="1001" fieldDescriptor="" fieldType="" fldNo="CATEGORY" hotVal="no" postfix="" required="" tabDescriptor="FullView"/>
-                        <SHORT.TITLE Expected="" Type="I" Valid="V" Value="ACCT2" fieldDescriptor="" fieldType="" fldNo="SHORT.TITLE" hotVal="no" postfix="" required="" tabDescriptor="FullView"/>
+                        <SHORT.TITLE Expected="" Type="I" Valid="V" Value="NEW SHORT TITLE" fieldDescriptor="" fieldType="" fldNo="SHORT.TITLE" hotVal="no" postfix="" required="" tabDescriptor="FullView"/>
                         <CURRENCY Expected="" Type="I" Valid="V" Value="EUR" fieldDescriptor="" fieldType="" fldNo="CURRENCY" hotVal="no" postfix="" required="" tabDescriptor="FullView"/>
+                        <ACCOUNT.TITLE.1 Expected="" Type="I" Valid="V" Value="ACCT TITLE 1" fieldDescriptor="" fieldType="" fldNo="ACCOUNT.TITLE.1" hotVal="no" postfix="" required="" tabDescriptor="FullView"/>
+                        <ACCOUNT.TITLE.2 Expected="" Type="I" Valid="V" Value="ACCT TITLE 2" fieldDescriptor="" fieldType="" fldNo="ACCOUNT.TITLE.2" hotVal="no" postfix="" required="" tabDescriptor="FullView"/>
                     </FieldValues>
                 </InputMessage>
             </Sequence>
